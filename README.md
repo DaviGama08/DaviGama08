@@ -1,201 +1,285 @@
-<div align="center">
-
 # Davi Gama
 
-### Junior Backend & Software Engineer | Java | Spring Boot | Distributed Systems
+### Software Engineer · Backend & Web Development
 
-Computer Engineering graduate from Instituto Superior de Engenharia de Coimbra (ISEC), based in Coimbra, Portugal.
+Computer Engineering graduate from ISEC, based in Coimbra, Portugal. I build client websites, business applications and independent products, with a focus on Java, Spring Boot and clear domain modelling.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Davi%20Gama-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davinasser/)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:davi.torres00pro@gmail.com)
+Available for software engineering opportunities and freelance projects, from requirements through implementation and maintenance.
 
-</div>
+[Email](mailto:davi.torres00pro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/davinasser/) · [Portfolio PDF](portfolio/Davi_Gama_Portfolio_2026.pdf) · [Editable presentation](portfolio/Davi_Gama_Portfolio_2026.pptx)
 
-## About Me
+## Professional Projects
 
-I build backend and full-stack software with a strong focus on Java, Spring Boot, relational databases, distributed systems and production-oriented architecture.
+Client delivery and independent products are identified separately. The case studies show business responsibilities and public-facing interfaces; private implementation and operational details remain outside this portfolio.
 
-My experience includes professional client delivery, a software engineering internship involving local AI models and API integration, independent product development, and academic systems built around concurrency, networking, persistence and fault tolerance.
+### Multi-tenant Scheduling · Ícaro’s Barbershop
 
-I am particularly interested in backend engineering, distributed systems, software architecture and building systems that can be clearly justified from real requirements.
+**Independent product**
 
-## Professional Experience
+A shared platform for service businesses, combining a branded website, online bookings and daily operations. Ícaro’s Barbershop in Coimbra is an applied client case.
 
-### Software Engineering Intern · Intermedia Intelligent Communications
-**Coimbra, Portugal · Mar 2026 - Aug 2026**
+Customers choose a time, compatible services and a professional. The team manages bookings, services, packages, staff and website content. React public and administration interfaces use a Spring Boot API and PostgreSQL.
 
-- Developed a data-redaction pipeline using locally trained models, Python and PyTorch, including dataset preparation and comparative evaluation.
-- Built a FastAPI REST backend and React/Vite interface to integrate and expose model predictions.
-- Evaluated model accuracy, latency, maintainability and operational trade-offs.
-- Worked in an agile environment, documenting technical decisions and delivering iterative improvements.
+`Java` · `Spring Boot` · `React` · `TypeScript` · `PostgreSQL`
 
-### Freelance Web Developer · Self-Employed
-**Coimbra, Portugal · Jun 2025 - Present**
+![Multi-tenant Scheduling · Ícaro’s Barbershop — UI preview](assets/portfolio/multi-tenant.webp)
 
-- Deliver websites and web applications from requirements gathering through implementation, deployment and maintenance.
-- Work directly with clients on scope, content, technical decisions and delivery.
-- Build production-oriented solutions across static websites, commercial platforms, lead-generation flows and payment-enabled web applications.
+*October 2026 UI. Online payment is a future extension.*
 
-## Selected Client Work
+### Marta · Her Legacy
 
-These are real client projects. Their production source repositories remain private because they contain client code, assets or implementation details.
+**Client project**
+
+A personal-brand MVP for mentorship applications, the Her Legacy Planner waitlist and contact enquiries.
+
+Next.js forwards validated requests to a Spring Boot email service. The business and requester receive messages; requests are not stored in a database.
+
+`Next.js` · `React` · `TypeScript` · `Spring Boot` · `Email`
+
+![Marta · Her Legacy — UI preview](assets/portfolio/marta.webp)
+
+*Visual archive: September 2026. The technical description reflects the current MVP; no catalogue, cart or payment flow is claimed.*
 
 ### Coimbra MMA
 
-Production website for a martial arts academy in Coimbra, designed as a fast multilingual public experience with reusable content and strong SEO foundations.
+**Client project**
 
-- Eight-language content system with build-time translation validation
-- Responsive public website for academy information, modalities and contact
-- Structured metadata, JSON-LD, sitemap and robots configuration
+A multilingual website helping local and international visitors discover a martial arts academy, its disciplines, schedules and contact channels.
 
-`Astro 6` · `JavaScript` · `i18n` · `SEO`
+Astro generates lightweight static pages from structured content. Eight languages share the same page structure, with translation validation during the build.
 
-**Status:** Production · Private source
+`Astro` · `JavaScript` · `i18n` · `SEO`
 
-<p align="center"><img src="media/coimbra-mma.webp" alt="Coimbra MMA website and class schedule" width="850"></p>
+![Coimbra MMA — UI preview](assets/portfolio/coimbra-mma.webp)
 
+*Client website UI.*
 
-### Marta
+### Dalliany Tavares Advocacia
 
-Commercial and marketing platform for a personal brand, mentorship and digital/physical product presentation, with conversion-focused pages and lead capture.
+**Client project**
 
-- Next.js App Router frontend with reusable domain components and typed content
-- Product catalogue, product-detail flows, waitlist/contact capture and SEO
-- Cloudflare Workers deployment target through OpenNext
+An editorial, multipage website presenting legal practice areas and ways to contact the practice.
 
-`Next.js 15` · `React 19` · `TypeScript` · `Tailwind CSS` · `Cloudflare Workers`
+Astro and TypeScript support reusable content and responsive imagery.
 
-**Status:** Private client project
+`Astro` · `TypeScript` · `SEO`
 
-<p align="center"><img src="media/marta.webp" alt="Marta mentoring, products and website" width="850"></p>
-\n### Thiago Santos English Platform
+![Dalliany Tavares Advocacia — UI preview](assets/portfolio/dalliany.webp)
 
-Client platform for English-learning courses, ebooks and digital sales.
+*Pre-launch UI; client details and contact channels are still being validated.*
 
-- Static content experience built with Eleventy
-- Server-side flows using Node.js and Express
-- Mercado Pago and Pix payment integration
+### Thiago Santos English Platform
 
-`Eleventy` · `Node.js` · `Express` · `Nunjucks` · `Mercado Pago`
+**Client project**
 
-**Status:** Private client project
+A client platform for English courses, ebooks and digital sales.
 
-## Independent Product Engineering
+Eleventy provides the content experience; Node.js and Express coordinate server-side flows and Mercado Pago / Pix integration.
 
-### 503
+`Eleventy` · `Node.js` · `Express` · `Mercado Pago`
 
-Independent publishing platform with a public content experience and separate administration workflow.
+*No shareable UI capture is included.*
 
-- Spring Boot API with relational persistence
-- Astro public website and React administration interface
-- Production infrastructure using Azure and Cloudflare
+### 503 · Independent Publishing
 
-`Java` · `Spring Boot` · `PostgreSQL` · `Astro` · `React` · `Azure` · `Cloudflare`
+**Independent product**
 
-<p align="center"><img src="media/503.webp" alt="503 publishing website and editorial views" width="850"></p>
+A publishing platform with a dedicated reading experience and an editorial administration workflow.
 
+Astro serves the public website, React supports editing, and a Spring Boot API with PostgreSQL maintains content and publication state.
 
-### Multi-tenant Scheduling Platform
+`Spring Boot` · `Astro` · `React` · `PostgreSQL`
 
-Private SaaS-oriented scheduling platform for service businesses, designed around organisation-level tenant isolation and production-oriented security.
+![503 · Independent Publishing — UI preview](assets/portfolio/503.webp)
 
-- Multi-tenant domain and organisation boundaries
-- Booking and scheduling workflows
-- Database migrations and integration testing
+*Project UI.*
 
-`Java` · `Spring Boot` · `PostgreSQL` · `React` · `Flyway` · `Testcontainers`\n\nDeveloped in collaboration with Ícaro. The preview uses demonstration data.
+### AssessFlow
 
-<p align="center"><img src="media/multi-tenant.webp" alt="Multi-tenant scheduling demonstration" width="850"></p>
+**Independent product**
 
+A platform for creating assessments and running live sessions online or over a local network.
 
-### AssessFlow\n\nMulti-tenant assessment product for question banks and live sessions, with cloud and local network operation. React frontend, Spring Boot API, PostgreSQL and WebSocket communication. **Status:** In development.\n
+React, Spring Boot, PostgreSQL and WebSocket support participation, reconnection and results.
 
-<p align="center"><img src="media/assessflow.webp" alt="AssessFlow sign-in interface" width="850"></p>
-\n### Local Sales AI\n\nIn-development sales knowledge workspace that processes documents with local AI and supports answers grounded in stored sources. Spring Boot, MySQL, Ollama and Qdrant. The preview uses sample data.\n
+`Spring Boot` · `React` · `PostgreSQL` · `WebSocket`
 
-<p align="center"><img src="media/local-sales-ai.webp" alt="Local Sales AI document and query demonstrations" width="850"></p>
-\n## Education
+![AssessFlow — UI preview](assets/portfolio/assessflow.webp)
 
-### Bachelor's Degree in Computer Engineering
+*The available capture shows the sign-in screen.*
 
-**Instituto Superior de Engenharia de Coimbra (ISEC)**  
-**2022 - 2026 · Graduated July 2026**  
-Specialisation in Application Development
+[Source repository](https://github.com/DaviGama08/assessflow)
 
-Coursework covered programming, distributed systems, networks, databases, operating systems and software engineering.
+### Local Sales AI
 
-## Academic Engineering Projects
+**Independent product**
 
-My academic work is organised separately under [davigama-academic](https://github.com/davigama-academic), keeping university engineering projects clearly separated from professional and independent work.
+A workspace for organising commercial documents and asking questions with answers connected to their sources.
 
-### Distributed Quiz Platform
+Spring Boot coordinates MySQL, local inference with Ollama and vector retrieval with Qdrant.
 
-Fault-tolerant distributed quiz system with teacher/student clients, service discovery, primary-backup replication, heartbeats, automatic failover and session recovery.
+`Spring Boot` · `MySQL` · `Ollama` · `Qdrant`
 
-`Java` · `JavaFX` · `TCP` · `UDP` · `Multicast` · `SQLite`\n\nThe preview below shows a later **web UI prototype**; the original academic application uses JavaFX.
+![Local Sales AI — UI preview](assets/portfolio/local-sales-ai.webp)
 
-<p align="center"><img src="media/distributed-quiz.webp" alt="Distributed Quiz web interface prototype" width="850"></p>
+*In development. Screens use demonstration documents and a simulated response.*
 
+### AI Agent Console
+
+**Independent product**
+
+A development console for coordinating independent coding-agent sessions under explicit user control.
+
+Java 21 coordinates processes and JSON-RPC communication, with JLine for terminal interaction and Gson for data handling.
+
+`Java` · `JLine` · `Gson` · `JSON-RPC`
+
+*In development; terminal application.*
+
+### Skevia · Institutional Website
+
+**Independent product**
+
+The initial web foundation for Skevia’s public identity.
+
+Astro and TypeScript provide the institutional site structure, independently from the scheduling product.
+
+`Astro` · `TypeScript` · `CSS`
+
+*Foundation implemented; no deployed-site claim.*
+
+## Academic Projects
+
+University engineering work is organised under [davigama-academic](https://github.com/davigama-academic). Where a preview is a later web prototype, it is explicitly identified.
+
+### Distributed Quiz
+
+**Academic project**
+
+An academic teacher/student quiz system exploring recovery after service failures.
+
+Java and JavaFX clients work with service discovery, replication and SQLite persistence over TCP, UDP and multicast.
+
+`Java` · `JavaFX` · `TCP / UDP` · `SQLite`
+
+![Distributed Quiz — UI preview](assets/portfolio/distributed-quiz.webp)
+
+*Preview: a later web UI prototype. The original academic application uses JavaFX.*
+
+[Source repository](https://github.com/DaviGama08/distributed-quiz-platform-isec)
 
 ### MyMEDIA Marketplace
 
-Multi-application multimedia marketplace with a REST API, public frontend, internal back office and MAUI Hybrid client, including authentication, role-based access and commerce workflows.
+**Academic project**
 
-`C#` · `ASP.NET Core` · `Blazor` · `Entity Framework Core` · `SQL Server` · `JWT`
+An academic multimedia marketplace with catalogue, cart, favourites and back-office operations.
 
-<p align="center"><img src="media/mymedia.webp" alt="MyMEDIA storefront and back office" width="850"></p>
+An ASP.NET Core API, Entity Framework Core and SQL Server serve Blazor interfaces and a MAUI Hybrid client.
 
+`C#` · `.NET` · `Blazor` · `SQL Server`
 
-### Unix Topic Message Broker
+![MyMEDIA Marketplace — UI preview](assets/portfolio/mymedia.webp)
 
-Local topic-based messaging platform with a central manager and independent clients using POSIX IPC, concurrent delivery and persistent messages.
-
-`C` · `POSIX Named Pipes` · `pthreads` · `select()` · `Signals`
-
-### Windows IPC Word Game
-
-Multi-process word game with human clients, autonomous bots and a native monitoring panel using Win32 IPC and synchronization primitives.
-
-`C` · `Win32 API` · `Named Pipes` · `Shared Memory` · `Threads`
+*Project UI.*
 
 ### JavaFX Chess
 
-Desktop chess application covering legal move validation, check/checkmate, castling, promotion, persistence, undo/redo and multiple design patterns.
+**Academic project**
 
-`Java` · `JavaFX` · `Maven` · `JUnit` · `MVC`
+A local two-player chess application with legal-move validation, learning mode, position editing and reversible history.
 
-<p align="center"><img src="media/javafx-chess.webp" alt="JavaFX chess application" width="850"></p>
-\n### SurpriseMe\n\nJavaFX gift-planning assistant for recipients, events and gift history. The preview shows a later **web UI exploration**.\n
+JavaFX and a Java MVC model organise the application. Memento supports undo/redo; local persistence stores games and positions.
 
-<p align="center"><img src="media/surpriseme.webp" alt="SurpriseMe web interface exploration" width="850"></p>
+`Java` · `JavaFX` · `Maven` · `JUnit`
 
+![JavaFX Chess — UI preview](assets/portfolio/javafx-chess.webp)
 
-## Technical Toolkit
+*Preview: a later web UI prototype, not the original JavaFX interface. No online or computer opponent is claimed.*
+
+[Source repository](https://github.com/davigama-academic/javafx-chess-isec)
+
+### SurpriseMe
+
+**Academic project**
+
+An academic gift-planning assistant for recipients, events, gift history and personalised suggestions.
+
+JavaFX, application services and local persistence separate the domain from the suggestion-provider adapter.
+
+`Java` · `JavaFX`
+
+![SurpriseMe — UI preview](assets/portfolio/surpriseme.webp)
+
+*Preview: a later web UI prototype. The original application uses JavaFX.*
+
+[Source repository](https://github.com/davigama-academic/surpriseme-gift-assistant-isec)
+
+### Unix Topic Message Broker
+
+**Academic project**
+
+A local topic-based messaging system with independent clients, concurrent delivery and persistent messages.
+
+C, POSIX named pipes, pthreads, select and signals coordinate the manager and command-line clients.
+
+`C` · `POSIX IPC` · `pthreads`
+
+*Command-line application.*
+
+### Windows IPC Word Game
+
+**Academic project**
+
+A multi-process word game with human clients, bots and a native monitoring panel.
+
+C and the Win32 API use named pipes, shared memory and threads for communication and synchronisation.
+
+`C` · `Win32 API` · `Named Pipes`
+
+*Native Windows application; no shareable UI capture included.*
+
+### Additional Academic Studies
+
+| Project | Focus | Stack |
+| --- | --- | --- |
+| SafetySec Android | Emergency alerts, geofencing and sensor-based monitoring | Kotlin, Jetpack Compose, Firebase |
+| Desert Caravan Simulator | Turn-based trading, autonomous movement, events and combat | C++20 |
+| Neural Shape Classifier | Feedforward-network comparison and shape classification | MATLAB, App Designer |
+| AMOV Flutter | Archived mobile-development coursework | Flutter, Dart |
+
+These summaries follow the repository inventory; no execution screenshots are included. Duplicate submissions and forks are not presented as separate products.
+
+## Qualifications & Experience
+
+### Bachelor's Degree in Computer Engineering · ISEC
+
+**2022–2026 · Graduated July 2026** — Application Development specialisation.
+
+Programming, distributed systems, networks, databases, operating systems and software engineering.
+
+### Software Engineering Intern · Intermedia Intelligent Communications
+
+**Coimbra · March–August 2026**
+
+- Developed a data-redaction pipeline with local models, Python and PyTorch, including dataset preparation and comparative evaluation.
+- Built a FastAPI backend and React/Vite interface to expose model predictions.
+- Evaluated accuracy, latency and maintainability, documenting decisions through iterative team delivery.
+
+### Freelance Web Developer
+
+**June 2025–present** — Requirements, frontend and backend development, service integration, deployment and maintenance for client projects.
 
 | Area | Technologies |
 | --- | --- |
-| Backend and APIs | Java, Spring Boot, C#, ASP.NET Core, Python, FastAPI, REST, OpenAPI |
-| Persistence | PostgreSQL, MySQL, SQL Server, SQLite, Hibernate, JPA, Entity Framework Core |
-| Web development | React, TypeScript, Vite, Astro, Next.js, Blazor |
-| Distributed systems | TCP, UDP, multicast, WebSocket, replication, failover, asynchronous processing |
-| Testing | JUnit, Testcontainers, Vitest, Playwright, ArchUnit |
-| Infrastructure | Docker, Azure, Cloudflare, GitHub Actions, Neon |
-| AI and data | PyTorch, Transformers, Ollama, RAG, Qdrant |
+| Backend & APIs | Java, Spring Boot, C#, ASP.NET Core, Python, FastAPI |
+| Data | PostgreSQL, MySQL, SQL Server, SQLite, JPA, Entity Framework Core |
+| Interfaces | React, TypeScript, Next.js, Astro, Angular, Blazor, JavaFX |
+| Testing & delivery | JUnit, Testcontainers, Vitest, Playwright, Docker, CI/CD, Azure, Cloudflare |
+| AI & data | PyTorch, local inference, Ollama, RAG, Qdrant |
 | Mobile | Kotlin, Jetpack Compose, Flutter, Dart, .NET MAUI |
 
-## Engineering Focus
+## Contact
 
-- Backend architecture and REST API design
-- Authentication and authorization
-- Multi-tenancy and relational modelling
-- Transactional consistency
-- Real-time and asynchronous communication
-- Testing and CI/CD
-- Deployment and production security
-- Distributed-system fundamentals
+For engineering roles or freelance projects: [email](mailto:davi.torres00pro@gmail.com) or [LinkedIn](https://www.linkedin.com/in/davinasser/).
 
-## Portfolio & Contact
-
-Visual previews are available above; animated WebP files can be paused by opening the image in a separate tab. Project diagrams and implementation summaries are limited to public, high-level architecture.\n\nSelected public repositories are available across this profile and the [davigama-academic](https://github.com/davigama-academic) organisation. Private professional work is represented here through concise case studies while client source code remains private.
-
-Reach me through [LinkedIn](https://www.linkedin.com/in/davinasser/) or [email](mailto:davi.torres00pro@gmail.com).
+*Portfolio updated in October 2026. Project status and image provenance are stated alongside each case.*
