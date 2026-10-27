@@ -52,6 +52,9 @@ Production website for a martial arts academy in Coimbra, designed as a fast mul
 
 **Status:** Production · Private source
 
+<p align="center"><img src="media/coimbra-mma.webp" alt="Coimbra MMA website and class schedule" width="850"></p>
+
+
 ### Marta
 
 Commercial and marketing platform for a personal brand, mentorship and digital/physical product presentation, with conversion-focused pages and lead capture.
@@ -64,7 +67,8 @@ Commercial and marketing platform for a personal brand, mentorship and digital/p
 
 **Status:** Private client project
 
-### Thiago Santos English Platform
+<p align="center"><img src="media/marta.webp" alt="Marta mentoring, products and website" width="850"></p>
+\n### Thiago Santos English Platform
 
 Client platform for English-learning courses, ebooks and digital sales.
 
@@ -88,6 +92,9 @@ Independent publishing platform with a public content experience and separate ad
 
 `Java` · `Spring Boot` · `PostgreSQL` · `Astro` · `React` · `Azure` · `Cloudflare`
 
+<p align="center"><img src="media/503.webp" alt="503 publishing website and editorial views" width="850"></p>
+
+
 ### Multi-tenant Scheduling Platform
 
 Private SaaS-oriented scheduling platform for service businesses, designed around organisation-level tenant isolation and production-oriented security.
@@ -96,9 +103,18 @@ Private SaaS-oriented scheduling platform for service businesses, designed aroun
 - Booking and scheduling workflows
 - Database migrations and integration testing
 
-`Java` · `Spring Boot` · `PostgreSQL` · `React` · `Flyway` · `Testcontainers`
+`Java` · `Spring Boot` · `PostgreSQL` · `React` · `Flyway` · `Testcontainers`\n\nDeveloped in collaboration with Ícaro. The preview uses demonstration data.
 
-## Education
+<p align="center"><img src="media/multi-tenant.webp" alt="Multi-tenant scheduling demonstration" width="850"></p>
+
+
+### AssessFlow\n\nMulti-tenant assessment product for question banks and live sessions, with cloud and local network operation. React frontend, Spring Boot API, PostgreSQL and WebSocket communication. **Status:** In development.\n
+
+<p align="center"><img src="media/assessflow.webp" alt="AssessFlow sign-in interface" width="850"></p>
+\n### Local Sales AI\n\nIn-development sales knowledge workspace that processes documents with local AI and supports answers grounded in stored sources. Spring Boot, MySQL, Ollama and Qdrant. The preview uses sample data.\n
+
+<p align="center"><img src="media/local-sales-ai.webp" alt="Local Sales AI document and query demonstrations" width="850"></p>
+\n## Education
 
 ### Bachelor's Degree in Computer Engineering
 
@@ -116,13 +132,19 @@ My academic work is organised separately under [davigama-academic](https://githu
 
 Fault-tolerant distributed quiz system with teacher/student clients, service discovery, primary-backup replication, heartbeats, automatic failover and session recovery.
 
-`Java` · `JavaFX` · `TCP` · `UDP` · `Multicast` · `SQLite`
+`Java` · `JavaFX` · `TCP` · `UDP` · `Multicast` · `SQLite`\n\nThe preview below shows a later **web UI prototype**; the original academic application uses JavaFX.
+
+<p align="center"><img src="media/distributed-quiz.webp" alt="Distributed Quiz web interface prototype" width="850"></p>
+
 
 ### MyMEDIA Marketplace
 
 Multi-application multimedia marketplace with a REST API, public frontend, internal back office and MAUI Hybrid client, including authentication, role-based access and commerce workflows.
 
 `C#` · `ASP.NET Core` · `Blazor` · `Entity Framework Core` · `SQL Server` · `JWT`
+
+<p align="center"><img src="media/mymedia.webp" alt="MyMEDIA storefront and back office" width="850"></p>
+
 
 ### Unix Topic Message Broker
 
@@ -141,6 +163,12 @@ Multi-process word game with human clients, autonomous bots and a native monitor
 Desktop chess application covering legal move validation, check/checkmate, castling, promotion, persistence, undo/redo and multiple design patterns.
 
 `Java` · `JavaFX` · `Maven` · `JUnit` · `MVC`
+
+<p align="center"><img src="media/javafx-chess.webp" alt="JavaFX chess application" width="850"></p>
+\n### SurpriseMe\n\nJavaFX gift-planning assistant for recipients, events and gift history. The preview shows a later **web UI exploration**.\n
+
+<p align="center"><img src="media/surpriseme.webp" alt="SurpriseMe web interface exploration" width="850"></p>
+
 
 ## Technical Toolkit
 
@@ -168,6 +196,6 @@ Desktop chess application covering legal move validation, check/checkmate, castl
 
 ## Portfolio & Contact
 
-Selected public repositories are available across this profile and the [davigama-academic](https://github.com/davigama-academic) organisation. Private professional work is represented here through concise case studies while client source code remains private.
+Visual previews are available above; animated WebP files can be paused by opening the image in a separate tab. Project diagrams and implementation summaries are limited to public, high-level architecture.\n\nSelected public repositories are available across this profile and the [davigama-academic](https://github.com/davigama-academic) organisation. Private professional work is represented here through concise case studies while client source code remains private.
 
 Reach me through [LinkedIn](https://www.linkedin.com/in/davinasser/) or [email](mailto:davi.torres00pro@gmail.com).
