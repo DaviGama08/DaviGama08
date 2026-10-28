@@ -8,7 +8,7 @@ Desenvolvo websites, plataformas e APIs, ligando as necessidades do negócio à 
 
 ## Portfólio
 
-[01 · Interfaces em alta resolução](portfolio/interfaces/README.md) · [02 · Casos de estudo e qualificações](portfolio/02_Casos_de_Estudo.pdf) · [03 · Arquiteturas funcionais](portfolio/03_Arquiteturas.pdf)
+[01 · Interfaces em alta resolução](portfolio/interfaces/README.md) · [02 · Casos de estudo e qualificações](portfolio/02_Casos_de_Estudo.pdf) · [03 · Arquiteturas funcionais](portfolio/03_Arquiteturas.pdf) · [04 · Vistas técnicas](portfolio/04_Arquiteturas_Tecnicas.pdf)
 
 Interfaces das aplicações originais, com capturas nativas em 4K e WebP sem perdas. Os dados de demonstração estão identificados em cada projeto. A revisão de código e de branches foi realizada em outubro de 2026; referências por confirmar são assinaladas no caso de estudo.
 
@@ -51,6 +51,21 @@ Interface React original da main. A apresentação do Ícaro usa dados públicos
 
 </details>
 
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Contratos tipados ligam duas experiências React aos módulos de negócio e aos adaptadores de infraestrutura.
+
+<img src="architecture/technical/multi-tenant.svg" alt="Vista técnica de Skevia · Agendamento multi-tenant" width="1100">
+
+- **Contrato como referência:** OpenAPI alinha a API e o cliente TypeScript.
+- **Reutilização da apresentação:** O mesmo renderer serve o website e a prévia do editor.
+- **Evolução dos dados:** Repositories e migrações separam persistência e casos de uso.
+
+[SVG vetorial](architecture/technical/multi-tenant.svg) · [PNG em alta resolução](architecture/technical/multi-tenant.png)
+
+</details>
+
 [Arquitetura pública](architecture/multi-tenant.svg) · [Imagem estática 4K](assets/portfolio/multi-tenant-poster.webp)
 
 ### Marta · Her Legacy
@@ -86,6 +101,21 @@ Interface original Her Legacy da main: diagnóstico, Protocolo Mente no Papel, p
 <img src="architecture/marta.svg" alt="Arquitetura de Marta · Her Legacy: componentes, responsabilidades e fluxos principais" width="1100">
 
 [SVG vetorial](architecture/marta.svg) · [PNG em alta resolução](architecture/marta.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+O formulário atravessa a camada Next.js e um serviço de aplicação, chegando ao email por uma abstração de envio.
+
+<img src="architecture/technical/marta.svg" alt="Vista técnica de Marta · Her Legacy" width="1100">
+
+- **Porta e adaptador:** A aplicação depende de uma abstração de envio.
+- **Pedido e confirmação:** O fluxo prepara comunicação para ambos os destinatários.
+- **Sem persistência de pedidos:** O percurso atual encaminha as solicitações por email.
+
+[SVG vetorial](architecture/technical/marta.svg) · [PNG em alta resolução](architecture/technical/marta.png)
 
 </details>
 
@@ -126,6 +156,21 @@ Interface original: apresentação, assistente de modalidade, horários e seleto
 
 </details>
 
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Conteúdo multilingue e componentes Astro produzem páginas estáticas, complementadas por interações locais no browser.
+
+<img src="architecture/technical/coimbra-mma.svg" alt="Vista técnica de Coimbra MMA" width="1100">
+
+- **Geração estática:** A apresentação pública funciona sem uma API de negócio.
+- **Internacionalização:** Uma estrutura comum suporta oito conjuntos de textos.
+- **Interações pontuais:** O browser executa os fluxos de modalidade e horários.
+
+[SVG vetorial](architecture/technical/coimbra-mma.svg) · [PNG em alta resolução](architecture/technical/coimbra-mma.png)
+
+</details>
+
 [Arquitetura pública](architecture/coimbra-mma.svg) · [Imagem estática 4K](assets/portfolio/coimbra-mma-poster.webp)
 
 ### Dalliany Tavares Advocacia
@@ -162,6 +207,21 @@ Interface original de pré-lançamento. Capturas locais de apresentação e áre
 
 </details>
 
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Uma aplicação multipágina organiza conteúdo editorial e media responsiva, com melhoria progressiva no browser.
+
+<img src="architecture/technical/dalliany.svg" alt="Vista técnica de Dalliany Tavares Advocacia" width="1100">
+
+- **Multipágina estática:** Conteúdo e navegação permanecem disponíveis sem JavaScript.
+- **Media tratada no build:** AVIF e WebP adaptam as imagens aos contextos de apresentação.
+- **Pré-lançamento:** Integração CRM e publicação dependem de confirmação do cliente.
+
+[SVG vetorial](architecture/technical/dalliany.svg) · [PNG em alta resolução](architecture/technical/dalliany.png)
+
+</details>
+
 [Arquitetura pública](architecture/dalliany.svg) · [Imagem estática 4K](assets/portfolio/dalliany-poster.webp)
 
 ### Thiago Santos English Platform
@@ -195,6 +255,21 @@ Website Eleventy construído a partir da main. Cursos, ebooks e carrinho local; 
 <img src="architecture/thiago.svg" alt="Arquitetura de Thiago Santos English Platform: componentes, responsabilidades e fluxos principais" width="1100">
 
 [SVG vetorial](architecture/thiago.svg) · [PNG em alta resolução](architecture/thiago.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+O conteúdo é compilado por Eleventy; o browser reúne a seleção e o servidor coordena o percurso comercial.
+
+<img src="architecture/technical/thiago.svg" alt="Vista técnica de Thiago Santos English Platform" width="1100">
+
+- **Conteúdo pré-compilado:** Eleventy mantém as páginas comerciais separadas do servidor.
+- **Integração por adaptador:** A aplicação coordena o percurso com o fornecedor de pagamentos.
+- **Âmbito da demonstração:** O portfólio exercita catálogo e carrinho; não realiza transações.
+
+[SVG vetorial](architecture/technical/thiago.svg) · [PNG em alta resolução](architecture/technical/thiago.png)
 
 </details>
 
@@ -235,6 +310,21 @@ Site Astro, administração React e API Spring Boot executados localmente. Artig
 
 </details>
 
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Duas aplicações de apresentação usam os serviços editoriais; persistência e publicação ficam sob responsabilidade da API.
+
+<img src="architecture/technical/503.svg" alt="Vista técnica de 503" width="1100">
+
+- **Separação de responsabilidades:** Leitura pública e operação editorial têm interfaces próprias.
+- **Publicação coordenada:** A API concentra as regras e solicita a atualização do website.
+- **Execução documentada:** Azure para a API; Cloudflare na distribuição web.
+
+[SVG vetorial](architecture/technical/503.svg) · [PNG em alta resolução](architecture/technical/503.png)
+
+</details>
+
 [Arquitetura pública](architecture/503.svg) · [Imagem estática 4K](assets/portfolio/503-poster.webp)
 
 ### AssessFlow
@@ -270,6 +360,21 @@ Interface atualizada em 28/10/2026. React, API Spring Boot e PostgreSQL locais; 
 <img src="architecture/assessflow.svg" alt="Arquitetura de AssessFlow: componentes, responsabilidades e fluxos principais" width="1100">
 
 [SVG vetorial](architecture/assessflow.svg) · [PNG em alta resolução](architecture/assessflow.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+O domínio de avaliações combina operações HTTP, eventos de sessão e persistência; o modo Local Live reutiliza a aplicação.
+
+<img src="architecture/technical/assessflow.svg" alt="Vista técnica de AssessFlow" width="1100">
+
+- **Dois modos de comunicação:** Operações HTTP e eventos WebSocket servem a sessão ao vivo.
+- **Domínio modular:** Autoria, sessão e Local Live têm responsabilidades próprias.
+- **Cloud e execução local:** A mesma lógica de negócio suporta os dois contextos.
+
+[SVG vetorial](architecture/technical/assessflow.svg) · [PNG em alta resolução](architecture/technical/assessflow.png)
 
 </details>
 
@@ -313,6 +418,21 @@ Interface JavaFX original com respostas de rede substituídas por dados de demon
 
 </details>
 
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Descoberta, pedidos e replicação usam canais distintos para coordenar clientes desktop e servidores de quiz.
+
+<img src="architecture/technical/distributed-quiz.svg" alt="Vista técnica de Distributed Quiz" width="1100">
+
+- **Canais com funções distintas:** Descoberta, pedidos e presença têm responsabilidades separadas.
+- **Estado replicado:** Snapshots de SQLite apoiam a sincronização da réplica.
+- **Validação da demonstração:** A captura da UI não comprova failover ou transporte de rede.
+
+[SVG vetorial](architecture/technical/distributed-quiz.svg) · [PNG em alta resolução](architecture/technical/distributed-quiz.png)
+
+</details>
+
 [Arquitetura pública](architecture/distributed-quiz.svg) · [Código](https://github.com/DaviGama08/distributed-quiz-platform-isec) · [Imagem estática 4K](assets/portfolio/distributed-quiz-poster.webp)
 
 ### MyMEDIA Marketplace
@@ -345,6 +465,21 @@ Sem captura nova aprovada. A referência local foi revista; a branch remota e a 
 <img src="architecture/mymedia.svg" alt="Arquitetura de MyMEDIA Marketplace: componentes, responsabilidades e fluxos principais" width="1100">
 
 [SVG vetorial](architecture/mymedia.svg) · [PNG em alta resolução](architecture/mymedia.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Clientes web e híbridos partilham contratos HTTP, repositórios e um modelo relacional de marketplace.
+
+<img src="architecture/technical/mymedia.svg" alt="Vista técnica de MyMEDIA Marketplace" width="1100">
+
+- **Repositórios por domínio:** Interfaces de acesso isolam a API dos detalhes de persistência.
+- **Vários clientes:** Loja, backoffice e cliente híbrido usam a mesma API.
+- **Referência local:** Vista baseada na revisão local; branch remota por confirmar.
+
+[SVG vetorial](architecture/technical/mymedia.svg) · [PNG em alta resolução](architecture/technical/mymedia.png)
 
 </details>
 
@@ -384,6 +519,21 @@ Aplicação JavaFX original, executada com o modelo real: partida local, movimen
 
 </details>
 
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+MVC, Facade e Memento organizam a interação, as regras da partida e a recuperação de estados.
+
+<img src="architecture/technical/javafx-chess.svg" alt="Vista técnica de JavaFX Chess" width="1100">
+
+- **MVC e fachada:** A UI acede ao domínio através de operações concentradas.
+- **Memento:** Estados completos permitem regressar e avançar no histórico.
+- **Observer:** Mudanças no modelo conduzem a atualização da interface.
+
+[SVG vetorial](architecture/technical/javafx-chess.svg) · [PNG em alta resolução](architecture/technical/javafx-chess.png)
+
+</details>
+
 [Arquitetura pública](architecture/javafx-chess.svg) · [Código](https://github.com/davigama-academic/javafx-chess-isec) · [Imagem estática 4K](assets/portfolio/javafx-chess-poster.webp)
 
 ### SurpriseMe
@@ -417,6 +567,21 @@ Aplicação JavaFX original com destinatários e eventos fictícios. O formulár
 <img src="architecture/surpriseme.svg" alt="Arquitetura de SurpriseMe: componentes, responsabilidades e fluxos principais" width="1100">
 
 [SVG vetorial](architecture/surpriseme.svg) · [PNG em alta resolução](architecture/surpriseme.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+A interface coordena destinatários e eventos; persistência e geração de sugestões usam componentes separados.
+
+<img src="architecture/technical/surpriseme.svg" alt="Vista técnica de SurpriseMe" width="1100">
+
+- **Separação de responsabilidades:** UI, modelo, persistência e integração têm funções distintas.
+- **Contexto explícito:** Critérios e histórico orientam a preparação da sugestão.
+- **Âmbito da demonstração:** A UI foi exercitada; a inferência externa não foi executada.
+
+[SVG vetorial](architecture/technical/surpriseme.svg) · [PNG em alta resolução](architecture/technical/surpriseme.png)
 
 </details>
 
@@ -454,6 +619,23 @@ Projeto de terminal. Sem acesso atual ao código e sem captura de execução apr
 
 </details>
 
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Vista técnica conceptual dos mecanismos documentados: processos clientes, IPC POSIX, coordenação e mensagens persistentes.
+
+Vista conceptual baseada na documentação histórica; código atual por confirmar.
+
+<img src="architecture/technical/unix-broker.svg" alt="Vista técnica de Unix Topic Message Broker" width="1100">
+
+- **Aplicação de sistemas:** A experiência é de terminal e comunicação entre processos.
+- **IPC POSIX:** Os named pipes são apresentados sem nomes ou configuração.
+- **Vista conceptual:** Decomposição de responsabilidades; código atual indisponível.
+
+[SVG vetorial](architecture/technical/unix-broker.svg) · [PNG em alta resolução](architecture/technical/unix-broker.png)
+
+</details>
+
 [Arquitetura pública](architecture/unix-broker.svg)
 
 ### Windows IPC Word Game
@@ -485,6 +667,23 @@ Aplicação Win32. Sem acesso atual ao código e sem captura de execução aprov
 <img src="architecture/windows-game.svg" alt="Arquitetura de Windows IPC Word Game: componentes, responsabilidades e fluxos principais" width="1100">
 
 [SVG vetorial](architecture/windows-game.svg) · [PNG em alta resolução](architecture/windows-game.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Vista técnica conceptual do jogo multiprocesso: mensagens, estado partilhado, coordenação e observação em Win32.
+
+Vista conceptual baseada na documentação histórica; código atual por confirmar.
+
+<img src="architecture/technical/windows-game.svg" alt="Vista técnica de Windows IPC Word Game" width="1100">
+
+- **Comunicação Win32:** Mensagens e memória partilhada ligam os processos locais.
+- **Coordenação explícita:** A vista destaca a relação entre concorrência e estado.
+- **Vista conceptual:** Responsabilidades genéricas; código atual indisponível.
+
+[SVG vetorial](architecture/technical/windows-game.svg) · [PNG em alta resolução](architecture/technical/windows-game.png)
 
 </details>
 
