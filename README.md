@@ -191,7 +191,7 @@ Plataforma para autores prepararem bancos de perguntas e avaliações reutilizá
 
 <a href="assets/portfolio/assessflow-poster.webp"><img src="assets/portfolio/assessflow.webp" alt="Banco de perguntas preenchido" width="960"></a>
 
-React e API Spring Boot executados com PostgreSQL local. Perguntas, avaliação, sessão com três participantes fictícios e resultados reais da demonstração.
+Interface atualizada em 28/10/2026. React, API Spring Boot e PostgreSQL locais; perguntas, sessão e resultados reais com três participantes fictícios.
 
 <details>
 <summary>Casos de uso, interface e backend</summary>
@@ -202,7 +202,7 @@ React e API Spring Boot executados com PostgreSQL local. Perguntas, avaliação,
 - Iniciar perguntas e acompanhar as respostas e os resultados.
 - Concluir a sessão e exportar resultados em CSV; usar Local Live numa rede local.
 
-**Interface:** Workspace por organização com painel de atividade, banco e editor de perguntas, construtor de avaliações, gestão dos estados de publicação, sala de espera, controlo da sessão pelo docente e participação por código ou QR. A sessão concluída permite exportar resultados.
+**Interface:** Workspace por organização com navegação lateral, banco de perguntas filtrável e construtor com seleção, pontuação e ordem em áreas distintas. Sala ao vivo com código e QR, lista de participantes e resultados visuais; interface do participante com alto contraste e seleção explícita da resposta.
 
 **Backend e dados:** API Spring Boot com PostgreSQL e comunicação WebSocket. Organizações separam os dados; modo local permite sessões numa LAN.
 
@@ -211,60 +211,6 @@ React e API Spring Boot executados com PostgreSQL local. Perguntas, avaliação,
 </details>
 
 [Arquitetura pública](architecture/assessflow.svg) · [Código](https://github.com/DaviGama08/assessflow) · [Imagem estática 4K](assets/portfolio/assessflow-poster.webp)
-
-### Local Sales AI
-
-**Conhecimento comercial com origem verificável.**
-
-Informação de produtos e políticas comerciais dispersa em mensagens e documentos torna respostas lentas e sujeitas a versões desatualizadas.
-
-<a href="assets/portfolio/local-sales-ai-poster.webp"><img src="assets/portfolio/local-sales-ai.webp" alt="Entrada e processamento de conteúdo" width="960"></a>
-
-Interface Angular original com respostas de API simuladas. A demonstração visual não comprova inferência do modelo nem execução do backend.
-
-<details>
-<summary>Casos de uso, interface e backend</summary>
-
-- Importar notas e documentos comerciais mantendo a fonte original.
-- Rever o conhecimento extraído antes da consulta.
-- Perguntar em linguagem natural e obter uma resposta apoiada no material armazenado.
-
-**Interface:** Interface Angular para introduzir ou importar conteúdo, acompanhar o processamento, rever o documento de conhecimento e fazer perguntas. Inclui preparação dos modelos locais e limpeza dos dados de demonstração.
-
-**Backend e dados:** Spring Boot coordena ingestão e normalização do conteúdo, geração do documento de conhecimento, persistência em MySQL, indexação em Qdrant e respostas com contexto recuperado usando Ollama. O código da main contém estes serviços, embora partes do README ainda usem linguagem de planeamento.
-
-**Tecnologias:** Java, Spring Boot, Angular, MySQL, Ollama, Qdrant
-
-</details>
-
-[Arquitetura pública](architecture/local-sales-ai.svg) · [Imagem estática 4K](assets/portfolio/local-sales-ai-poster.webp)
-
-### AI Agent Console
-
-**Coordenação explícita de agentes de programação no terminal.**
-
-Uma consola reutilizável reúne sessões independentes de agentes e mantém o utilizador no controlo de mensagens, papéis e interrupções.
-
-<a href="assets/portfolio/agent-console-poster.webp"><img src="assets/portfolio/agent-console.webp" alt="Configuração de provedores e papéis" width="960"></a>
-
-Terminal JLine original. Configuração de perfil, provedores e papéis; nenhum agente externo foi iniciado nesta demonstração.
-
-<details>
-<summary>Casos de uso, interface e backend</summary>
-
-- Escolher um diretório de trabalho e um perfil.
-- Enviar um pedido a um agente e acompanhar o estado.
-- Encaminhar uma resposta ou interromper uma sessão de forma explícita.
-
-**Interface:** Interface de terminal com perfis de equipa, estado dos agentes, buffer de composição e comandos.
-
-**Backend e dados:** Java 21 coordena subprocessos, concorrência e comunicação JSON-RPC. JLine fornece a interação no terminal e Gson trata os dados.
-
-**Tecnologias:** Java, JLine, Gson, JSON-RPC
-
-</details>
-
-[Arquitetura pública](architecture/agent-console.svg) · [Imagem estática 4K](assets/portfolio/agent-console-poster.webp)
 
 ### Skevia · Website institucional
 
