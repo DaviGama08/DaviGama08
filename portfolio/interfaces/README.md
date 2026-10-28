@@ -9,7 +9,6 @@ Capturas nativas das aplicações originais, com 3840 píxeis de largura e image
 - [Thiago Santos English Platform](thiago.pdf) · 3 capturas
 - [503](503.pdf) · 4 capturas
 - [AssessFlow](assessflow.pdf) · 5 capturas
-- [Skevia · Website institucional](skevia-web.pdf) · 1 captura
 - [Distributed Quiz](distributed-quiz.pdf) · 3 capturas
 - [JavaFX Chess](javafx-chess.pdf) · 3 capturas
 - [SurpriseMe](surpriseme.pdf) · 3 capturas

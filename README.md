@@ -42,6 +42,15 @@ Interface React original da main. A apresentação do Ícaro usa dados públicos
 
 </details>
 
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/multi-tenant.svg" alt="Arquitetura de Skevia · Agendamento multi-tenant: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/multi-tenant.svg) · [PNG em alta resolução](architecture/multi-tenant.png)
+
+</details>
+
 [Arquitetura pública](architecture/multi-tenant.svg) · [Imagem estática 4K](assets/portfolio/multi-tenant-poster.webp)
 
 ### Marta · Her Legacy
@@ -68,6 +77,15 @@ Interface original Her Legacy da main: diagnóstico, Protocolo Mente no Papel, p
 **Backend e dados:** Next.js valida os pedidos e encaminha-os para o serviço Spring Boot de email. O serviço envia a mensagem à marca e a confirmação ao interessado. A sessão de diagnóstico reutiliza o fluxo de contacto com o contexto da candidatura. Os pedidos não são persistidos numa base de dados.
 
 **Tecnologias:** Next.js, React, TypeScript, Spring Boot, Email
+
+</details>
+
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/marta.svg" alt="Arquitetura de Marta · Her Legacy: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/marta.svg) · [PNG em alta resolução](architecture/marta.png)
 
 </details>
 
@@ -99,6 +117,15 @@ Interface original: apresentação, assistente de modalidade, horários e seleto
 
 </details>
 
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/coimbra-mma.svg" alt="Arquitetura de Coimbra MMA: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/coimbra-mma.svg) · [PNG em alta resolução](architecture/coimbra-mma.png)
+
+</details>
+
 [Arquitetura pública](architecture/coimbra-mma.svg) · [Imagem estática 4K](assets/portfolio/coimbra-mma-poster.webp)
 
 ### Dalliany Tavares Advocacia
@@ -123,6 +150,15 @@ Interface original de pré-lançamento. Capturas locais de apresentação e áre
 **Backend e dados:** Astro SSG e TypeScript, conteúdo estruturado e validações de build. Integrações de contacto ainda dependem de confirmação do cliente.
 
 **Tecnologias:** Astro, TypeScript, SEO
+
+</details>
+
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/dalliany.svg" alt="Arquitetura de Dalliany Tavares Advocacia: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/dalliany.svg) · [PNG em alta resolução](architecture/dalliany.png)
 
 </details>
 
@@ -153,6 +189,15 @@ Website Eleventy construído a partir da main. Cursos, ebooks e carrinho local; 
 
 </details>
 
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/thiago.svg" alt="Arquitetura de Thiago Santos English Platform: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/thiago.svg) · [PNG em alta resolução](architecture/thiago.png)
+
+</details>
+
 [Arquitetura pública](architecture/thiago.svg) · [Imagem estática 4K](assets/portfolio/thiago-poster.webp)
 
 ### 503
@@ -178,6 +223,15 @@ Site Astro, administração React e API Spring Boot executados localmente. Artig
 **Backend e dados:** API Spring Boot que centraliza o ciclo editorial e persiste artigos em PostgreSQL; implantação com Azure e Cloudflare.
 
 **Tecnologias:** Spring Boot, Astro, React, PostgreSQL
+
+</details>
+
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/503.svg" alt="Arquitetura de 503: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/503.svg) · [PNG em alta resolução](architecture/503.png)
 
 </details>
 
@@ -210,33 +264,16 @@ Interface atualizada em 28/10/2026. React, API Spring Boot e PostgreSQL locais; 
 
 </details>
 
-[Arquitetura pública](architecture/assessflow.svg) · [Código](https://github.com/DaviGama08/assessflow) · [Imagem estática 4K](assets/portfolio/assessflow-poster.webp)
-
-### Skevia · Website institucional
-
-**Fundação web para a identidade da Skevia.**
-
-Website institucional que estabelece a presença da marca e uma base consistente para o desenvolvimento das páginas públicas.
-
-<a href="assets/portfolio/skevia-web-poster.webp"><img src="assets/portfolio/skevia-web.webp" alt="Fundação institucional atual" width="960"></a>
-
-Fundação implementada; desenvolvimento visual completo previsto para a fase seguinte.
-
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
 
-- Apresentar a identidade institucional.
-- Evoluir o conteúdo público sobre uma base estática.
+<img src="architecture/assessflow.svg" alt="Arquitetura de AssessFlow: componentes, responsabilidades e fluxos principais" width="1100">
 
-**Interface:** Página inicial mínima em Astro, com tipografia local, identidade visual e componentes de base.
-
-**Backend e dados:** Geração estática com Astro e TypeScript. O website institucional é independente do produto de agendamento.
-
-**Tecnologias:** Astro, TypeScript, CSS
+[SVG vetorial](architecture/assessflow.svg) · [PNG em alta resolução](architecture/assessflow.png)
 
 </details>
 
-[Arquitetura pública](architecture/skevia-web.svg) · [Imagem estática 4K](assets/portfolio/skevia-web-poster.webp)
+[Arquitetura pública](architecture/assessflow.svg) · [Código](https://github.com/DaviGama08/assessflow) · [Imagem estática 4K](assets/portfolio/assessflow-poster.webp)
 
 ## Projetos académicos
 
@@ -267,6 +304,15 @@ Interface JavaFX original com respostas de rede substituídas por dados de demon
 
 </details>
 
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/distributed-quiz.svg" alt="Arquitetura de Distributed Quiz: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/distributed-quiz.svg) · [PNG em alta resolução](architecture/distributed-quiz.png)
+
+</details>
+
 [Arquitetura pública](architecture/distributed-quiz.svg) · [Código](https://github.com/DaviGama08/distributed-quiz-platform-isec) · [Imagem estática 4K](assets/portfolio/distributed-quiz-poster.webp)
 
 ### MyMEDIA Marketplace
@@ -290,6 +336,15 @@ Sem captura nova aprovada. A referência local foi revista; a branch remota e a 
 **Backend e dados:** API REST em ASP.NET Core, Entity Framework Core e SQL Server, com autenticação e papéis.
 
 **Tecnologias:** C#, .NET, Blazor, SQL Server
+
+</details>
+
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/mymedia.svg" alt="Arquitetura de MyMEDIA Marketplace: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/mymedia.svg) · [PNG em alta resolução](architecture/mymedia.png)
 
 </details>
 
@@ -320,6 +375,15 @@ Aplicação JavaFX original, executada com o modelo real: partida local, movimen
 
 </details>
 
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/javafx-chess.svg" alt="Arquitetura de JavaFX Chess: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/javafx-chess.svg) · [PNG em alta resolução](architecture/javafx-chess.png)
+
+</details>
+
 [Arquitetura pública](architecture/javafx-chess.svg) · [Código](https://github.com/davigama-academic/javafx-chess-isec) · [Imagem estática 4K](assets/portfolio/javafx-chess-poster.webp)
 
 ### SurpriseMe
@@ -344,6 +408,15 @@ Aplicação JavaFX original com destinatários e eventos fictícios. O formulár
 **Backend e dados:** Lógica Java e persistência local para relacionar destinatários, eventos e presentes.
 
 **Tecnologias:** Java, JavaFX
+
+</details>
+
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/surpriseme.svg" alt="Arquitetura de SurpriseMe: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/surpriseme.svg) · [PNG em alta resolução](architecture/surpriseme.png)
 
 </details>
 
@@ -372,6 +445,15 @@ Projeto de terminal. Sem acesso atual ao código e sem captura de execução apr
 
 </details>
 
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/unix-broker.svg" alt="Arquitetura de Unix Topic Message Broker: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/unix-broker.svg) · [PNG em alta resolução](architecture/unix-broker.png)
+
+</details>
+
 [Arquitetura pública](architecture/unix-broker.svg)
 
 ### Windows IPC Word Game
@@ -397,6 +479,15 @@ Aplicação Win32. Sem acesso atual ao código e sem captura de execução aprov
 
 </details>
 
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/windows-game.svg" alt="Arquitetura de Windows IPC Word Game: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/windows-game.svg) · [PNG em alta resolução](architecture/windows-game.png)
+
+</details>
+
 [Arquitetura pública](architecture/windows-game.svg)
 
 ### Outros estudos académicos
@@ -417,3 +508,5 @@ Aplicação Win32. Sem acesso atual ao código e sem captura de execução aprov
 **Qualidade e entrega:** JUnit, Testcontainers, Vitest, Playwright, Docker e CI/CD.
 
 Disponível para oportunidades em engenharia de software e projetos freelance. [Vamos conversar](mailto:davi.torres00pro@gmail.com).
+
+<sub>Diagramas vetoriais com [créditos dos ícones](architecture/ATTRIBUTION.md).</sub>
