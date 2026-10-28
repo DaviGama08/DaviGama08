@@ -1,173 +1,473 @@
-<div align="center">
-
 # Davi Gama
 
-### Junior Backend & Software Engineer | Java | Spring Boot | Distributed Systems
+**Software Engineer · Coimbra, Portugal**
 
-Computer Engineering graduate from Instituto Superior de Engenharia de Coimbra (ISEC), based in Coimbra, Portugal.
+Desenvolvo websites, plataformas e APIs, ligando as necessidades do negócio à experiência de utilização e à implementação.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Davi%20Gama-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davinasser/)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:davi.torres00pro@gmail.com)
+[Contacto](mailto:davi.torres00pro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/davinasser/) · [GitHub](https://github.com/DaviGama08)
 
-</div>
+## Portfólio
 
-## About Me
+[01 · Interfaces em alta resolução](portfolio/interfaces/README.md) · [02 · Casos de estudo e qualificações](portfolio/02_Casos_de_Estudo.pdf) · [03 · Arquiteturas funcionais](portfolio/03_Arquiteturas.pdf)
 
-I build backend and full-stack software with a strong focus on Java, Spring Boot, relational databases, distributed systems and production-oriented architecture.
+Interfaces das aplicações originais, com capturas nativas em 4K e WebP sem perdas. Os dados de demonstração estão identificados em cada projeto. A revisão de código e de branches foi realizada em outubro de 2026; referências por confirmar são assinaladas no caso de estudo.
 
-My experience includes professional client delivery, a software engineering internship involving local AI models and API integration, independent product development, and academic systems built around concurrency, networking, persistence and fault tolerance.
+## Projetos profissionais
 
-I am particularly interested in backend engineering, distributed systems, software architecture and building systems that can be clearly justified from real requirements.
+Trabalho para clientes, produtos independentes e ferramentas de engenharia.
 
-## Professional Experience
+### Skevia · Agendamento multi-tenant
 
-### Software Engineering Intern · Intermedia Intelligent Communications
-**Coimbra, Portugal · Mar 2026 - Aug 2026**
+**Disponibilidade, serviços e confirmação de marcações numa plataforma para negócios de serviços.**
 
-- Developed a data-redaction pipeline using locally trained models, Python and PyTorch, including dataset preparation and comparative evaluation.
-- Built a FastAPI REST backend and React/Vite interface to integrate and expose model predictions.
-- Evaluated model accuracy, latency, maintainability and operational trade-offs.
-- Worked in an agile environment, documenting technical decisions and delivering iterative improvements.
+A plataforma permite que cada negócio apresente a sua marca e opere a própria agenda. O Ícaro’s Barbershop, em Coimbra, é um caso aplicado, com catálogo de serviços, pacotes e marcação online.
 
-### Freelance Web Developer · Self-Employed
-**Coimbra, Portugal · Jun 2025 - Present**
+<a href="assets/portfolio/multi-tenant-poster.webp"><img src="assets/portfolio/multi-tenant.webp" alt="Ícaro’s Barbershop · website público" width="960"></a>
 
-- Deliver websites and web applications from requirements gathering through implementation, deployment and maintenance.
-- Work directly with clients on scope, content, technical decisions and delivery.
-- Build production-oriented solutions across static websites, commercial platforms, lead-generation flows and payment-enabled web applications.
+Interface React original da main. A apresentação do Ícaro usa dados públicos do cliente; marcações e backoffice usam uma organização fictícia de demonstração.
 
-## Selected Client Work
+<details>
+<summary>Casos de uso, interface e backend</summary>
 
-These are real client projects. Their production source repositories remain private because they contain client code, assets or implementation details.
+- Encontrar disponibilidade e selecionar serviços ou pacotes compatíveis com o horário.
+- Escolher o profissional, rever o pedido e consultar o estado de confirmação.
+- Gerir a agenda e as marcações, mantendo catálogo, equipa e horários.
+- Personalizar o website do negócio e acompanhar os relatórios operacionais.
+
+**Interface:** Website personalizado do negócio e marcação orientada pela disponibilidade. O cliente escolhe horário, serviços ou pacotes, profissional e dados de contacto. A confirmação distingue pedido pendente de marcação confirmada. O backoffice reúne agenda, marcações, catálogo, equipa, horários, clientes, relatórios, imagens e editor do site.
+
+**Backend e dados:** API Java e Spring Boot para catálogo, disponibilidade, marcações e operações do negócio, com PostgreSQL e migrações. Um renderer React partilhado mantém a apresentação pública consistente com a prévia no editor.
+
+**Tecnologias:** Java, Spring Boot, React, TypeScript, PostgreSQL
+
+</details>
+
+[Arquitetura pública](architecture/multi-tenant.svg) · [Imagem estática 4K](assets/portfolio/multi-tenant-poster.webp)
+
+### Marta · Her Legacy
+
+**Da descoberta da marca à sessão de diagnóstico, mentoria e lista de espera do planner.**
+
+Website da Marta Silva que apresenta a sua abordagem de organização pessoal e transforma o interesse em pedidos de acompanhamento. A versão atual reúne sessão gratuita de diagnóstico, serviços de mentoria, apresentação do Protocolo Mente no Papel e lista de espera do Her Legacy Planner.
+
+<a href="assets/portfolio/marta-poster.webp"><img src="assets/portfolio/marta.webp" alt="Hero atual Her Legacy" width="960"></a>
+
+Interface original Her Legacy da main: diagnóstico, Protocolo Mente no Papel, planner, serviços e contacto. Capturas nativas de outubro de 2026.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Conhecer a proposta da marca e identificar necessidades através do diagnóstico de rotina.
+- Pedir uma sessão gratuita com nome, email e contacto telefónico.
+- Consultar os serviços de mentoria e manifestar interesse no Protocolo Mente no Papel.
+- Inscrever-se na lista de espera do Her Legacy Planner.
+- Enviar uma mensagem e receber a confirmação do pedido.
+
+**Interface:** Homepage editorial com hero fotográfico, apresentação da Marta, diagnóstico de rotina, formulário de sessão gratuita, Protocolo Mente no Papel, testemunhos, planner e perguntas frequentes. Páginas próprias de serviços/mentoria, sobre e contacto. Formulários apresentam validação, envio, confirmação e erro.
+
+**Backend e dados:** Next.js valida os pedidos e encaminha-os para o serviço Spring Boot de email. O serviço envia a mensagem à marca e a confirmação ao interessado. A sessão de diagnóstico reutiliza o fluxo de contacto com o contexto da candidatura. Os pedidos não são persistidos numa base de dados.
+
+**Tecnologias:** Next.js, React, TypeScript, Spring Boot, Email
+
+</details>
+
+[Arquitetura pública](architecture/marta.svg) · [Imagem estática 4K](assets/portfolio/marta-poster.webp)
 
 ### Coimbra MMA
 
-Production website for a martial arts academy in Coimbra, designed as a fast multilingual public experience with reusable content and strong SEO foundations.
+**Uma academia acessível a quem chega de qualquer lugar.**
 
-- Eight-language content system with build-time translation validation
-- Responsive public website for academy information, modalities and contact
-- Structured metadata, JSON-LD, sitemap and robots configuration
+Uma academia de artes marciais em Coimbra precisava apresentar modalidades, horários e contacto com clareza para públicos locais e internacionais.
 
-`Astro 6` · `JavaScript` · `i18n` · `SEO`
+<a href="assets/portfolio/coimbra-mma-poster.webp"><img src="assets/portfolio/coimbra-mma.webp" alt="Página inicial" width="960"></a>
 
-**Status:** Production · Private source
+Interface original: apresentação, assistente de modalidade, horários e seletor de idiomas.
 
-### Marta
+<details>
+<summary>Casos de uso, interface e backend</summary>
 
-Commercial and marketing platform for a personal brand, mentorship and digital/physical product presentation, with conversion-focused pages and lead capture.
+- Descobrir a academia e comparar modalidades.
+- Usar o assistente de modalidades para encontrar uma opção adequada.
+- Consultar a grelha de horários e abrir detalhes de uma aula.
+- Mudar de idioma e encontrar os canais de contacto.
 
-- Next.js App Router frontend with reusable domain components and typed content
-- Product catalogue, product-detail flows, waitlist/contact capture and SEO
-- Cloudflare Workers deployment target through OpenNext
+**Interface:** Website adaptável com modalidades, horários, informação da academia e contacto. Inclui um assistente para encontrar uma modalidade adequada, detalhes das aulas em diálogo e navegação em oito idiomas.
 
-`Next.js 15` · `React 19` · `TypeScript` · `Tailwind CSS` · `Cloudflare Workers`
+**Backend e dados:** Conteúdo estático gerado por Astro, componentes reutilizáveis e validação das traduções no build. A experiência pública não exige API.
 
-**Status:** Private client project
+**Tecnologias:** Astro, JavaScript, i18n, SEO
+
+</details>
+
+[Arquitetura pública](architecture/coimbra-mma.svg) · [Imagem estática 4K](assets/portfolio/coimbra-mma-poster.webp)
+
+### Dalliany Tavares Advocacia
+
+**Presença digital editorial para serviços jurídicos.**
+
+Projeto de site multipágina para explicar áreas de atuação e facilitar a descoberta dos serviços, com conteúdo sujeito a confirmação antes da publicação.
+
+<a href="assets/portfolio/dalliany-poster.webp"><img src="assets/portfolio/dalliany.webp" alt="Página inicial" width="960"></a>
+
+Interface original de pré-lançamento. Capturas locais de apresentação e áreas de atuação.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Visitante conhece as áreas de atuação e a profissional.
+- Consulta informação sobre o atendimento presencial ou online.
+- Navega para o contacto pelos canais confirmados do projeto.
+
+**Interface:** Páginas estáticas responsivas, imagens editoriais otimizadas e navegação que funciona sem JavaScript.
+
+**Backend e dados:** Astro SSG e TypeScript, conteúdo estruturado e validações de build. Integrações de contacto ainda dependem de confirmação do cliente.
+
+**Tecnologias:** Astro, TypeScript, SEO
+
+</details>
+
+[Arquitetura pública](architecture/dalliany.svg) · [Imagem estática 4K](assets/portfolio/dalliany-poster.webp)
 
 ### Thiago Santos English Platform
 
-Client platform for English-learning courses, ebooks and digital sales.
+**Conteúdo educativo com percurso de compra digital.**
 
-- Static content experience built with Eleventy
-- Server-side flows using Node.js and Express
-- Mercado Pago and Pix payment integration
+Plataforma para apresentar cursos de inglês, ebooks e produtos digitais e conduzir o visitante até ao pagamento.
 
-`Eleventy` · `Node.js` · `Express` · `Nunjucks` · `Mercado Pago`
+<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago.webp" alt="Apresentação de cursos" width="960"></a>
 
-**Status:** Private client project
+Website Eleventy construído a partir da main. Cursos, ebooks e carrinho local; sem transação de pagamento.
 
-## Independent Product Engineering
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Visitante conhece os cursos de inglês e os ebooks.
+- Seleciona um produto e avança no percurso de compra.
+- O servidor coordena a integração de pagamento com Mercado Pago e Pix.
+
+**Interface:** Experiência de conteúdo em Eleventy com templates Nunjucks e páginas comerciais.
+
+**Backend e dados:** Fluxos de servidor em Node.js e Express, com integração de pagamento Mercado Pago e Pix.
+
+**Tecnologias:** Eleventy, Node.js, Express, Mercado Pago
+
+</details>
+
+[Arquitetura pública](architecture/thiago.svg) · [Imagem estática 4K](assets/portfolio/thiago-poster.webp)
 
 ### 503
 
-Independent publishing platform with a public content experience and separate administration workflow.
+**Publicar com método. Ler sem ruído.**
 
-- Spring Boot API with relational persistence
-- Astro public website and React administration interface
-- Production infrastructure using Azure and Cloudflare
+Uma publicação independente precisava separar a experiência de leitura do fluxo interno de criação e publicação de artigos.
 
-`Java` · `Spring Boot` · `PostgreSQL` · `Astro` · `React` · `Azure` · `Cloudflare`
+<a href="assets/portfolio/503-poster.webp"><img src="assets/portfolio/503.webp" alt="Página inicial" width="960"></a>
 
-### Multi-tenant Scheduling Platform
+Site Astro, administração React e API Spring Boot executados localmente. Artigos e conta de demonstração.
 
-Private SaaS-oriented scheduling platform for service businesses, designed around organisation-level tenant isolation and production-oriented security.
+<details>
+<summary>Casos de uso, interface e backend</summary>
 
-- Multi-tenant domain and organisation boundaries
-- Booking and scheduling workflows
-- Database migrations and integration testing
+- Explorar artigos e categorias e abrir uma leitura dedicada.
+- Criar e editar artigos por blocos no backoffice.
+- Definir capa, metadados e categoria antes de publicar.
+- Rever os requisitos de publicação e manter o conteúdo editorial.
 
-`Java` · `Spring Boot` · `PostgreSQL` · `React` · `Flyway` · `Testcontainers`
+**Interface:** Leitura e descoberta de artigos no website Astro. No backoffice React, edição por blocos, gestão de categorias, imagem de capa, campos editoriais e checklist de publicação.
 
-## Education
+**Backend e dados:** API Spring Boot que centraliza o ciclo editorial e persiste artigos em PostgreSQL; implantação com Azure e Cloudflare.
 
-### Bachelor's Degree in Computer Engineering
+**Tecnologias:** Spring Boot, Astro, React, PostgreSQL
 
-**Instituto Superior de Engenharia de Coimbra (ISEC)**  
-**2022 - 2026 · Graduated July 2026**  
-Specialisation in Application Development
+</details>
 
-Coursework covered programming, distributed systems, networks, databases, operating systems and software engineering.
+[Arquitetura pública](architecture/503.svg) · [Imagem estática 4K](assets/portfolio/503-poster.webp)
 
-## Academic Engineering Projects
+### AssessFlow
 
-My academic work is organised separately under [davigama-academic](https://github.com/davigama-academic), keeping university engineering projects clearly separated from professional and independent work.
+**Avaliações ao vivo, na nuvem ou em rede local.**
 
-### Distributed Quiz Platform
+Plataforma para autores prepararem bancos de perguntas e avaliações reutilizáveis, e para docentes conduzirem sessões com participação e resultados em tempo real. Funciona pela internet ou numa rede local através do modo Local Live.
 
-Fault-tolerant distributed quiz system with teacher/student clients, service discovery, primary-backup replication, heartbeats, automatic failover and session recovery.
+<a href="assets/portfolio/assessflow-poster.webp"><img src="assets/portfolio/assessflow.webp" alt="Banco de perguntas preenchido" width="960"></a>
 
-`Java` · `JavaFX` · `TCP` · `UDP` · `Multicast` · `SQLite`
+React e API Spring Boot executados com PostgreSQL local. Perguntas, avaliação, sessão com três participantes fictícios e resultados reais da demonstração.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Criar perguntas e organizar um banco reutilizável.
+- Montar uma avaliação, definir as perguntas e publicá-la.
+- Abrir uma sessão, apresentar o código de entrada e acompanhar os participantes.
+- Iniciar perguntas e acompanhar as respostas e os resultados.
+- Concluir a sessão e exportar resultados em CSV; usar Local Live numa rede local.
+
+**Interface:** Workspace por organização com painel de atividade, banco e editor de perguntas, construtor de avaliações, gestão dos estados de publicação, sala de espera, controlo da sessão pelo docente e participação por código ou QR. A sessão concluída permite exportar resultados.
+
+**Backend e dados:** API Spring Boot com PostgreSQL e comunicação WebSocket. Organizações separam os dados; modo local permite sessões numa LAN.
+
+**Tecnologias:** Spring Boot, React, PostgreSQL, WebSocket
+
+</details>
+
+[Arquitetura pública](architecture/assessflow.svg) · [Código](https://github.com/DaviGama08/assessflow) · [Imagem estática 4K](assets/portfolio/assessflow-poster.webp)
+
+### Local Sales AI
+
+**Conhecimento comercial com origem verificável.**
+
+Informação de produtos e políticas comerciais dispersa em mensagens e documentos torna respostas lentas e sujeitas a versões desatualizadas.
+
+<a href="assets/portfolio/local-sales-ai-poster.webp"><img src="assets/portfolio/local-sales-ai.webp" alt="Entrada e processamento de conteúdo" width="960"></a>
+
+Interface Angular original com respostas de API simuladas. A demonstração visual não comprova inferência do modelo nem execução do backend.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Importar notas e documentos comerciais mantendo a fonte original.
+- Rever o conhecimento extraído antes da consulta.
+- Perguntar em linguagem natural e obter uma resposta apoiada no material armazenado.
+
+**Interface:** Interface Angular para introduzir ou importar conteúdo, acompanhar o processamento, rever o documento de conhecimento e fazer perguntas. Inclui preparação dos modelos locais e limpeza dos dados de demonstração.
+
+**Backend e dados:** Spring Boot coordena ingestão e normalização do conteúdo, geração do documento de conhecimento, persistência em MySQL, indexação em Qdrant e respostas com contexto recuperado usando Ollama. O código da main contém estes serviços, embora partes do README ainda usem linguagem de planeamento.
+
+**Tecnologias:** Java, Spring Boot, Angular, MySQL, Ollama, Qdrant
+
+</details>
+
+[Arquitetura pública](architecture/local-sales-ai.svg) · [Imagem estática 4K](assets/portfolio/local-sales-ai-poster.webp)
+
+### AI Agent Console
+
+**Coordenação explícita de agentes de programação no terminal.**
+
+Uma consola reutilizável reúne sessões independentes de agentes e mantém o utilizador no controlo de mensagens, papéis e interrupções.
+
+<a href="assets/portfolio/agent-console-poster.webp"><img src="assets/portfolio/agent-console.webp" alt="Configuração de provedores e papéis" width="960"></a>
+
+Terminal JLine original. Configuração de perfil, provedores e papéis; nenhum agente externo foi iniciado nesta demonstração.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Escolher um diretório de trabalho e um perfil.
+- Enviar um pedido a um agente e acompanhar o estado.
+- Encaminhar uma resposta ou interromper uma sessão de forma explícita.
+
+**Interface:** Interface de terminal com perfis de equipa, estado dos agentes, buffer de composição e comandos.
+
+**Backend e dados:** Java 21 coordena subprocessos, concorrência e comunicação JSON-RPC. JLine fornece a interação no terminal e Gson trata os dados.
+
+**Tecnologias:** Java, JLine, Gson, JSON-RPC
+
+</details>
+
+[Arquitetura pública](architecture/agent-console.svg) · [Imagem estática 4K](assets/portfolio/agent-console-poster.webp)
+
+### Skevia · Website institucional
+
+**Fundação web para a identidade da Skevia.**
+
+Website institucional que estabelece a presença da marca e uma base consistente para o desenvolvimento das páginas públicas.
+
+<a href="assets/portfolio/skevia-web-poster.webp"><img src="assets/portfolio/skevia-web.webp" alt="Fundação institucional atual" width="960"></a>
+
+Fundação implementada; desenvolvimento visual completo previsto para a fase seguinte.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Apresentar a identidade institucional.
+- Evoluir o conteúdo público sobre uma base estática.
+
+**Interface:** Página inicial mínima em Astro, com tipografia local, identidade visual e componentes de base.
+
+**Backend e dados:** Geração estática com Astro e TypeScript. O website institucional é independente do produto de agendamento.
+
+**Tecnologias:** Astro, TypeScript, CSS
+
+</details>
+
+[Arquitetura pública](architecture/skevia-web.svg) · [Imagem estática 4K](assets/portfolio/skevia-web-poster.webp)
+
+## Projetos académicos
+
+Aplicações e sistemas desenvolvidos durante a formação no ISEC.
+
+### Distributed Quiz
+
+**Uma sessão que continua mesmo após falhas.**
+
+Projeto académico para gerir questionários entre professor e alunos, mantendo sessões disponíveis perante a falha de um serviço.
+
+<a href="assets/portfolio/distributed-quiz-poster.webp"><img src="assets/portfolio/distributed-quiz.webp" alt="Aplicação JavaFX: gestão das perguntas" width="960"></a>
+
+Interface JavaFX original com respostas de rede substituídas por dados de demonstração. Não representa validação do sistema distribuído em execução.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Professor cria perguntas e disponibiliza uma sessão a alunos.
+- Alunos entram na sessão, recebem perguntas e enviam respostas.
+- O sistema recupera o serviço e a sessão quando um servidor deixa de responder.
+
+**Interface:** Clientes JavaFX para docentes e participantes. O docente cria e gere perguntas e acompanha respostas; o aluno entra por código, responde e consulta o histórico.
+
+**Backend e dados:** Serviços Java com descoberta, replicação primário/backup, heartbeat, failover e persistência SQLite; TCP, UDP e multicast.
+
+**Tecnologias:** Java, JavaFX, TCP / UDP, SQLite
+
+</details>
+
+[Arquitetura pública](architecture/distributed-quiz.svg) · [Código](https://github.com/DaviGama08/distributed-quiz-platform-isec) · [Imagem estática 4K](assets/portfolio/distributed-quiz-poster.webp)
 
 ### MyMEDIA Marketplace
 
-Multi-application multimedia marketplace with a REST API, public frontend, internal back office and MAUI Hybrid client, including authentication, role-based access and commerce workflows.
+**Comércio multimédia em várias interfaces.**
 
-`C#` · `ASP.NET Core` · `Blazor` · `Entity Framework Core` · `SQL Server` · `JWT`
+Marketplace académico de multimédia que reúne clientes, fornecedores e operação interna. Cobre catálogo e inventário, compras e alugueres, favoritos, carrinho e processos de aprovação.
 
-### Unix Topic Message Broker
+Sem captura nova aprovada. A referência local foi revista; a branch remota e a execução atual ainda precisam de validação.
 
-Local topic-based messaging platform with a central manager and independent clients using POSIX IPC, concurrent delivery and persistent messages.
+<details>
+<summary>Casos de uso, interface e backend</summary>
 
-`C` · `POSIX Named Pipes` · `pthreads` · `select()` · `Signals`
+- Pesquisar o catálogo, guardar favoritos e preparar compras ou alugueres.
+- Gerir produtos, categorias e inventário.
+- Acompanhar encomendas e operações do marketplace.
+- Aprovar intervenientes e executar tarefas administrativas.
 
-### Windows IPC Word Game
+**Interface:** Loja pública, back office em Blazor e cliente MAUI Hybrid, com fluxos de catálogo, carrinho e favoritos.
 
-Multi-process word game with human clients, autonomous bots and a native monitoring panel using Win32 IPC and synchronization primitives.
+**Backend e dados:** API REST em ASP.NET Core, Entity Framework Core e SQL Server, com autenticação e papéis.
 
-`C` · `Win32 API` · `Named Pipes` · `Shared Memory` · `Threads`
+**Tecnologias:** C#, .NET, Blazor, SQL Server
+
+</details>
+
+[Arquitetura pública](architecture/mymedia.svg)
 
 ### JavaFX Chess
 
-Desktop chess application covering legal move validation, check/checkmate, castling, promotion, persistence, undo/redo and multiple design patterns.
+**As regras do xadrez traduzidas em software testável.**
 
-`Java` · `JavaFX` · `Maven` · `JUnit` · `MVC`
+Aplicação desktop que implementa partidas completas e permite continuar jogos guardados.
 
-## Technical Toolkit
+<a href="assets/portfolio/javafx-chess-poster.webp"><img src="assets/portfolio/javafx-chess.webp" alt="Aplicação JavaFX: partida em curso" width="960"></a>
 
-| Area | Technologies |
-| --- | --- |
-| Backend and APIs | Java, Spring Boot, C#, ASP.NET Core, Python, FastAPI, REST, OpenAPI |
-| Persistence | PostgreSQL, MySQL, SQL Server, SQLite, Hibernate, JPA, Entity Framework Core |
-| Web development | React, TypeScript, Vite, Astro, Next.js, Blazor |
-| Distributed systems | TCP, UDP, multicast, WebSocket, replication, failover, asynchronous processing |
-| Testing | JUnit, Testcontainers, Vitest, Playwright, ArchUnit |
-| Infrastructure | Docker, Azure, Cloudflare, GitHub Actions, Neon |
-| AI and data | PyTorch, Transformers, Ollama, RAG, Qdrant |
-| Mobile | Kotlin, Jetpack Compose, Flutter, Dart, .NET MAUI |
+Aplicação JavaFX original, executada com o modelo real: partida local, movimentos possíveis e edição de posições.
 
-## Engineering Focus
+<details>
+<summary>Casos de uso, interface e backend</summary>
 
-- Backend architecture and REST API design
-- Authentication and authorization
-- Multi-tenancy and relational modelling
-- Transactional consistency
-- Real-time and asynchronous communication
-- Testing and CI/CD
-- Deployment and production security
-- Distributed-system fundamentals
+- Jogar uma partida local com validação das regras.
+- Explorar movimentos legais no modo de aprendizagem.
+- Guardar a partida, editar posições e desfazer ou refazer jogadas.
 
-## Portfolio & Contact
+**Interface:** Aplicação JavaFX para dois jogadores locais, com tabuleiro, aprendizagem de movimentos, editor de posições e histórico da partida.
 
-Selected public repositories are available across this profile and the [davigama-academic](https://github.com/davigama-academic) organisation. Private professional work is represented here through concise case studies while client source code remains private.
+**Backend e dados:** Lógica Java para validação de jogadas, xeque, roque, desfazer/refazer e persistência, organizada em MVC.
 
-Reach me through [LinkedIn](https://www.linkedin.com/in/davinasser/) or [email](mailto:davi.torres00pro@gmail.com).
+**Tecnologias:** Java, JavaFX, Maven, JUnit
+
+</details>
+
+[Arquitetura pública](architecture/javafx-chess.svg) · [Código](https://github.com/davigama-academic/javafx-chess-isec) · [Imagem estática 4K](assets/portfolio/javafx-chess-poster.webp)
+
+### SurpriseMe
+
+**Ideias de presente no contexto de pessoas e datas.**
+
+Aplicação para gerir destinatários, ocasiões e histórico de presentes, ajudando a evitar repetições.
+
+<a href="assets/portfolio/surpriseme-poster.webp"><img src="assets/portfolio/surpriseme.webp" alt="Aplicação JavaFX: destinatários" width="960"></a>
+
+Aplicação JavaFX original com destinatários e eventos fictícios. O formulário de sugestões é apresentado sem chamada ao serviço de IA.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Gerir destinatários com interesses e preferências.
+- Organizar datas e consultar o histórico de presentes.
+- Obter sugestões de presente e de mensagem para um cartão.
+
+**Interface:** Aplicação JavaFX para organizar destinatários, interesses, eventos e histórico de presentes, com um assistente para configurar pedidos de sugestões.
+
+**Backend e dados:** Lógica Java e persistência local para relacionar destinatários, eventos e presentes.
+
+**Tecnologias:** Java, JavaFX
+
+</details>
+
+[Arquitetura pública](architecture/surpriseme.svg) · [Código](https://github.com/davigama-academic/surpriseme-gift-assistant-isec) · [Imagem estática 4K](assets/portfolio/surpriseme-poster.webp)
+
+### Unix Topic Message Broker
+
+**Mensagens por tópico entre processos independentes.**
+
+Estudo prático de comunicação concorrente e entrega persistente de mensagens num sistema Unix.
+
+Projeto de terminal. Sem acesso atual ao código e sem captura de execução aprovada nesta edição.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Um cliente subscreve os tópicos que pretende acompanhar.
+- Outro cliente publica uma mensagem num tópico.
+- O gestor coordena entrega concorrente e mensagens persistentes.
+
+**Interface:** Clientes de linha de comandos para publicar e subscrever tópicos; não possui interface gráfica.
+
+**Backend e dados:** Gestor central em C com named pipes POSIX, pthreads, select e sinais.
+
+**Tecnologias:** C, POSIX IPC, pthreads
+
+</details>
+
+[Arquitetura pública](architecture/unix-broker.svg)
+
+### Windows IPC Word Game
+
+**Um jogo multiplayer entre processos Windows.**
+
+Projeto académico para aplicar comunicação e sincronização entre jogadores humanos, bots e monitorização.
+
+Aplicação Win32. Sem acesso atual ao código e sem captura de execução aprovada nesta edição.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Jogadores humanos participam num jogo de palavras.
+- Bots autónomos interagem com a mesma sessão.
+- Um painel Win32 acompanha o estado da aplicação.
+
+**Interface:** Clientes nativos e painel de monitorização Win32.
+
+**Backend e dados:** C e API Win32 com named pipes, memória partilhada e threads.
+
+**Tecnologias:** C, Win32 API, Named Pipes
+
+</details>
+
+[Arquitetura pública](architecture/windows-game.svg)
+
+### Outros estudos académicos
+
+- **SafetySec Android** — Aplicação académica de monitorização com alertas de emergência, geofencing e deteção por sensores.
+- **Desert Caravan Simulator** — Simulador por turnos com caravanas, comércio, movimento autónomo, eventos e combate.
+- **Neural Shape Classifier** — Comparação de redes feedforward e interface para treino e classificação de formas geométricas.
+- **AMOV Flutter** — Projeto académico de desenvolvimento móvel preservado no arquivo da formação.
+
+## Qualificações e experiência
+
+- **Licenciatura em Engenharia Informática — ISEC, 2022–2026.** Especialização em Desenvolvimento de Aplicações; conclusão em julho de 2026.
+- **Software Engineering Intern — Intermedia Intelligent Communications, março–agosto de 2026.** Pipeline de anonimização com modelos locais, preparação e avaliação de datasets, API FastAPI e interface React/Vite.
+- **Desenvolvimento freelance desde junho de 2025.** Levantamento de necessidades, frontend, backend, integrações, publicação e manutenção.
+
+**Backend e dados:** Java, Spring Boot, C#, ASP.NET Core, Python, FastAPI, PostgreSQL, MySQL, SQL Server e SQLite.  
+**Interfaces:** React, TypeScript, Next.js, Astro, Angular, Blazor e JavaFX.  
+**Qualidade e entrega:** JUnit, Testcontainers, Vitest, Playwright, Docker e CI/CD.
+
+Disponível para oportunidades em engenharia de software e projetos freelance. [Vamos conversar](mailto:davi.torres00pro@gmail.com).
