@@ -2,7 +2,7 @@
 
 Capturas nativas das aplicações originais, com 3840 píxeis de largura e imagens sem perdas. Cada PDF identifica a origem dos dados e a revisão apresentada.
 
-- [Skevia · Agendamento multi-tenant](multi-tenant.pdf) · 6 capturas
+- [Skevia · Agendamento multi-tenant](multi-tenant.pdf) · 8 capturas
 - [Marta · Her Legacy](marta.pdf) · 6 capturas
 - [Coimbra MMA](coimbra-mma.pdf) · 4 capturas
 - [Dalliany Tavares Advocacia](dalliany.pdf) · 3 capturas

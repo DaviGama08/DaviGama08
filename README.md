@@ -24,7 +24,7 @@ A plataforma permite que cada negócio apresente a sua marca e opere a própria 
 
 <a href="assets/portfolio/multi-tenant-poster.webp"><img src="assets/portfolio/multi-tenant.webp" alt="Ícaro’s Barbershop · website público" width="960"></a>
 
-Interface React original da main. A apresentação do Ícaro usa dados públicos do cliente; marcações e backoffice usam uma organização fictícia de demonstração.
+UI revista em 30/10/2026. Site, serviços e pacotes do Ícaro capturados em produção, apenas em leitura. Marcação e backoffice usam dados fictícios na versão atual da plataforma.
 
 <details>
 <summary>Casos de uso, interface e backend</summary>
@@ -34,7 +34,7 @@ Interface React original da main. A apresentação do Ícaro usa dados públicos
 - Gerir a agenda e as marcações, mantendo catálogo, equipa e horários.
 - Personalizar o website do negócio e acompanhar os relatórios operacionais.
 
-**Interface:** Website personalizado do negócio e marcação orientada pela disponibilidade. O cliente escolhe horário, serviços ou pacotes, profissional e dados de contacto. A confirmação distingue pedido pendente de marcação confirmada. O backoffice reúne agenda, marcações, catálogo, equipa, horários, clientes, relatórios, imagens e editor do site.
+**Interface:** Website com hero fotográfico, identidade verde e catálogo ilustrado de serviços e pacotes, com preços, duração e seleção para marcação. O cliente consulta disponibilidade, escolhe serviços e profissional e fornece os contactos. A confirmação distingue pedido pendente de marcação confirmada. O backoffice reúne agenda, marcações, catálogo, equipa, horários, clientes, relatórios, imagens e edição visual do site.
 
 **Backend e dados:** API Java e Spring Boot para catálogo, disponibilidade, marcações e operações do negócio, com PostgreSQL e migrações. Um renderer React partilhado mantém a apresentação pública consistente com a prévia no editor.
 
