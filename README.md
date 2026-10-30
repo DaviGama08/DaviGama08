@@ -10,7 +10,7 @@ Desenvolvo websites, plataformas e APIs, ligando as necessidades do negócio à 
 
 [01 · Interfaces em alta resolução](portfolio/interfaces/README.md) · [02 · Casos de estudo e qualificações](portfolio/02_Casos_de_Estudo.pdf) · [03 · Arquiteturas funcionais](portfolio/03_Arquiteturas.pdf) · [04 · Vistas técnicas](portfolio/04_Arquiteturas_Tecnicas.pdf)
 
-Interfaces das aplicações originais, com capturas nativas em 4K e WebP sem perdas. Os dados de demonstração estão identificados em cada projeto. A revisão de código e de branches foi realizada em outubro de 2026; referências por confirmar são assinaladas no caso de estudo.
+Interfaces das aplicações originais, com capturas nativas em 4K no desktop e 1080 × 2400 no Android. As demonstrações de terminal incluem gravações reais e GIFs. Os dados de demonstração estão identificados em cada projeto. A revisão de código e de branches foi realizada em outubro de 2026; referências por confirmar são assinaladas no caso de estudo.
 
 ## Projetos profissionais
 
@@ -24,7 +24,7 @@ A plataforma permite que cada negócio apresente a sua marca e opere a própria 
 
 <a href="assets/portfolio/multi-tenant-poster.webp"><img src="assets/portfolio/multi-tenant.webp" alt="Ícaro’s Barbershop · website público" width="960"></a>
 
-UI revista em 30/10/2026. Site, serviços e pacotes do Ícaro capturados em produção, apenas em leitura. Marcação e backoffice usam dados fictícios na versão atual da plataforma.
+Organização real Ícaro’s Barbershop: site público, agenda, serviços, pacotes e editor capturados em 30/10/2026. Consulta apenas; nenhuma reserva ou configuração alterada.
 
 <details>
 <summary>Casos de uso, interface e backend</summary>
@@ -66,7 +66,7 @@ Contratos tipados ligam duas experiências React aos módulos de negócio e aos 
 
 </details>
 
-[Arquitetura pública](architecture/multi-tenant.svg) · [Imagem estática 4K](assets/portfolio/multi-tenant-poster.webp)
+[Arquitetura pública](architecture/multi-tenant.svg) · [Imagem estática nativa](assets/portfolio/multi-tenant-poster.webp)
 
 ### Marta · Her Legacy
 
@@ -119,7 +119,7 @@ O formulário atravessa a camada Next.js e um serviço de aplicação, chegando 
 
 </details>
 
-[Arquitetura pública](architecture/marta.svg) · [Imagem estática 4K](assets/portfolio/marta-poster.webp)
+[Arquitetura pública](architecture/marta.svg) · [Imagem estática nativa](assets/portfolio/marta-poster.webp)
 
 ### Coimbra MMA
 
@@ -171,7 +171,7 @@ Conteúdo multilingue e componentes Astro produzem páginas estáticas, compleme
 
 </details>
 
-[Arquitetura pública](architecture/coimbra-mma.svg) · [Imagem estática 4K](assets/portfolio/coimbra-mma-poster.webp)
+[Arquitetura pública](architecture/coimbra-mma.svg) · [Imagem estática nativa](assets/portfolio/coimbra-mma-poster.webp)
 
 ### Dalliany Tavares Advocacia
 
@@ -222,26 +222,27 @@ Uma aplicação multipágina organiza conteúdo editorial e media responsiva, co
 
 </details>
 
-[Arquitetura pública](architecture/dalliany.svg) · [Imagem estática 4K](assets/portfolio/dalliany-poster.webp)
+[Arquitetura pública](architecture/dalliany.svg) · [Imagem estática nativa](assets/portfolio/dalliany-poster.webp)
 
 ### Thiago Santos English Platform
 
 **Conteúdo educativo com percurso de compra digital.**
 
-Plataforma para apresentar cursos de inglês, ebooks e produtos digitais e conduzir o visitante até ao pagamento.
+Website do professor Thiago Santos para apresentar o seu trabalho, método e percurso, divulgar cursos de inglês e ebooks e conduzir o visitante ao contacto ou à compra.
 
-<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago.webp" alt="Apresentação de cursos" width="960"></a>
+<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago.webp" alt="Página inicial do professor Thiago Santos" width="960"></a>
 
-Website Eleventy construído a partir da main. Cursos, ebooks e carrinho local; sem transação de pagamento.
+Seis páginas capturadas na interface original: início, professor, contacto, cursos, ebooks e carrinho. Build local Eleventy; sem transação de pagamento.
 
 <details>
 <summary>Casos de uso, interface e backend</summary>
 
+- Conhecer o professor na página inicial, consultar o seu percurso e encontrar os contactos.
 - Visitante conhece os cursos de inglês e os ebooks.
 - Seleciona um produto e avança no percurso de compra.
 - O servidor coordena a integração de pagamento com Mercado Pago e Pix.
 
-**Interface:** Experiência de conteúdo em Eleventy com templates Nunjucks e páginas comerciais.
+**Interface:** Página inicial com apresentação do professor e proposta de ensino, página Sobre, contacto, planos de aulas, catálogo de ebooks e carrinho. Interface original em Eleventy e Nunjucks.
 
 **Backend e dados:** Fluxos de servidor em Node.js e Express, com integração de pagamento Mercado Pago e Pix.
 
@@ -273,7 +274,7 @@ O conteúdo é compilado por Eleventy; o browser reúne a seleção e o servidor
 
 </details>
 
-[Arquitetura pública](architecture/thiago.svg) · [Imagem estática 4K](assets/portfolio/thiago-poster.webp)
+[Arquitetura pública](architecture/thiago.svg) · [Imagem estática nativa](assets/portfolio/thiago-poster.webp)
 
 ### 503
 
@@ -325,7 +326,7 @@ Duas aplicações de apresentação usam os serviços editoriais; persistência 
 
 </details>
 
-[Arquitetura pública](architecture/503.svg) · [Imagem estática 4K](assets/portfolio/503-poster.webp)
+[Arquitetura pública](architecture/503.svg) · [Imagem estática nativa](assets/portfolio/503-poster.webp)
 
 ### AssessFlow
 
@@ -378,7 +379,7 @@ O domínio de avaliações combina operações HTTP, eventos de sessão e persis
 
 </details>
 
-[Arquitetura pública](architecture/assessflow.svg) · [Código](https://github.com/DaviGama08/assessflow) · [Imagem estática 4K](assets/portfolio/assessflow-poster.webp)
+[Arquitetura pública](architecture/assessflow.svg) · [Código](https://github.com/DaviGama08/assessflow) · [Imagem estática nativa](assets/portfolio/assessflow-poster.webp)
 
 ## Projetos académicos
 
@@ -433,15 +434,17 @@ Descoberta, pedidos e replicação usam canais distintos para coordenar clientes
 
 </details>
 
-[Arquitetura pública](architecture/distributed-quiz.svg) · [Código](https://github.com/DaviGama08/distributed-quiz-platform-isec) · [Imagem estática 4K](assets/portfolio/distributed-quiz-poster.webp)
+[Arquitetura pública](architecture/distributed-quiz.svg) · [Código](https://github.com/DaviGama08/distributed-quiz-platform-isec) · [Imagem estática nativa](assets/portfolio/distributed-quiz-poster.webp)
 
-### MyMEDIA Marketplace
+### MyMEDIA · PWEB .NET
 
 **Comércio multimédia em várias interfaces.**
 
 Marketplace académico de multimédia que reúne clientes, fornecedores e operação interna. Cobre catálogo e inventário, compras e alugueres, favoritos, carrinho e processos de aprovação.
 
-Sem captura nova aprovada. A referência local foi revista; a branch remota e a execução atual ainda precisam de validação.
+<a href="assets/portfolio/mymedia-poster.webp"><img src="assets/portfolio/mymedia.webp" alt="Página inicial MyMEDIA" width="960"></a>
+
+Interface Blazor original executada em .NET 8 com API local de dados fictícios. Catálogo, favoritos e carrinho exercitados; backend SQL Server, autenticação e pagamento não validados nesta captura.
 
 <details>
 <summary>Casos de uso, interface e backend</summary>
@@ -451,7 +454,7 @@ Sem captura nova aprovada. A referência local foi revista; a branch remota e a 
 - Acompanhar encomendas e operações do marketplace.
 - Aprovar intervenientes e executar tarefas administrativas.
 
-**Interface:** Loja pública, back office em Blazor e cliente MAUI Hybrid, com fluxos de catálogo, carrinho e favoritos.
+**Interface:** Página inicial, catálogo por categorias, favoritos e carrinho na interface original Blazor do projeto PWEB.
 
 **Backend e dados:** API REST em ASP.NET Core, Entity Framework Core e SQL Server, com autenticação e papéis.
 
@@ -462,7 +465,7 @@ Sem captura nova aprovada. A referência local foi revista; a branch remota e a 
 <details>
 <summary>Diagrama de arquitetura · componentes e fluxos</summary>
 
-<img src="architecture/mymedia.svg" alt="Arquitetura de MyMEDIA Marketplace: componentes, responsabilidades e fluxos principais" width="1100">
+<img src="architecture/mymedia.svg" alt="Arquitetura de MyMEDIA · PWEB .NET: componentes, responsabilidades e fluxos principais" width="1100">
 
 [SVG vetorial](architecture/mymedia.svg) · [PNG em alta resolução](architecture/mymedia.png)
 
@@ -473,7 +476,7 @@ Sem captura nova aprovada. A referência local foi revista; a branch remota e a 
 
 Clientes web e híbridos partilham contratos HTTP, repositórios e um modelo relacional de marketplace.
 
-<img src="architecture/technical/mymedia.svg" alt="Vista técnica de MyMEDIA Marketplace" width="1100">
+<img src="architecture/technical/mymedia.svg" alt="Vista técnica de MyMEDIA · PWEB .NET" width="1100">
 
 - **Repositórios por domínio:** Interfaces de acesso isolam a API dos detalhes de persistência.
 - **Vários clientes:** Loja, backoffice e cliente híbrido usam a mesma API.
@@ -483,7 +486,7 @@ Clientes web e híbridos partilham contratos HTTP, repositórios e um modelo rel
 
 </details>
 
-[Arquitetura pública](architecture/mymedia.svg)
+[Arquitetura pública](architecture/mymedia.svg) · [Imagem estática nativa](assets/portfolio/mymedia-poster.webp)
 
 ### JavaFX Chess
 
@@ -534,7 +537,7 @@ MVC, Facade e Memento organizam a interação, as regras da partida e a recupera
 
 </details>
 
-[Arquitetura pública](architecture/javafx-chess.svg) · [Código](https://github.com/davigama-academic/javafx-chess-isec) · [Imagem estática 4K](assets/portfolio/javafx-chess-poster.webp)
+[Arquitetura pública](architecture/javafx-chess.svg) · [Código](https://github.com/davigama-academic/javafx-chess-isec) · [Imagem estática nativa](assets/portfolio/javafx-chess-poster.webp)
 
 ### SurpriseMe
 
@@ -585,7 +588,7 @@ A interface coordena destinatários e eventos; persistência e geração de suge
 
 </details>
 
-[Arquitetura pública](architecture/surpriseme.svg) · [Código](https://github.com/davigama-academic/surpriseme-gift-assistant-isec) · [Imagem estática 4K](assets/portfolio/surpriseme-poster.webp)
+[Arquitetura pública](architecture/surpriseme.svg) · [Código](https://github.com/davigama-academic/surpriseme-gift-assistant-isec) · [Imagem estática nativa](assets/portfolio/surpriseme-poster.webp)
 
 ### Unix Topic Message Broker
 
@@ -593,7 +596,11 @@ A interface coordena destinatários e eventos; persistência e geração de suge
 
 Estudo prático de comunicação concorrente e entrega persistente de mensagens num sistema Unix.
 
-Projeto de terminal. Sem acesso atual ao código e sem captura de execução aprovada nesta edição.
+<a href="assets/portfolio/unix-broker-poster.webp"><img src="assets/portfolio/unix-broker.webp" alt="Broker e clientes: subscrições" width="960"></a>
+
+Execução real do broker e de dois clientes em processos separados. Utilizadores fictícios; subscrições, mensagens e moderação por FIFOs POSIX.
+
+[GIF da execução](assets/portfolio/unix-broker.gif) · [Vídeo completo](assets/portfolio/unix-broker.mp4)
 
 <details>
 <summary>Casos de uso, interface e backend</summary>
@@ -622,21 +629,19 @@ Projeto de terminal. Sem acesso atual ao código e sem captura de execução apr
 <details>
 <summary>Vista técnica · camadas, contratos e padrões</summary>
 
-Vista técnica conceptual dos mecanismos documentados: processos clientes, IPC POSIX, coordenação e mensagens persistentes.
-
-Vista conceptual baseada na documentação histórica; código atual por confirmar.
+Vista técnica dos mecanismos documentados: processos clientes, IPC POSIX, coordenação e mensagens persistentes.
 
 <img src="architecture/technical/unix-broker.svg" alt="Vista técnica de Unix Topic Message Broker" width="1100">
 
 - **Aplicação de sistemas:** A experiência é de terminal e comunicação entre processos.
 - **IPC POSIX:** Os named pipes são apresentados sem nomes ou configuração.
-- **Vista conceptual:** Decomposição de responsabilidades; código atual indisponível.
+- **Código e execução:** Fontes recuperadas; execução local documentada na ficha do projeto.
 
 [SVG vetorial](architecture/technical/unix-broker.svg) · [PNG em alta resolução](architecture/technical/unix-broker.png)
 
 </details>
 
-[Arquitetura pública](architecture/unix-broker.svg)
+[Arquitetura pública](architecture/unix-broker.svg) · [Imagem estática nativa](assets/portfolio/unix-broker-poster.webp)
 
 ### Windows IPC Word Game
 
@@ -644,7 +649,11 @@ Vista conceptual baseada na documentação histórica; código atual por confirm
 
 Projeto académico para aplicar comunicação e sincronização entre jogadores humanos, bots e monitorização.
 
-Aplicação Win32. Sem acesso atual ao código e sem captura de execução aprovada nesta edição.
+<a href="assets/portfolio/windows-game-poster.webp"><img src="assets/portfolio/windows-game.webp" alt="Árbitro, jogadores e painel Win32" width="960"></a>
+
+Processos Win32 originais executados em Wine. Capturas e gravação com jogadores e dicionário de demonstração; build MinGW com correção local da flag ativo no handler, codificação e recursos.
+
+[GIF da execução](assets/portfolio/windows-game.gif) · [Vídeo completo](assets/portfolio/windows-game.mp4)
 
 <details>
 <summary>Casos de uso, interface e backend</summary>
@@ -673,26 +682,126 @@ Aplicação Win32. Sem acesso atual ao código e sem captura de execução aprov
 <details>
 <summary>Vista técnica · camadas, contratos e padrões</summary>
 
-Vista técnica conceptual do jogo multiprocesso: mensagens, estado partilhado, coordenação e observação em Win32.
-
-Vista conceptual baseada na documentação histórica; código atual por confirmar.
+Vista técnica do jogo multiprocesso: mensagens, estado partilhado, coordenação e observação em Win32.
 
 <img src="architecture/technical/windows-game.svg" alt="Vista técnica de Windows IPC Word Game" width="1100">
 
 - **Comunicação Win32:** Mensagens e memória partilhada ligam os processos locais.
 - **Coordenação explícita:** A vista destaca a relação entre concorrência e estado.
-- **Vista conceptual:** Responsabilidades genéricas; código atual indisponível.
+- **Código e execução:** Fontes recuperadas; execução local documentada na ficha do projeto.
 
 [SVG vetorial](architecture/technical/windows-game.svg) · [PNG em alta resolução](architecture/technical/windows-game.png)
 
 </details>
 
-[Arquitetura pública](architecture/windows-game.svg)
+[Arquitetura pública](architecture/windows-game.svg) · [Imagem estática nativa](assets/portfolio/windows-game-poster.webp)
+
+### SafetySec Android
+
+**Monitorização pessoal com perfis de monitor e protegido.**
+
+Aplicação AMOV que permite acompanhar pessoas protegidas, gerir permissões e sinalizar situações de emergência.
+
+<a href="assets/portfolio/safetysec-android-poster.webp"><img src="assets/portfolio/safetysec-android.webp" alt="Seleção de perfil" width="360"></a>
+
+As interfaces Compose originais foram executadas no emulador Android com estado fictício num harness de captura. Autenticação cloud e sensores não foram validados nesta demonstração.
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Escolher o perfil de monitor ou protegido.
+- Consultar pessoas acompanhadas e gerir a partilha.
+- Aceder ao painel de monitorização e emergência.
+
+**Interface:** Seleção de perfil, painel do monitor e painel do protegido com controlo de monitorização e botão de pânico.
+
+**Backend e dados:** ViewModels Kotlin e StateFlow ligam a interface aos serviços Firebase e aos serviços Android de localização e sensores.
+
+**Tecnologias:** Kotlin, Jetpack Compose, Firebase, Android
+
+</details>
+
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/safetysec-android.svg" alt="Arquitetura de SafetySec Android: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/safetysec-android.svg) · [PNG em alta resolução](architecture/safetysec-android.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+ViewModels Kotlin e StateFlow ligam a interface aos serviços Firebase e aos serviços Android de localização e sensores.
+
+<img src="architecture/technical/safetysec-android.svg" alt="Vista técnica de SafetySec Android" width="1100">
+
+- **Código original:** Jetpack Compose apresenta o estado exposto pelos ViewModels.
+- **Demonstração:** Interface original com estado fictício no emulador.
+- **Âmbito:** Serviços cloud e sensores não validados nesta captura.
+
+[SVG vetorial](architecture/technical/safetysec-android.svg) · [PNG em alta resolução](architecture/technical/safetysec-android.png)
+
+</details>
+
+[Arquitetura pública](architecture/safetysec-android.svg) · [Imagem estática nativa](assets/portfolio/safetysec-android-poster.webp)
+
+### Desert Caravan Simulator
+
+**Caravanas, comércio e sobrevivência numa simulação por turnos.**
+
+Jogo académico de POO em que o jogador gere caravanas, recursos e deslocações num mapa de deserto.
+
+<a href="assets/portfolio/desert-caravan-poster.webp"><img src="assets/portfolio/desert-caravan.webp" alt="Cenário e mapa do deserto" width="960"></a>
+
+Execução real do simulador C++20, compilado em Linux com adaptação apenas da configuração UTF-8 da consola. Cenário de demonstração; gravação dos comandos, recursos e turnos.
+
+[GIF da execução](assets/portfolio/desert-caravan.gif) · [Vídeo completo](assets/portfolio/desert-caravan.mp4)
+
+<details>
+<summary>Casos de uso, interface e backend</summary>
+
+- Carregar o cenário e consultar o mapa.
+- Comprar e movimentar caravanas.
+- Avançar turnos e acompanhar os recursos.
+
+**Interface:** Mapa ASCII, comandos de compra e movimento, consulta de cidades e evolução por turnos.
+
+**Backend e dados:** Simulador, mapa, caravanas e comandos organizados em classes C++; ficheiros de configuração definem o cenário.
+
+**Tecnologias:** C++20, POO, STL, Terminal
+
+</details>
+
+<details>
+<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+
+<img src="architecture/desert-caravan.svg" alt="Arquitetura de Desert Caravan Simulator: componentes, responsabilidades e fluxos principais" width="1100">
+
+[SVG vetorial](architecture/desert-caravan.svg) · [PNG em alta resolução](architecture/desert-caravan.png)
+
+</details>
+
+<details>
+<summary>Vista técnica · camadas, contratos e padrões</summary>
+
+Simulador, mapa, caravanas e comandos organizados em classes C++; ficheiros de configuração definem o cenário.
+
+<img src="architecture/technical/desert-caravan.svg" alt="Vista técnica de Desert Caravan Simulator" width="1100">
+
+- **Código original:** Comandos e entidades do domínio separam a interação da evolução do simulador.
+- **Demonstração:** Simulador original executado localmente.
+- **Âmbito:** Capturas e gravação dos comandos e turnos.
+
+[SVG vetorial](architecture/technical/desert-caravan.svg) · [PNG em alta resolução](architecture/technical/desert-caravan.png)
+
+</details>
+
+[Arquitetura pública](architecture/desert-caravan.svg) · [Imagem estática nativa](assets/portfolio/desert-caravan-poster.webp)
 
 ### Outros estudos académicos
 
-- **SafetySec Android** — Aplicação académica de monitorização com alertas de emergência, geofencing e deteção por sensores.
-- **Desert Caravan Simulator** — Simulador por turnos com caravanas, comércio, movimento autónomo, eventos e combate.
 - **Neural Shape Classifier** — Comparação de redes feedforward e interface para treino e classificação de formas geométricas.
 - **AMOV Flutter** — Projeto académico de desenvolvimento móvel preservado no arquivo da formação.
 
