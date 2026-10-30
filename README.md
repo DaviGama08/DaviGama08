@@ -1,10 +1,30 @@
-# Davi Gama
+<div align="center">
 
-**Software Engineer · Coimbra, Portugal**
+<img src="assets/profile/terminal.svg" alt="Terminal de Davi Gama: Software Engineer em Coimbra; Java, C#, TypeScript, React, Python, C/C++, Kotlin e SQL" width="960">
 
-Desenvolvo websites, plataformas e APIs, ligando as necessidades do negócio à experiência de utilização e à implementação.
+<br><br>
 
-[Contacto](mailto:davi.torres00pro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/davinasser/) · [GitHub](https://github.com/DaviGama08)
+<a href="https://github.com/DaviGama08"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub de Davi Gama"></a>
+<a href="https://www.linkedin.com/in/davinasser/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn de Davi Gama"></a>
+
+</div>
+
+## About Me
+
+Sou Davi Gama, **Software Engineer em Coimbra, Portugal**. Desenvolvo websites, plataformas e APIs, ligando as necessidades do negócio à experiência de utilização e à implementação.
+
+Sou licenciado em Engenharia Informática pelo ISEC, com especialização em Desenvolvimento de Aplicações. Trabalho em projetos freelance desde junho de 2025 e realizei um estágio de engenharia de software na Intermedia Intelligent Communications. Interesso-me por arquitetura de APIs, sistemas distribuídos, concorrência e IA local.
+
+[Contacto](mailto:davi.torres00pro@gmail.com)
+
+## Languages & Technologies
+
+| Área | Tecnologias |
+| :--- | :--- |
+| Linguagens | Java · C# · TypeScript · JavaScript · Python · C/C++ · Kotlin · SQL |
+| Backend e dados | Spring Boot · ASP.NET Core · FastAPI · PostgreSQL · SQL Server · MySQL · SQLite |
+| Interfaces | React · Next.js · Astro · Angular · Blazor · JavaFX · Jetpack Compose |
+| Qualidade e entrega | Git · Docker · CI/CD · JUnit · Testcontainers · Vitest · Playwright |
 
 ## Portfólio
 

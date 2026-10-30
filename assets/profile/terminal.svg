@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title desc">
+<title id="title">Davi Gama — Software Engineer</title>
+<desc id="desc">Terminal davi@dev. whoami: Davi Gama, Software Engineer em Coimbra, Portugal. Tecnologias: Java, C#, TypeScript, React, Python, C/C++, Kotlin e SQL.</desc>
+<rect x="1" y="1" width="958" height="328" rx="12" fill="#0D1B2A" stroke="#415A77" stroke-width="2"/>
+<path d="M13 2H947Q958 2 958 14V46H2V14Q2 2 13 2" fill="#1B263B"/>
+<circle cx="24" cy="24" r="6" fill="#FF5F56"/><circle cx="45" cy="24" r="6" fill="#FFBD2E"/><circle cx="66" cy="24" r="6" fill="#27C93F"/>
+<g font-family="'DejaVu Sans Mono',Consolas,monospace">
+<text x="90" y="30" fill="#B3C2D3" font-size="14">davi@dev:~</text>
+<text x="34" y="88" fill="#B3C2D3" font-size="18"><tspan fill="#65B4FF">davi@dev</tspan>:~$ whoami</text>
+<text x="34" y="137" fill="#65B4FF" font-size="38" font-weight="bold">Davi Gama</text>
+<text x="34" y="172" fill="#E0E1DD" font-size="19">&gt; Software Engineer · Coimbra, Portugal</text>
+<text x="34" y="202" fill="#B3C2D3" font-size="17">Websites, plataformas e APIs. Do produto à implementação.</text>
+<text x="34" y="250" fill="#B3C2D3" font-size="18"><tspan fill="#65B4FF">davi@dev</tspan>:~$ cat tech_stack.json</text>
+<text x="34" y="286" fill="#65B4FF" font-size="17">["Java", "C#", "TypeScript", "React", "Python", "C/C++", "Kotlin", "SQL"]</text>
+</g>
+</svg>
