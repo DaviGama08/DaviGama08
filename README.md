@@ -1,840 +1,662 @@
 <div align="center">
 
-<img src="assets/profile/terminal.svg" alt="Terminal de Davi Gama: Software Engineer em Coimbra; Java, C#, TypeScript, React, Python, C/C++, Kotlin e SQL" width="960">
+<img src="assets/profile/terminal.svg" alt="Terminal animado com a stack Java, Spring Boot, PostgreSQL, React, TypeScript, Astro, Docker, Maven, Azure e Cloudflare" width="960">
 
-<br><br>
+<br>
 
-<a href="https://github.com/DaviGama08"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub de Davi Gama"></a>
-<a href="https://www.linkedin.com/in/davinasser/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn de Davi Gama"></a>
+<a href="https://github.com/DaviGama08"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/davinasser/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </div>
 
-## About Me
+## Sobre mim
 
-Sou Davi Gama, **Software Engineer em Coimbra, Portugal**. Desenvolvo websites, plataformas e APIs, ligando as necessidades do negócio à experiência de utilização e à implementação.
+Sou Davi Gama, licenciado em Engenharia Informática pelo ISEC, em Coimbra. Desenvolvo aplicações backend com Java e Spring Boot, assim como websites e produtos fullstack. Tenho experiência em ambiente empresarial, trabalho em equipa e desenvolvimento freelance, desde o levantamento de requisitos até à publicação. Interesso-me por APIs, bases de dados, arquitetura de software e regras de negócio.
 
-Sou licenciado em Engenharia Informática pelo ISEC, com especialização em Desenvolvimento de Aplicações. Trabalho em projetos freelance desde junho de 2025 e realizei um estágio de engenharia de software na Intermedia Intelligent Communications. Interesso-me por arquitetura de APIs, sistemas distribuídos, concorrência e IA local.
-
-[Contacto](mailto:davi.torres00pro@gmail.com)
-
-## Languages & Technologies
+## Tecnologias
 
 | Área | Tecnologias |
 | :--- | :--- |
-| Linguagens | Java · C# · TypeScript · JavaScript · Python · C/C++ · Kotlin · SQL |
-| Backend e dados | Spring Boot · ASP.NET Core · FastAPI · PostgreSQL · SQL Server · MySQL · SQLite |
-| Interfaces | React · Next.js · Astro · Angular · Blazor · JavaFX · Jetpack Compose |
-| Qualidade e entrega | Git · Docker · CI/CD · JUnit · Testcontainers · Vitest · Playwright |
+| Linguagens | Java, C#, TypeScript, JavaScript, Python, C/C++, SQL |
+| Backend e dados | Spring Boot, Spring Data JPA, Hibernate, ASP.NET Core, FastAPI, PostgreSQL, MySQL, SQL Server, SQLite |
+| Frontend | React, Next.js, Astro, Blazor, JavaFX |
+| Ferramentas | Git, Maven, Gradle, Docker, JUnit, Testcontainers, CI/CD, Azure, Cloudflare |
 
 ## Portfólio
 
-[01 · Interfaces em alta resolução](portfolio/interfaces/README.md) · [02 · Casos de estudo e qualificações](portfolio/02_Casos_de_Estudo.pdf) · [03 · Arquiteturas funcionais](portfolio/03_Arquiteturas.pdf) · [04 · Vistas técnicas](portfolio/04_Arquiteturas_Tecnicas.pdf)
+**[Interfaces](portfolio/interfaces/README.md)** · **[Casos de estudo](portfolio/02_Casos_de_Estudo.pdf)** · **[Diagramas de arquitetura](portfolio/03_Arquiteturas.pdf)** · **[Vistas técnicas](portfolio/04_Arquiteturas_Tecnicas.pdf)**
 
-Interfaces das aplicações originais, com capturas nativas em 4K no desktop e 1080 × 2400 no Android. As demonstrações de terminal incluem gravações reais e GIFs. Os dados de demonstração estão identificados em cada projeto. A revisão de código e de branches foi realizada em outubro de 2026; referências por confirmar são assinaladas no caso de estudo.
+As pré-visualizações são imagens estáticas. Abre **Ver demonstração animada** no projeto que quiseres explorar para carregar a animação completa.
 
-## Projetos profissionais
+## Projetos para clientes e negócios
 
-Trabalho para clientes, produtos independentes e ferramentas de engenharia.
+### Skevia | Plataforma de agendamentos
 
-### Skevia · Agendamento multi-tenant
+**Fullstack | Produto e serviços para negócios**
 
-**Disponibilidade, serviços e confirmação de marcações numa plataforma para negócios de serviços.**
+Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviços, profissionais, horários, clientes e marcações no seu próprio espaço. O Ícaro’s Barbershop é um dos negócios que solicitaram o serviço e é apresentado como exemplo, não como destinatário exclusivo da plataforma.
 
-A plataforma permite que cada negócio apresente a sua marca e opere a própria agenda. O Ícaro’s Barbershop, em Coimbra, é um caso aplicado, com catálogo de serviços, pacotes e marcação online.
+**Tecnologias:** Java, Spring Boot, PostgreSQL, Flyway, React, TypeScript, Cloudflare
 
-<a href="assets/portfolio/multi-tenant-poster.webp"><img src="assets/portfolio/multi-tenant.webp" alt="Ícaro’s Barbershop · website público" width="960"></a>
-
-Organização real Ícaro’s Barbershop: site público, agenda, serviços, pacotes e editor capturados em 30/10/2026. Consulta apenas; nenhuma reserva ou configuração alterada.
+<a href="assets/portfolio/multi-tenant-poster.webp"><img src="assets/portfolio/multi-tenant-poster.webp" alt="Pré-visualização de Skevia | Plataforma de agendamentos" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Encontrar disponibilidade e selecionar serviços ou pacotes compatíveis com o horário.
-- Escolher o profissional, rever o pedido e consultar o estado de confirmação.
-- Gerir a agenda e as marcações, mantendo catálogo, equipa e horários.
-- Personalizar o website do negócio e acompanhar os relatórios operacionais.
-
-**Interface:** Website com hero fotográfico, identidade verde e catálogo ilustrado de serviços e pacotes, com preços, duração e seleção para marcação. O cliente consulta disponibilidade, escolhe serviços e profissional e fornece os contactos. A confirmação distingue pedido pendente de marcação confirmada. O backoffice reúne agenda, marcações, catálogo, equipa, horários, clientes, relatórios, imagens e edição visual do site.
-
-**Backend e dados:** API Java e Spring Boot para catálogo, disponibilidade, marcações e operações do negócio, com PostgreSQL e migrações. Um renderer React partilhado mantém a apresentação pública consistente com a prévia no editor.
-
-**Tecnologias:** Java, Spring Boot, React, TypeScript, PostgreSQL
+- **Funcionalidades:** agendamento online, disponibilidade por profissional, backoffice, personalização do site e relatórios.
+- **Backend:** regras de disponibilidade e conflitos, transações, isolamento de tenants, autenticação, RLS e contratos OpenAPI.
+- **Frontend:** site público e painel de gestão, com componentes reutilizados no editor visual.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/multi-tenant.svg" alt="Arquitetura de Skevia · Agendamento multi-tenant: componentes, responsabilidades e fluxos principais" width="1100">
+<img src="assets/portfolio/multi-tenant.webp" alt="Demonstração de Skevia | Plataforma de agendamentos" width="720" loading="lazy">
 
-[SVG vetorial](architecture/multi-tenant.svg) · [PNG em alta resolução](architecture/multi-tenant.png)
+</details>
+
+<p>
+<a href="architecture/multi-tenant.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/multi-tenant-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/multi-tenant.svg) | [Vista técnica](architecture/technical/multi-tenant.svg) | [PNG da arquitetura](architecture/multi-tenant.png)
+
+</details>
+
+### Marta | Her Legacy
+
+**Website editorial | Frontend e design**
+
+Site informativo para apresentação de serviços de mentoria, conteúdos, formulários de contacto e lista de espera de um planner. O trabalho concentrou-se na identidade visual, estrutura editorial e experiência de navegação.
+
+**Tecnologias:** Next.js, React, TypeScript, CSS
+
+<a href="assets/portfolio/marta-poster.webp"><img src="assets/portfolio/marta-poster.webp" alt="Pré-visualização de Marta | Her Legacy" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Interface:** páginas responsivas, serviços, apresentação da marca, formulários e SEO.
+- **Integração simples:** envio de contactos por email através de um serviço Spring Boot. Sem base de dados ou backend de negócio complexo.
 
 </details>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver demonstração animada</summary>
 
-Contratos tipados ligam duas experiências React aos módulos de negócio e aos adaptadores de infraestrutura.
-
-<img src="architecture/technical/multi-tenant.svg" alt="Vista técnica de Skevia · Agendamento multi-tenant" width="1100">
-
-- **Contrato como referência:** OpenAPI alinha a API e o cliente TypeScript.
-- **Reutilização da apresentação:** O mesmo renderer serve o website e a prévia do editor.
-- **Evolução dos dados:** Repositories e migrações separam persistência e casos de uso.
-
-[SVG vetorial](architecture/technical/multi-tenant.svg) · [PNG em alta resolução](architecture/technical/multi-tenant.png)
+<img src="assets/portfolio/marta.webp" alt="Demonstração de Marta | Her Legacy" width="720" loading="lazy">
 
 </details>
 
-[Arquitetura pública](architecture/multi-tenant.svg) · [Imagem estática nativa](assets/portfolio/multi-tenant-poster.webp)
+<p>
+<a href="architecture/marta.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/marta-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
 
-### Marta · Her Legacy
 
-**Da descoberta da marca à sessão de diagnóstico, mentoria e lista de espera do planner.**
-
-Website da Marta Silva que apresenta a sua abordagem de organização pessoal e transforma o interesse em pedidos de acompanhamento. A versão atual reúne sessão gratuita de diagnóstico, serviços de mentoria, apresentação do Protocolo Mente no Papel e lista de espera do Her Legacy Planner.
-
-<a href="assets/portfolio/marta-poster.webp"><img src="assets/portfolio/marta.webp" alt="Hero atual Her Legacy" width="960"></a>
-
-Interface original Her Legacy da main: diagnóstico, Protocolo Mente no Papel, planner, serviços e contacto. Capturas nativas de outubro de 2026.
+</p>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-- Conhecer a proposta da marca e identificar necessidades através do diagnóstico de rotina.
-- Pedir uma sessão gratuita com nome, email e contacto telefónico.
-- Consultar os serviços de mentoria e manifestar interesse no Protocolo Mente no Papel.
-- Inscrever-se na lista de espera do Her Legacy Planner.
-- Enviar uma mensagem e receber a confirmação do pedido.
-
-**Interface:** Homepage editorial com hero fotográfico, apresentação da Marta, diagnóstico de rotina, formulário de sessão gratuita, Protocolo Mente no Papel, testemunhos, planner e perguntas frequentes. Páginas próprias de serviços/mentoria, sobre e contacto. Formulários apresentam validação, envio, confirmação e erro.
-
-**Backend e dados:** Next.js valida os pedidos e encaminha-os para o serviço Spring Boot de email. O serviço envia a mensagem à marca e a confirmação ao interessado. A sessão de diagnóstico reutiliza o fluxo de contacto com o contexto da candidatura. Os pedidos não são persistidos numa base de dados.
-
-**Tecnologias:** Next.js, React, TypeScript, Spring Boot, Email
+[Arquitetura](architecture/marta.svg) | [Vista técnica](architecture/technical/marta.svg) | [PNG da arquitetura](architecture/marta.png)
 
 </details>
-
-<details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
-
-<img src="architecture/marta.svg" alt="Arquitetura de Marta · Her Legacy: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/marta.svg) · [PNG em alta resolução](architecture/marta.png)
-
-</details>
-
-<details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
-
-O formulário atravessa a camada Next.js e um serviço de aplicação, chegando ao email por uma abstração de envio.
-
-<img src="architecture/technical/marta.svg" alt="Vista técnica de Marta · Her Legacy" width="1100">
-
-- **Porta e adaptador:** A aplicação depende de uma abstração de envio.
-- **Pedido e confirmação:** O fluxo prepara comunicação para ambos os destinatários.
-- **Sem persistência de pedidos:** O percurso atual encaminha as solicitações por email.
-
-[SVG vetorial](architecture/technical/marta.svg) · [PNG em alta resolução](architecture/technical/marta.png)
-
-</details>
-
-[Arquitetura pública](architecture/marta.svg) · [Imagem estática nativa](assets/portfolio/marta-poster.webp)
 
 ### Coimbra MMA
 
-**Uma academia acessível a quem chega de qualquer lugar.**
+**Website informativo | Frontend e design**
 
-Uma academia de artes marciais em Coimbra precisava apresentar modalidades, horários e contacto com clareza para públicos locais e internacionais.
-
-<a href="assets/portfolio/coimbra-mma-poster.webp"><img src="assets/portfolio/coimbra-mma.webp" alt="Página inicial" width="960"></a>
-
-Interface original: apresentação, assistente de modalidade, horários e seletor de idiomas.
-
-<details>
-<summary>Casos de uso, interface e backend</summary>
-
-- Descobrir a academia e comparar modalidades.
-- Usar o assistente de modalidades para encontrar uma opção adequada.
-- Consultar a grelha de horários e abrir detalhes de uma aula.
-- Mudar de idioma e encontrar os canais de contacto.
-
-**Interface:** Website adaptável com modalidades, horários, informação da academia e contacto. Inclui um assistente para encontrar uma modalidade adequada, detalhes das aulas em diálogo e navegação em oito idiomas.
-
-**Backend e dados:** Conteúdo estático gerado por Astro, componentes reutilizáveis e validação das traduções no build. A experiência pública não exige API.
+Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários, apresentação da academia e canais de contacto, com conteúdo em oito idiomas.
 
 **Tecnologias:** Astro, JavaScript, i18n, SEO
 
+<a href="assets/portfolio/coimbra-mma-poster.webp"><img src="assets/portfolio/coimbra-mma-poster.webp" alt="Pré-visualização de Coimbra MMA" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Interface:** páginas responsivas, horários e assistente de modalidades.
+- **Implementação:** páginas geradas estaticamente e validação das traduções. Não utiliza uma API de negócio.
+
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/coimbra-mma.svg" alt="Arquitetura de Coimbra MMA: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/coimbra-mma.svg) · [PNG em alta resolução](architecture/coimbra-mma.png)
+<img src="assets/portfolio/coimbra-mma.webp" alt="Demonstração de Coimbra MMA" width="720" loading="lazy">
 
 </details>
+
+<p>
+<a href="architecture/coimbra-mma.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/coimbra-mma-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+ <a href="https://coimbramma.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-Conteúdo multilingue e componentes Astro produzem páginas estáticas, complementadas por interações locais no browser.
-
-<img src="architecture/technical/coimbra-mma.svg" alt="Vista técnica de Coimbra MMA" width="1100">
-
-- **Geração estática:** A apresentação pública funciona sem uma API de negócio.
-- **Internacionalização:** Uma estrutura comum suporta oito conjuntos de textos.
-- **Interações pontuais:** O browser executa os fluxos de modalidade e horários.
-
-[SVG vetorial](architecture/technical/coimbra-mma.svg) · [PNG em alta resolução](architecture/technical/coimbra-mma.png)
+[Arquitetura](architecture/coimbra-mma.svg) | [Vista técnica](architecture/technical/coimbra-mma.svg) | [PNG da arquitetura](architecture/coimbra-mma.png)
 
 </details>
-
-[Arquitetura pública](architecture/coimbra-mma.svg) · [Imagem estática nativa](assets/portfolio/coimbra-mma-poster.webp)
 
 ### Dalliany Tavares Advocacia
 
-**Presença digital editorial para serviços jurídicos.**
+**Website editorial | Frontend e design**
 
-Projeto de site multipágina para explicar áreas de atuação e facilitar a descoberta dos serviços, com conteúdo sujeito a confirmação antes da publicação.
-
-<a href="assets/portfolio/dalliany-poster.webp"><img src="assets/portfolio/dalliany.webp" alt="Página inicial" width="960"></a>
-
-Interface original de pré-lançamento. Capturas locais de apresentação e áreas de atuação.
-
-<details>
-<summary>Casos de uso, interface e backend</summary>
-
-- Visitante conhece as áreas de atuação e a profissional.
-- Consulta informação sobre o atendimento presencial ou online.
-- Navega para o contacto pelos canais confirmados do projeto.
-
-**Interface:** Páginas estáticas responsivas, imagens editoriais otimizadas e navegação que funciona sem JavaScript.
-
-**Backend e dados:** Astro SSG e TypeScript, conteúdo estruturado e validações de build. Integrações de contacto ainda dependem de confirmação do cliente.
+Website informativo para apresentação da profissional e das áreas de atuação jurídica. Projeto orientado para design, navegação, conteúdos e presença digital.
 
 **Tecnologias:** Astro, TypeScript, SEO
 
+<a href="assets/portfolio/dalliany-poster.webp"><img src="assets/portfolio/dalliany-poster.webp" alt="Pré-visualização de Dalliany Tavares Advocacia" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Interface:** páginas responsivas, conteúdo estruturado e imagens otimizadas.
+- **Implementação:** geração estática sem backend de negócio complexo. Projeto em pré-lançamento, dependente de validações do cliente.
+
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/dalliany.svg" alt="Arquitetura de Dalliany Tavares Advocacia: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/dalliany.svg) · [PNG em alta resolução](architecture/dalliany.png)
+<img src="assets/portfolio/dalliany.webp" alt="Demonstração de Dalliany Tavares Advocacia" width="720" loading="lazy">
 
 </details>
+
+<p>
+<a href="architecture/dalliany.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/dalliany-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-Uma aplicação multipágina organiza conteúdo editorial e media responsiva, com melhoria progressiva no browser.
-
-<img src="architecture/technical/dalliany.svg" alt="Vista técnica de Dalliany Tavares Advocacia" width="1100">
-
-- **Multipágina estática:** Conteúdo e navegação permanecem disponíveis sem JavaScript.
-- **Media tratada no build:** AVIF e WebP adaptam as imagens aos contextos de apresentação.
-- **Pré-lançamento:** Integração CRM e publicação dependem de confirmação do cliente.
-
-[SVG vetorial](architecture/technical/dalliany.svg) · [PNG em alta resolução](architecture/technical/dalliany.png)
+[Arquitetura](architecture/dalliany.svg) | [Vista técnica](architecture/technical/dalliany.svg) | [PNG da arquitetura](architecture/dalliany.png)
 
 </details>
-
-[Arquitetura pública](architecture/dalliany.svg) · [Imagem estática nativa](assets/portfolio/dalliany-poster.webp)
 
 ### Thiago Santos English Platform
 
-**Conteúdo educativo com percurso de compra digital.**
+**Website comercial | Frontend, design e pequena integração**
 
-Website do professor Thiago Santos para apresentar o seu trabalho, método e percurso, divulgar cursos de inglês e ebooks e conduzir o visitante ao contacto ou à compra.
+Site para apresentar um professor de inglês, divulgar cursos e ebooks e permitir a navegação por catálogo e carrinho. A maior parte do trabalho foi visual, com uma integração pontual de pagamento.
 
-<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago.webp" alt="Página inicial do professor Thiago Santos" width="960"></a>
+**Tecnologias:** Eleventy, Node.js, Express, Mercado Pago, Pix
 
-Seis páginas capturadas na interface original: início, professor, contacto, cursos, ebooks e carrinho. Build local Eleventy; sem transação de pagamento.
+<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago-poster.webp" alt="Pré-visualização de Thiago Santos English Platform" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Conhecer o professor na página inicial, consultar o seu percurso e encontrar os contactos.
-- Visitante conhece os cursos de inglês e os ebooks.
-- Seleciona um produto e avança no percurso de compra.
-- O servidor coordena a integração de pagamento com Mercado Pago e Pix.
-
-**Interface:** Página inicial com apresentação do professor e proposta de ensino, página Sobre, contacto, planos de aulas, catálogo de ebooks e carrinho. Interface original em Eleventy e Nunjucks.
-
-**Backend e dados:** Fluxos de servidor em Node.js e Express, com integração de pagamento Mercado Pago e Pix.
-
-**Tecnologias:** Eleventy, Node.js, Express, Mercado Pago
+- **Interface:** página inicial, cursos, ebooks, carrinho e contactos.
+- **Integração simples:** endpoints Node.js/Express para o fluxo de pagamento com Mercado Pago e Pix. A demonstração pública não realiza transações.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/thiago.svg" alt="Arquitetura de Thiago Santos English Platform: componentes, responsabilidades e fluxos principais" width="1100">
+<img src="assets/portfolio/thiago.webp" alt="Demonstração de Thiago Santos English Platform" width="720" loading="lazy">
 
-[SVG vetorial](architecture/thiago.svg) · [PNG em alta resolução](architecture/thiago.png)
+</details>
+
+<p>
+<a href="architecture/thiago.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/thiago-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/thiago.svg) | [Vista técnica](architecture/technical/thiago.svg) | [PNG da arquitetura](architecture/thiago.png)
+
+</details>
+
+
+## Projetos pessoais
+
+### 503 | Plataforma de publicação
+
+**Projeto pessoal | Fullstack**
+
+Plataforma pessoal para gerir e publicar artigos. Inclui website público, backoffice de edição e API responsável pelas regras de publicação e persistência.
+
+**Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, Flyway, Astro, React, Azure, Cloudflare
+
+<a href="assets/portfolio/503-poster.webp"><img src="assets/portfolio/503-poster.webp" alt="Pré-visualização de 503 | Plataforma de publicação" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Funcionalidades:** rascunhos, edição de artigos, publicação, capas e autenticação administrativa.
+- **Backend:** API REST, regras editoriais, segurança, persistência e migrações.
+- **Frontend:** site público em Astro e administração separada em React.
 
 </details>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver demonstração animada</summary>
 
-O conteúdo é compilado por Eleventy; o browser reúne a seleção e o servidor coordena o percurso comercial.
-
-<img src="architecture/technical/thiago.svg" alt="Vista técnica de Thiago Santos English Platform" width="1100">
-
-- **Conteúdo pré-compilado:** Eleventy mantém as páginas comerciais separadas do servidor.
-- **Integração por adaptador:** A aplicação coordena o percurso com o fornecedor de pagamentos.
-- **Âmbito da demonstração:** O portfólio exercita catálogo e carrinho; não realiza transações.
-
-[SVG vetorial](architecture/technical/thiago.svg) · [PNG em alta resolução](architecture/technical/thiago.png)
+<img src="assets/portfolio/503.webp" alt="Demonstração de 503 | Plataforma de publicação" width="720" loading="lazy">
 
 </details>
 
-[Arquitetura pública](architecture/thiago.svg) · [Imagem estática nativa](assets/portfolio/thiago-poster.webp)
+<p>
+<a href="architecture/503.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/503-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
 
-### 503
-
-**Publicar com método. Ler sem ruído.**
-
-Uma publicação independente precisava separar a experiência de leitura do fluxo interno de criação e publicação de artigos.
-
-<a href="assets/portfolio/503-poster.webp"><img src="assets/portfolio/503.webp" alt="Página inicial" width="960"></a>
-
-Site Astro, administração React e API Spring Boot executados localmente. Artigos e conta de demonstração.
+ <a href="https://blog503.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-- Explorar artigos e categorias e abrir uma leitura dedicada.
-- Criar e editar artigos por blocos no backoffice.
-- Definir capa, metadados e categoria antes de publicar.
-- Rever os requisitos de publicação e manter o conteúdo editorial.
-
-**Interface:** Leitura e descoberta de artigos no website Astro. No backoffice React, edição por blocos, gestão de categorias, imagem de capa, campos editoriais e checklist de publicação.
-
-**Backend e dados:** API Spring Boot que centraliza o ciclo editorial e persiste artigos em PostgreSQL; implantação com Azure e Cloudflare.
-
-**Tecnologias:** Spring Boot, Astro, React, PostgreSQL
+[Arquitetura](architecture/503.svg) | [Vista técnica](architecture/technical/503.svg) | [PNG da arquitetura](architecture/503.png)
 
 </details>
-
-<details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
-
-<img src="architecture/503.svg" alt="Arquitetura de 503: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/503.svg) · [PNG em alta resolução](architecture/503.png)
-
-</details>
-
-<details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
-
-Duas aplicações de apresentação usam os serviços editoriais; persistência e publicação ficam sob responsabilidade da API.
-
-<img src="architecture/technical/503.svg" alt="Vista técnica de 503" width="1100">
-
-- **Separação de responsabilidades:** Leitura pública e operação editorial têm interfaces próprias.
-- **Publicação coordenada:** A API concentra as regras e solicita a atualização do website.
-- **Execução documentada:** Azure para a API; Cloudflare na distribuição web.
-
-[SVG vetorial](architecture/technical/503.svg) · [PNG em alta resolução](architecture/technical/503.png)
-
-</details>
-
-[Arquitetura pública](architecture/503.svg) · [Imagem estática nativa](assets/portfolio/503-poster.webp)
 
 ### AssessFlow
 
-**Avaliações ao vivo, na nuvem ou em rede local.**
+**Projeto pessoal | Fullstack**
 
-Plataforma para autores prepararem bancos de perguntas e avaliações reutilizáveis, e para docentes conduzirem sessões com participação e resultados em tempo real. Funciona pela internet ou numa rede local através do modo Local Live.
+Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participação por código ou QR. Funciona na nuvem ou em rede local.
 
-<a href="assets/portfolio/assessflow-poster.webp"><img src="assets/portfolio/assessflow.webp" alt="Banco de perguntas preenchido" width="960"></a>
+**Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, React, WebSocket, STOMP
 
-Interface atualizada em 28/10/2026. React, API Spring Boot e PostgreSQL locais; perguntas, sessão e resultados reais com três participantes fictícios.
+<a href="assets/portfolio/assessflow-poster.webp"><img src="assets/portfolio/assessflow-poster.webp" alt="Pré-visualização de AssessFlow" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Criar perguntas e organizar um banco reutilizável.
-- Montar uma avaliação, definir as perguntas e publicá-la.
-- Abrir uma sessão, apresentar o código de entrada e acompanhar os participantes.
-- Iniciar perguntas e acompanhar as respostas e os resultados.
-- Concluir a sessão e exportar resultados em CSV; usar Local Live numa rede local.
-
-**Interface:** Workspace por organização com navegação lateral, banco de perguntas filtrável e construtor com seleção, pontuação e ordem em áreas distintas. Sala ao vivo com código e QR, lista de participantes e resultados visuais; interface do participante com alto contraste e seleção explícita da resposta.
-
-**Backend e dados:** API Spring Boot com PostgreSQL e comunicação WebSocket. Organizações separam os dados; modo local permite sessões numa LAN.
-
-**Tecnologias:** Spring Boot, React, PostgreSQL, WebSocket
+- **Funcionalidades:** autoria de avaliações, sessões em tempo real, respostas, resultados e exportação CSV.
+- **Backend:** organizações isoladas, permissões, API REST, WebSockets e persistência com Flyway.
+- **Qualidade:** testes com Testcontainers e integração contínua. Redis e RabbitMQ são opções de escala, não dependências obrigatórias.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/assessflow.svg" alt="Arquitetura de AssessFlow: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/assessflow.svg) · [PNG em alta resolução](architecture/assessflow.png)
+<img src="assets/portfolio/assessflow.webp" alt="Demonstração de AssessFlow" width="720" loading="lazy">
 
 </details>
+
+<p>
+<a href="architecture/assessflow.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/assessflow-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+ <a href="https://github.com/DaviGama08/assessflow"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-O domínio de avaliações combina operações HTTP, eventos de sessão e persistência; o modo Local Live reutiliza a aplicação.
-
-<img src="architecture/technical/assessflow.svg" alt="Vista técnica de AssessFlow" width="1100">
-
-- **Dois modos de comunicação:** Operações HTTP e eventos WebSocket servem a sessão ao vivo.
-- **Domínio modular:** Autoria, sessão e Local Live têm responsabilidades próprias.
-- **Cloud e execução local:** A mesma lógica de negócio suporta os dois contextos.
-
-[SVG vetorial](architecture/technical/assessflow.svg) · [PNG em alta resolução](architecture/technical/assessflow.png)
+[Arquitetura](architecture/assessflow.svg) | [Vista técnica](architecture/technical/assessflow.svg) | [PNG da arquitetura](architecture/assessflow.png)
 
 </details>
 
-[Arquitetura pública](architecture/assessflow.svg) · [Código](https://github.com/DaviGama08/assessflow) · [Imagem estática nativa](assets/portfolio/assessflow-poster.webp)
 
 ## Projetos académicos
 
-Aplicações e sistemas desenvolvidos durante a formação no ISEC.
+<details>
+<summary>Ver projetos desenvolvidos durante a licenciatura</summary>
 
 ### Distributed Quiz
 
-**Uma sessão que continua mesmo após falhas.**
+**Java | Sistemas distribuídos**
 
-Projeto académico para gerir questionários entre professor e alunos, mantendo sessões disponíveis perante a falha de um serviço.
+Sistema de questionários para docentes e alunos com clientes JavaFX e servidores que suportam descoberta, replicação e recuperação após falhas.
 
-<a href="assets/portfolio/distributed-quiz-poster.webp"><img src="assets/portfolio/distributed-quiz.webp" alt="Aplicação JavaFX: gestão das perguntas" width="960"></a>
+**Tecnologias:** Java, JavaFX, TCP, UDP, multicast, SQLite, Maven
 
-Interface JavaFX original com respostas de rede substituídas por dados de demonstração. Não representa validação do sistema distribuído em execução.
+<a href="assets/portfolio/distributed-quiz-poster.webp"><img src="assets/portfolio/distributed-quiz-poster.webp" alt="Pré-visualização de Distributed Quiz" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Professor cria perguntas e disponibiliza uma sessão a alunos.
-- Alunos entram na sessão, recebem perguntas e enviam respostas.
-- O sistema recupera o serviço e a sessão quando um servidor deixa de responder.
-
-**Interface:** Clientes JavaFX para docentes e participantes. O docente cria e gere perguntas e acompanha respostas; o aluno entra por código, responde e consulta o histórico.
-
-**Backend e dados:** Serviços Java com descoberta, replicação primário/backup, heartbeat, failover e persistência SQLite; TCP, UDP e multicast.
-
-**Tecnologias:** Java, JavaFX, TCP / UDP, SQLite
+- **Funcionalidades:** perguntas, respostas, códigos de acesso, estatísticas e notificações.
+- **Arquitetura:** descoberta de serviços, replicação primário/backup, heartbeats, failover e reconexão.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/distributed-quiz.svg" alt="Arquitetura de Distributed Quiz: componentes, responsabilidades e fluxos principais" width="1100">
+<img src="assets/portfolio/distributed-quiz.webp" alt="Demonstração de Distributed Quiz" width="720" loading="lazy">
 
-[SVG vetorial](architecture/distributed-quiz.svg) · [PNG em alta resolução](architecture/distributed-quiz.png)
+</details>
+
+<p>
+<a href="architecture/distributed-quiz.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/distributed-quiz-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+ <a href="https://github.com/DaviGama08/distributed-quiz-platform-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
+
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/distributed-quiz.svg) | [Vista técnica](architecture/technical/distributed-quiz.svg) | [PNG da arquitetura](architecture/distributed-quiz.png)
+
+</details>
+
+### MyMEDIA
+
+**.NET | Fullstack académico**
+
+Marketplace académico de produtos multimédia, com loja pública, backoffice e API partilhada por várias interfaces.
+
+**Tecnologias:** C#, ASP.NET Core, Blazor, EF Core, SQL Server
+
+<a href="assets/portfolio/mymedia-poster.webp"><img src="assets/portfolio/mymedia-poster.webp" alt="Pré-visualização de MyMEDIA" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Funcionalidades:** produtos, favoritos, carrinho, encomendas e gestão administrativa.
+- **Backend:** API REST, autenticação, permissões e persistência relacional.
 
 </details>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver demonstração animada</summary>
 
-Descoberta, pedidos e replicação usam canais distintos para coordenar clientes desktop e servidores de quiz.
-
-<img src="architecture/technical/distributed-quiz.svg" alt="Vista técnica de Distributed Quiz" width="1100">
-
-- **Canais com funções distintas:** Descoberta, pedidos e presença têm responsabilidades separadas.
-- **Estado replicado:** Snapshots de SQLite apoiam a sincronização da réplica.
-- **Validação da demonstração:** A captura da UI não comprova failover ou transporte de rede.
-
-[SVG vetorial](architecture/technical/distributed-quiz.svg) · [PNG em alta resolução](architecture/technical/distributed-quiz.png)
+<img src="assets/portfolio/mymedia.webp" alt="Demonstração de MyMEDIA" width="720" loading="lazy">
 
 </details>
 
-[Arquitetura pública](architecture/distributed-quiz.svg) · [Código](https://github.com/DaviGama08/distributed-quiz-platform-isec) · [Imagem estática nativa](assets/portfolio/distributed-quiz-poster.webp)
+<p>
+<a href="architecture/mymedia.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/mymedia-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
 
-### MyMEDIA · PWEB .NET
 
-**Comércio multimédia em várias interfaces.**
-
-Marketplace académico de multimédia que reúne clientes, fornecedores e operação interna. Cobre catálogo e inventário, compras e alugueres, favoritos, carrinho e processos de aprovação.
-
-<a href="assets/portfolio/mymedia-poster.webp"><img src="assets/portfolio/mymedia.webp" alt="Página inicial MyMEDIA" width="960"></a>
-
-Interface Blazor original executada em .NET 8 com API local de dados fictícios. Catálogo, favoritos e carrinho exercitados; backend SQL Server, autenticação e pagamento não validados nesta captura.
+</p>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-- Pesquisar o catálogo, guardar favoritos e preparar compras ou alugueres.
-- Gerir produtos, categorias e inventário.
-- Acompanhar encomendas e operações do marketplace.
-- Aprovar intervenientes e executar tarefas administrativas.
-
-**Interface:** Página inicial, catálogo por categorias, favoritos e carrinho na interface original Blazor do projeto PWEB.
-
-**Backend e dados:** API REST em ASP.NET Core, Entity Framework Core e SQL Server, com autenticação e papéis.
-
-**Tecnologias:** C#, .NET, Blazor, SQL Server
+[Arquitetura](architecture/mymedia.svg) | [Vista técnica](architecture/technical/mymedia.svg) | [PNG da arquitetura](architecture/mymedia.png)
 
 </details>
-
-<details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
-
-<img src="architecture/mymedia.svg" alt="Arquitetura de MyMEDIA · PWEB .NET: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/mymedia.svg) · [PNG em alta resolução](architecture/mymedia.png)
-
-</details>
-
-<details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
-
-Clientes web e híbridos partilham contratos HTTP, repositórios e um modelo relacional de marketplace.
-
-<img src="architecture/technical/mymedia.svg" alt="Vista técnica de MyMEDIA · PWEB .NET" width="1100">
-
-- **Repositórios por domínio:** Interfaces de acesso isolam a API dos detalhes de persistência.
-- **Vários clientes:** Loja, backoffice e cliente híbrido usam a mesma API.
-- **Referência local:** Vista baseada na revisão local; branch remota por confirmar.
-
-[SVG vetorial](architecture/technical/mymedia.svg) · [PNG em alta resolução](architecture/technical/mymedia.png)
-
-</details>
-
-[Arquitetura pública](architecture/mymedia.svg) · [Imagem estática nativa](assets/portfolio/mymedia-poster.webp)
 
 ### JavaFX Chess
 
-**As regras do xadrez traduzidas em software testável.**
+**Java | Desktop**
 
-Aplicação desktop que implementa partidas completas e permite continuar jogos guardados.
-
-<a href="assets/portfolio/javafx-chess-poster.webp"><img src="assets/portfolio/javafx-chess.webp" alt="Aplicação JavaFX: partida em curso" width="960"></a>
-
-Aplicação JavaFX original, executada com o modelo real: partida local, movimentos possíveis e edição de posições.
-
-<details>
-<summary>Casos de uso, interface e backend</summary>
-
-- Jogar uma partida local com validação das regras.
-- Explorar movimentos legais no modo de aprendizagem.
-- Guardar a partida, editar posições e desfazer ou refazer jogadas.
-
-**Interface:** Aplicação JavaFX para dois jogadores locais, com tabuleiro, aprendizagem de movimentos, editor de posições e histórico da partida.
-
-**Backend e dados:** Lógica Java para validação de jogadas, xeque, roque, desfazer/refazer e persistência, organizada em MVC.
+Aplicação de xadrez com validação de jogadas, regras completas, histórico, edição de posições e persistência local.
 
 **Tecnologias:** Java, JavaFX, Maven, JUnit
 
+<a href="assets/portfolio/javafx-chess-poster.webp"><img src="assets/portfolio/javafx-chess-poster.webp" alt="Pré-visualização de JavaFX Chess" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Implementação:** regras de xeque, roque, promoção e fim de jogo.
+- **Arquitetura:** MVC e padrões Facade, Memento e Observer; testes da lógica de jogo.
+
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/javafx-chess.svg" alt="Arquitetura de JavaFX Chess: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/javafx-chess.svg) · [PNG em alta resolução](architecture/javafx-chess.png)
+<img src="assets/portfolio/javafx-chess.webp" alt="Demonstração de JavaFX Chess" width="720" loading="lazy">
 
 </details>
+
+<p>
+<a href="architecture/javafx-chess.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/javafx-chess-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+ <a href="https://github.com/davigama-academic/javafx-chess-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-MVC, Facade e Memento organizam a interação, as regras da partida e a recuperação de estados.
-
-<img src="architecture/technical/javafx-chess.svg" alt="Vista técnica de JavaFX Chess" width="1100">
-
-- **MVC e fachada:** A UI acede ao domínio através de operações concentradas.
-- **Memento:** Estados completos permitem regressar e avançar no histórico.
-- **Observer:** Mudanças no modelo conduzem a atualização da interface.
-
-[SVG vetorial](architecture/technical/javafx-chess.svg) · [PNG em alta resolução](architecture/technical/javafx-chess.png)
+[Arquitetura](architecture/javafx-chess.svg) | [Vista técnica](architecture/technical/javafx-chess.svg) | [PNG da arquitetura](architecture/javafx-chess.png)
 
 </details>
-
-[Arquitetura pública](architecture/javafx-chess.svg) · [Código](https://github.com/davigama-academic/javafx-chess-isec) · [Imagem estática nativa](assets/portfolio/javafx-chess-poster.webp)
 
 ### SurpriseMe
 
-**Ideias de presente no contexto de pessoas e datas.**
+**Java | Desktop**
 
-Aplicação para gerir destinatários, ocasiões e histórico de presentes, ajudando a evitar repetições.
+Organizador de presentes com destinatários, ocasiões e histórico para apoiar a escolha de sugestões.
 
-<a href="assets/portfolio/surpriseme-poster.webp"><img src="assets/portfolio/surpriseme.webp" alt="Aplicação JavaFX: destinatários" width="960"></a>
+**Tecnologias:** Java, JavaFX, Maven
 
-Aplicação JavaFX original com destinatários e eventos fictícios. O formulário de sugestões é apresentado sem chamada ao serviço de IA.
+<a href="assets/portfolio/surpriseme-poster.webp"><img src="assets/portfolio/surpriseme-poster.webp" alt="Pré-visualização de SurpriseMe" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Gerir destinatários com interesses e preferências.
-- Organizar datas e consultar o histórico de presentes.
-- Obter sugestões de presente e de mensagem para um cartão.
-
-**Interface:** Aplicação JavaFX para organizar destinatários, interesses, eventos e histórico de presentes, com um assistente para configurar pedidos de sugestões.
-
-**Backend e dados:** Lógica Java e persistência local para relacionar destinatários, eventos e presentes.
-
-**Tecnologias:** Java, JavaFX
+- **Implementação:** gestão de pessoas, eventos e presentes, com persistência local.
+- **Integração:** componente de sugestão isolado; a demonstração visual não executa a inferência externa.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/surpriseme.svg" alt="Arquitetura de SurpriseMe: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/surpriseme.svg) · [PNG em alta resolução](architecture/surpriseme.png)
+<img src="assets/portfolio/surpriseme.webp" alt="Demonstração de SurpriseMe" width="720" loading="lazy">
 
 </details>
+
+<p>
+<a href="architecture/surpriseme.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/surpriseme-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+ <a href="https://github.com/davigama-academic/surpriseme-gift-assistant-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-A interface coordena destinatários e eventos; persistência e geração de sugestões usam componentes separados.
-
-<img src="architecture/technical/surpriseme.svg" alt="Vista técnica de SurpriseMe" width="1100">
-
-- **Separação de responsabilidades:** UI, modelo, persistência e integração têm funções distintas.
-- **Contexto explícito:** Critérios e histórico orientam a preparação da sugestão.
-- **Âmbito da demonstração:** A UI foi exercitada; a inferência externa não foi executada.
-
-[SVG vetorial](architecture/technical/surpriseme.svg) · [PNG em alta resolução](architecture/technical/surpriseme.png)
+[Arquitetura](architecture/surpriseme.svg) | [Vista técnica](architecture/technical/surpriseme.svg) | [PNG da arquitetura](architecture/surpriseme.png)
 
 </details>
-
-[Arquitetura pública](architecture/surpriseme.svg) · [Código](https://github.com/davigama-academic/surpriseme-gift-assistant-isec) · [Imagem estática nativa](assets/portfolio/surpriseme-poster.webp)
 
 ### Unix Topic Message Broker
 
-**Mensagens por tópico entre processos independentes.**
+**C | Sistemas operativos**
 
-Estudo prático de comunicação concorrente e entrega persistente de mensagens num sistema Unix.
+Broker local de mensagens por tópico, usando processos e mecanismos POSIX para publicação, subscrição e entrega concorrente.
 
-<a href="assets/portfolio/unix-broker-poster.webp"><img src="assets/portfolio/unix-broker.webp" alt="Broker e clientes: subscrições" width="960"></a>
+**Tecnologias:** C, POSIX FIFOs, pthreads, select
 
-Execução real do broker e de dois clientes em processos separados. Utilizadores fictícios; subscrições, mensagens e moderação por FIFOs POSIX.
-
-[GIF da execução](assets/portfolio/unix-broker.gif) · [Vídeo completo](assets/portfolio/unix-broker.mp4)
+<a href="assets/portfolio/unix-broker-poster.webp"><img src="assets/portfolio/unix-broker-poster.webp" alt="Pré-visualização de Unix Topic Message Broker" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Um cliente subscreve os tópicos que pretende acompanhar.
-- Outro cliente publica uma mensagem num tópico.
-- O gestor coordena entrega concorrente e mensagens persistentes.
-
-**Interface:** Clientes de linha de comandos para publicar e subscrever tópicos; não possui interface gráfica.
-
-**Backend e dados:** Gestor central em C com named pipes POSIX, pthreads, select e sinais.
-
-**Tecnologias:** C, POSIX IPC, pthreads
+- **Implementação:** gestor central, clientes independentes, sincronização e mensagens persistentes.
+- **Demonstração:** execução real em terminal.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/unix-broker.svg" alt="Arquitetura de Unix Topic Message Broker: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/unix-broker.svg) · [PNG em alta resolução](architecture/unix-broker.png)
+<img src="assets/portfolio/unix-broker.webp" alt="Demonstração de Unix Topic Message Broker" width="720" loading="lazy">
 
 </details>
+
+<a href="assets/portfolio/unix-broker.mp4">Vídeo da execução</a>
+
+<p>
+<a href="architecture/unix-broker.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/unix-broker-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-Vista técnica dos mecanismos documentados: processos clientes, IPC POSIX, coordenação e mensagens persistentes.
-
-<img src="architecture/technical/unix-broker.svg" alt="Vista técnica de Unix Topic Message Broker" width="1100">
-
-- **Aplicação de sistemas:** A experiência é de terminal e comunicação entre processos.
-- **IPC POSIX:** Os named pipes são apresentados sem nomes ou configuração.
-- **Código e execução:** Fontes recuperadas; execução local documentada na ficha do projeto.
-
-[SVG vetorial](architecture/technical/unix-broker.svg) · [PNG em alta resolução](architecture/technical/unix-broker.png)
+[Arquitetura](architecture/unix-broker.svg) | [Vista técnica](architecture/technical/unix-broker.svg) | [PNG da arquitetura](architecture/unix-broker.png)
 
 </details>
-
-[Arquitetura pública](architecture/unix-broker.svg) · [Imagem estática nativa](assets/portfolio/unix-broker-poster.webp)
 
 ### Windows IPC Word Game
 
-**Um jogo multiplayer entre processos Windows.**
+**C | Sistemas operativos**
 
-Projeto académico para aplicar comunicação e sincronização entre jogadores humanos, bots e monitorização.
+Jogo de palavras com vários processos Windows, jogadores, bots e painel de monitorização.
 
-<a href="assets/portfolio/windows-game-poster.webp"><img src="assets/portfolio/windows-game.webp" alt="Árbitro, jogadores e painel Win32" width="960"></a>
+**Tecnologias:** C, Win32 API, named pipes, shared memory
 
-Processos Win32 originais executados em Wine. Capturas e gravação com jogadores e dicionário de demonstração; build MinGW com correção local da flag ativo no handler, codificação e recursos.
-
-[GIF da execução](assets/portfolio/windows-game.gif) · [Vídeo completo](assets/portfolio/windows-game.mp4)
+<a href="assets/portfolio/windows-game-poster.webp"><img src="assets/portfolio/windows-game-poster.webp" alt="Pré-visualização de Windows IPC Word Game" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Jogadores humanos participam num jogo de palavras.
-- Bots autónomos interagem com a mesma sessão.
-- Um painel Win32 acompanha o estado da aplicação.
-
-**Interface:** Clientes nativos e painel de monitorização Win32.
-
-**Backend e dados:** C e API Win32 com named pipes, memória partilhada e threads.
-
-**Tecnologias:** C, Win32 API, Named Pipes
+- **Implementação:** comunicação entre processos, threads, sincronização e estado de jogo partilhado.
+- **Demonstração:** execução dos componentes Win32.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/windows-game.svg" alt="Arquitetura de Windows IPC Word Game: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/windows-game.svg) · [PNG em alta resolução](architecture/windows-game.png)
+<img src="assets/portfolio/windows-game.webp" alt="Demonstração de Windows IPC Word Game" width="720" loading="lazy">
 
 </details>
+
+<a href="assets/portfolio/windows-game.mp4">Vídeo da execução</a>
+
+<p>
+<a href="architecture/windows-game.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/windows-game-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-Vista técnica do jogo multiprocesso: mensagens, estado partilhado, coordenação e observação em Win32.
-
-<img src="architecture/technical/windows-game.svg" alt="Vista técnica de Windows IPC Word Game" width="1100">
-
-- **Comunicação Win32:** Mensagens e memória partilhada ligam os processos locais.
-- **Coordenação explícita:** A vista destaca a relação entre concorrência e estado.
-- **Código e execução:** Fontes recuperadas; execução local documentada na ficha do projeto.
-
-[SVG vetorial](architecture/technical/windows-game.svg) · [PNG em alta resolução](architecture/technical/windows-game.png)
+[Arquitetura](architecture/windows-game.svg) | [Vista técnica](architecture/technical/windows-game.svg) | [PNG da arquitetura](architecture/windows-game.png)
 
 </details>
-
-[Arquitetura pública](architecture/windows-game.svg) · [Imagem estática nativa](assets/portfolio/windows-game-poster.webp)
 
 ### SafetySec Android
 
-**Monitorização pessoal com perfis de monitor e protegido.**
+**Android | Académico**
 
-Aplicação AMOV que permite acompanhar pessoas protegidas, gerir permissões e sinalizar situações de emergência.
+Aplicação académica de acompanhamento e sinalização de emergência, com papéis de monitor e pessoa protegida.
 
-<a href="assets/portfolio/safetysec-android-poster.webp"><img src="assets/portfolio/safetysec-android.webp" alt="Seleção de perfil" width="360"></a>
+**Tecnologias:** Android, Firebase
 
-As interfaces Compose originais foram executadas no emulador Android com estado fictício num harness de captura. Autenticação cloud e sensores não foram validados nesta demonstração.
+<a href="assets/portfolio/safetysec-android-poster.webp"><img src="assets/portfolio/safetysec-android-poster.webp" alt="Pré-visualização de SafetySec Android" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Escolher o perfil de monitor ou protegido.
-- Consultar pessoas acompanhadas e gerir a partilha.
-- Aceder ao painel de monitorização e emergência.
-
-**Interface:** Seleção de perfil, painel do monitor e painel do protegido com controlo de monitorização e botão de pânico.
-
-**Backend e dados:** ViewModels Kotlin e StateFlow ligam a interface aos serviços Firebase e aos serviços Android de localização e sensores.
-
-**Tecnologias:** Kotlin, Jetpack Compose, Firebase, Android
+- **Interface:** painéis de monitorização e emergência.
+- **Âmbito da demonstração:** interface com dados fictícios; sensores e serviços cloud não foram validados na captura.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/safetysec-android.svg" alt="Arquitetura de SafetySec Android: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/safetysec-android.svg) · [PNG em alta resolução](architecture/safetysec-android.png)
+<img src="assets/portfolio/safetysec-android.webp" alt="Demonstração de SafetySec Android" width="720" loading="lazy">
 
 </details>
+
+<p>
+<a href="architecture/safetysec-android.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/safetysec-android-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-ViewModels Kotlin e StateFlow ligam a interface aos serviços Firebase e aos serviços Android de localização e sensores.
-
-<img src="architecture/technical/safetysec-android.svg" alt="Vista técnica de SafetySec Android" width="1100">
-
-- **Código original:** Jetpack Compose apresenta o estado exposto pelos ViewModels.
-- **Demonstração:** Interface original com estado fictício no emulador.
-- **Âmbito:** Serviços cloud e sensores não validados nesta captura.
-
-[SVG vetorial](architecture/technical/safetysec-android.svg) · [PNG em alta resolução](architecture/technical/safetysec-android.png)
+[Arquitetura](architecture/safetysec-android.svg) | [Vista técnica](architecture/technical/safetysec-android.svg) | [PNG da arquitetura](architecture/safetysec-android.png)
 
 </details>
-
-[Arquitetura pública](architecture/safetysec-android.svg) · [Imagem estática nativa](assets/portfolio/safetysec-android-poster.webp)
 
 ### Desert Caravan Simulator
 
-**Caravanas, comércio e sobrevivência numa simulação por turnos.**
+**C++ | POO**
 
-Jogo académico de POO em que o jogador gere caravanas, recursos e deslocações num mapa de deserto.
+Simulador por turnos em terminal, com caravanas, cidades, recursos e comandos de movimentação.
 
-<a href="assets/portfolio/desert-caravan-poster.webp"><img src="assets/portfolio/desert-caravan.webp" alt="Cenário e mapa do deserto" width="960"></a>
+**Tecnologias:** C++20, STL, POO
 
-Execução real do simulador C++20, compilado em Linux com adaptação apenas da configuração UTF-8 da consola. Cenário de demonstração; gravação dos comandos, recursos e turnos.
-
-[GIF da execução](assets/portfolio/desert-caravan.gif) · [Vídeo completo](assets/portfolio/desert-caravan.mp4)
+<a href="assets/portfolio/desert-caravan-poster.webp"><img src="assets/portfolio/desert-caravan-poster.webp" alt="Pré-visualização de Desert Caravan Simulator" width="720" loading="lazy"></a>
 
 <details>
-<summary>Casos de uso, interface e backend</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-- Carregar o cenário e consultar o mapa.
-- Comprar e movimentar caravanas.
-- Avançar turnos e acompanhar os recursos.
-
-**Interface:** Mapa ASCII, comandos de compra e movimento, consulta de cidades e evolução por turnos.
-
-**Backend e dados:** Simulador, mapa, caravanas e comandos organizados em classes C++; ficheiros de configuração definem o cenário.
-
-**Tecnologias:** C++20, POO, STL, Terminal
+- **Implementação:** classes para mapa, caravanas, comandos e evolução de turnos.
+- **Demonstração:** execução real no terminal.
 
 </details>
 
 <details>
-<summary>Diagrama de arquitetura · componentes e fluxos</summary>
+<summary>Ver demonstração animada</summary>
 
-<img src="architecture/desert-caravan.svg" alt="Arquitetura de Desert Caravan Simulator: componentes, responsabilidades e fluxos principais" width="1100">
-
-[SVG vetorial](architecture/desert-caravan.svg) · [PNG em alta resolução](architecture/desert-caravan.png)
+<img src="assets/portfolio/desert-caravan.webp" alt="Demonstração de Desert Caravan Simulator" width="720" loading="lazy">
 
 </details>
+
+<a href="assets/portfolio/desert-caravan.mp4">Vídeo da execução</a>
+
+<p>
+<a href="architecture/desert-caravan.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/desert-caravan-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
 
 <details>
-<summary>Vista técnica · camadas, contratos e padrões</summary>
+<summary>Ver arquitetura e detalhes técnicos</summary>
 
-Simulador, mapa, caravanas e comandos organizados em classes C++; ficheiros de configuração definem o cenário.
-
-<img src="architecture/technical/desert-caravan.svg" alt="Vista técnica de Desert Caravan Simulator" width="1100">
-
-- **Código original:** Comandos e entidades do domínio separam a interação da evolução do simulador.
-- **Demonstração:** Simulador original executado localmente.
-- **Âmbito:** Capturas e gravação dos comandos e turnos.
-
-[SVG vetorial](architecture/technical/desert-caravan.svg) · [PNG em alta resolução](architecture/technical/desert-caravan.png)
+[Arquitetura](architecture/desert-caravan.svg) | [Vista técnica](architecture/technical/desert-caravan.svg) | [PNG da arquitetura](architecture/desert-caravan.png)
 
 </details>
 
-[Arquitetura pública](architecture/desert-caravan.svg) · [Imagem estática nativa](assets/portfolio/desert-caravan-poster.webp)
 
-### Outros estudos académicos
+**Outros projetos:** Neural Shape Classifier e AMOV Flutter.
 
-- **Neural Shape Classifier** — Comparação de redes feedforward e interface para treino e classificação de formas geométricas.
-- **AMOV Flutter** — Projeto académico de desenvolvimento móvel preservado no arquivo da formação.
+</details>
 
-## Qualificações e experiência
+## Formação e experiência
 
-- **Licenciatura em Engenharia Informática — ISEC, 2022–2026.** Especialização em Desenvolvimento de Aplicações; conclusão em julho de 2026.
-- **Software Engineering Intern — Intermedia Intelligent Communications, março–agosto de 2026.** Pipeline de anonimização com modelos locais, preparação e avaliação de datasets, API FastAPI e interface React/Vite.
-- **Desenvolvimento freelance desde junho de 2025.** Levantamento de necessidades, frontend, backend, integrações, publicação e manutenção.
+- **Engenharia Informática, ISEC (2022 a 2026):** licenciatura com especialização em Desenvolvimento de Aplicações, concluída em julho de 2026.
+- **Experiência empresarial (2026):** estágio curricular em engenharia de software, com desenvolvimento de APIs, integração de modelos de IA e colaboração em equipa.
+- **Freelance (desde 2025):** websites e aplicações para clientes, com levantamento de requisitos, desenvolvimento e publicação.
 
-**Backend e dados:** Java, Spring Boot, C#, ASP.NET Core, Python, FastAPI, PostgreSQL, MySQL, SQL Server e SQLite.  
-**Interfaces:** React, TypeScript, Next.js, Astro, Angular, Blazor e JavaFX.  
-**Qualidade e entrega:** JUnit, Testcontainers, Vitest, Playwright, Docker e CI/CD.
-
-Disponível para oportunidades em engenharia de software e projetos freelance. [Vamos conversar](mailto:davi.torres00pro@gmail.com).
-
-<sub>Diagramas vetoriais com [créditos dos ícones](architecture/ATTRIBUTION.md).</sub>
+<sub>Créditos dos diagramas e ícones: [atribuições](architecture/ATTRIBUTION.md).</sub>
