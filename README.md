@@ -127,11 +127,6 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 </details>
 
 
-## Projetos académicos
-
-<details>
-<summary>Ver projetos desenvolvidos durante a licenciatura</summary>
-
 ### 503
 
 **Projeto pessoal | Fullstack**
@@ -675,7 +670,6 @@ Site para apresentar um professor de inglês, divulgar cursos e ebooks e permiti
 </details>
 
 
-## Projetos pessoais
 
 ## Formação e experiência
 
