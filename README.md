@@ -62,14 +62,12 @@ Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviç
 
 <a href="assets/portfolio/multi-tenant-poster.webp"><img src="assets/portfolio/multi-tenant-poster.webp" alt="Pré-visualização de Skevia | Plataforma de agendamentos" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Funcionalidades:** agendamento online, disponibilidade por profissional, backoffice, personalização do site e relatórios.
-- **Backend:** regras de disponibilidade e conflitos, transações, isolamento de tenants, autenticação, RLS e contratos OpenAPI.
-- **Frontend:** site público e painel de gestão, com componentes reutilizados no editor visual.
-
-</details>
+<p>
+<a href="https://icarosbarber.skevialtda.com/"><img alt="Ver tenant de exemplo" src="https://img.shields.io/badge/Ver_tenant_de_exemplo-0969DA?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/multi-tenant.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/multi-tenant.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/multi-tenant-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -78,18 +76,12 @@ Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviç
 
 </details>
 
-<p>
-<a href="architecture/multi-tenant.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/multi-tenant-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/multi-tenant.svg) | [Vista técnica](architecture/technical/multi-tenant.svg) | [PNG da arquitetura](architecture/multi-tenant.png)
+- **Funcionalidades:** agendamento online, disponibilidade por profissional, backoffice, personalização do site e relatórios.
+- **Backend:** regras de disponibilidade e conflitos, transações, isolamento de tenants, autenticação, RLS e contratos OpenAPI.
+- **Frontend:** site público e painel de gestão, com componentes reutilizados no editor visual.
 
 </details>
 
@@ -103,6 +95,20 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 
 <a href="assets/portfolio/assessflow-poster.webp"><img src="assets/portfolio/assessflow-poster.webp" alt="Pré-visualização de AssessFlow" width="720" loading="lazy"></a>
 
+<p>
+<a href="architecture/assessflow.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/assessflow.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/assessflow-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="https://github.com/DaviGama08/assessflow"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
+</p>
+
+<details>
+<summary>Ver demonstração animada</summary>
+
+<img src="assets/portfolio/assessflow.webp" alt="Demonstração de AssessFlow" width="720" loading="lazy">
+
+</details>
+
 <details>
 <summary>Ver funcionalidades e implementação</summary>
 
@@ -112,28 +118,7 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 
 </details>
 
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/assessflow.webp" alt="Demonstração de AssessFlow" width="720" loading="lazy">
-
-</details>
-
-<p>
-<a href="architecture/assessflow.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/assessflow-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
- <a href="https://github.com/DaviGama08/assessflow"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
-
-</p>
-
-<details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
-
-[Arquitetura](architecture/assessflow.svg) | [Vista técnica](architecture/technical/assessflow.svg) | [PNG da arquitetura](architecture/assessflow.png)
-
-</details>
-
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ### 503
 
@@ -145,14 +130,12 @@ Plataforma pessoal para gerir e publicar artigos. Inclui website público, backo
 
 <a href="assets/portfolio/503-poster.webp"><img src="assets/portfolio/503-poster.webp" alt="Pré-visualização de 503 | Plataforma de publicação" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Funcionalidades:** rascunhos, edição de artigos, publicação, capas e autenticação administrativa.
-- **Backend:** API REST, regras editoriais, segurança, persistência e migrações.
-- **Frontend:** site público em Astro e administração separada em React.
-
-</details>
+<p>
+<a href="https://blog503.com/"><img alt="Ver website" src="https://img.shields.io/badge/Ver_website-0969DA?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/503.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/503.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/503-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -161,18 +144,12 @@ Plataforma pessoal para gerir e publicar artigos. Inclui website público, backo
 
 </details>
 
-<p>
-<a href="architecture/503.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/503-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
- <a href="https://blog503.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/503.svg) | [Vista técnica](architecture/technical/503.svg) | [PNG da arquitetura](architecture/503.png)
+- **Funcionalidades:** rascunhos, edição de artigos, publicação, capas e autenticação administrativa.
+- **Backend:** API REST, regras editoriais, segurança, persistência e migrações.
+- **Frontend:** site público em Astro e administração separada em React.
 
 </details>
 
@@ -188,13 +165,12 @@ Sistema de questionários para docentes e alunos com clientes JavaFX e servidore
 
 <a href="assets/portfolio/distributed-quiz-poster.webp"><img src="assets/portfolio/distributed-quiz-poster.webp" alt="Pré-visualização de Distributed Quiz" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Funcionalidades:** perguntas, respostas, códigos de acesso, estatísticas e notificações.
-- **Arquitetura:** descoberta de serviços, replicação primário/backup, heartbeats, failover e reconexão.
-
-</details>
+<p>
+<a href="architecture/distributed-quiz.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/distributed-quiz.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/distributed-quiz-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="https://github.com/DaviGama08/distributed-quiz-platform-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -203,20 +179,15 @@ Sistema de questionários para docentes e alunos com clientes JavaFX e servidore
 
 </details>
 
-<p>
-<a href="architecture/distributed-quiz.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/distributed-quiz-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
- <a href="https://github.com/DaviGama08/distributed-quiz-platform-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/distributed-quiz.svg) | [Vista técnica](architecture/technical/distributed-quiz.svg) | [PNG da arquitetura](architecture/distributed-quiz.png)
+- **Funcionalidades:** perguntas, respostas, códigos de acesso, estatísticas e notificações.
+- **Arquitetura:** descoberta de serviços, replicação primário/backup, heartbeats, failover e reconexão.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ## Outros projetos técnicos
 
@@ -233,13 +204,11 @@ Marketplace académico de produtos multimédia, com loja pública, backoffice e 
 
 <a href="assets/portfolio/mymedia-poster.webp"><img src="assets/portfolio/mymedia-poster.webp" alt="Pré-visualização de MyMEDIA" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Funcionalidades:** produtos, favoritos, carrinho, encomendas e gestão administrativa.
-- **Backend:** API REST, autenticação, permissões e persistência relacional.
-
-</details>
+<p>
+<a href="architecture/mymedia.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/mymedia.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/mymedia-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -248,20 +217,15 @@ Marketplace académico de produtos multimédia, com loja pública, backoffice e 
 
 </details>
 
-<p>
-<a href="architecture/mymedia.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/mymedia-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/mymedia.svg) | [Vista técnica](architecture/technical/mymedia.svg) | [PNG da arquitetura](architecture/mymedia.png)
+- **Funcionalidades:** produtos, favoritos, carrinho, encomendas e gestão administrativa.
+- **Backend:** API REST, autenticação, permissões e persistência relacional.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ### JavaFX Chess
 
@@ -273,13 +237,12 @@ Aplicação de xadrez com validação de jogadas, regras completas, histórico, 
 
 <a href="assets/portfolio/javafx-chess-poster.webp"><img src="assets/portfolio/javafx-chess-poster.webp" alt="Pré-visualização de JavaFX Chess" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Implementação:** regras de xeque, roque, promoção e fim de jogo.
-- **Arquitetura:** MVC e padrões Facade, Memento e Observer; testes da lógica de jogo.
-
-</details>
+<p>
+<a href="architecture/javafx-chess.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/javafx-chess.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/javafx-chess-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="https://github.com/davigama-academic/javafx-chess-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -288,20 +251,15 @@ Aplicação de xadrez com validação de jogadas, regras completas, histórico, 
 
 </details>
 
-<p>
-<a href="architecture/javafx-chess.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/javafx-chess-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
- <a href="https://github.com/davigama-academic/javafx-chess-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/javafx-chess.svg) | [Vista técnica](architecture/technical/javafx-chess.svg) | [PNG da arquitetura](architecture/javafx-chess.png)
+- **Implementação:** regras de xeque, roque, promoção e fim de jogo.
+- **Arquitetura:** MVC e padrões Facade, Memento e Observer; testes da lógica de jogo.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ### SurpriseMe
 
@@ -313,13 +271,12 @@ Organizador de presentes com destinatários, ocasiões e histórico para apoiar 
 
 <a href="assets/portfolio/surpriseme-poster.webp"><img src="assets/portfolio/surpriseme-poster.webp" alt="Pré-visualização de SurpriseMe" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Implementação:** gestão de pessoas, eventos e presentes, com persistência local.
-- **Integração:** componente de sugestão isolado; a demonstração visual não executa a inferência externa.
-
-</details>
+<p>
+<a href="architecture/surpriseme.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/surpriseme.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/surpriseme-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="https://github.com/davigama-academic/surpriseme-gift-assistant-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -328,20 +285,15 @@ Organizador de presentes com destinatários, ocasiões e histórico para apoiar 
 
 </details>
 
-<p>
-<a href="architecture/surpriseme.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/surpriseme-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
- <a href="https://github.com/davigama-academic/surpriseme-gift-assistant-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-30363D?style=for-the-badge&logoColor=white"></a>
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/surpriseme.svg) | [Vista técnica](architecture/technical/surpriseme.svg) | [PNG da arquitetura](architecture/surpriseme.png)
+- **Implementação:** gestão de pessoas, eventos e presentes, com persistência local.
+- **Integração:** componente de sugestão isolado; a demonstração visual não executa a inferência externa.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ### Unix Topic Message Broker
 
@@ -353,13 +305,11 @@ Broker local de mensagens por tópico, usando processos e mecanismos POSIX para 
 
 <a href="assets/portfolio/unix-broker-poster.webp"><img src="assets/portfolio/unix-broker-poster.webp" alt="Pré-visualização de Unix Topic Message Broker" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Implementação:** gestor central, clientes independentes, sincronização e mensagens persistentes.
-- **Demonstração:** execução real em terminal.
-
-</details>
+<p>
+<a href="architecture/unix-broker.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/unix-broker.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/unix-broker-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -368,22 +318,17 @@ Broker local de mensagens por tópico, usando processos e mecanismos POSIX para 
 
 </details>
 
-<a href="assets/portfolio/unix-broker.mp4">Vídeo da execução</a>
-
-<p>
-<a href="architecture/unix-broker.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/unix-broker-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/unix-broker.svg) | [Vista técnica](architecture/technical/unix-broker.svg) | [PNG da arquitetura](architecture/unix-broker.png)
+- **Implementação:** gestor central, clientes independentes, sincronização e mensagens persistentes.
+- **Demonstração:** execução real em terminal.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
+
+<a href="assets/portfolio/unix-broker.mp4">Vídeo da execução</a>
 
 ### Windows IPC Word Game
 
@@ -395,13 +340,11 @@ Jogo de palavras com vários processos Windows, jogadores, bots e painel de moni
 
 <a href="assets/portfolio/windows-game-poster.webp"><img src="assets/portfolio/windows-game-poster.webp" alt="Pré-visualização de Windows IPC Word Game" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Implementação:** comunicação entre processos, threads, sincronização e estado de jogo partilhado.
-- **Demonstração:** execução dos componentes Win32.
-
-</details>
+<p>
+<a href="architecture/windows-game.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/windows-game.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/windows-game-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -410,22 +353,17 @@ Jogo de palavras com vários processos Windows, jogadores, bots e painel de moni
 
 </details>
 
-<a href="assets/portfolio/windows-game.mp4">Vídeo da execução</a>
-
-<p>
-<a href="architecture/windows-game.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/windows-game-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/windows-game.svg) | [Vista técnica](architecture/technical/windows-game.svg) | [PNG da arquitetura](architecture/windows-game.png)
+- **Implementação:** comunicação entre processos, threads, sincronização e estado de jogo partilhado.
+- **Demonstração:** execução dos componentes Win32.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
+
+<a href="assets/portfolio/windows-game.mp4">Vídeo da execução</a>
 
 ### SafetySec Android
 
@@ -437,13 +375,11 @@ Aplicação académica de acompanhamento e sinalização de emergência, com pap
 
 <a href="assets/portfolio/safetysec-android-poster.webp"><img src="assets/portfolio/safetysec-android-poster.webp" alt="Pré-visualização de SafetySec Android" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** painéis de monitorização e emergência.
-- **Âmbito da demonstração:** interface com dados fictícios; sensores e serviços cloud não foram validados na captura.
-
-</details>
+<p>
+<a href="architecture/safetysec-android.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/safetysec-android.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/safetysec-android-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -452,20 +388,15 @@ Aplicação académica de acompanhamento e sinalização de emergência, com pap
 
 </details>
 
-<p>
-<a href="architecture/safetysec-android.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/safetysec-android-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/safetysec-android.svg) | [Vista técnica](architecture/technical/safetysec-android.svg) | [PNG da arquitetura](architecture/safetysec-android.png)
+- **Interface:** painéis de monitorização e emergência.
+- **Âmbito da demonstração:** interface com dados fictícios; sensores e serviços cloud não foram validados na captura.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ### Desert Caravan Simulator
 
@@ -477,13 +408,11 @@ Simulador por turnos em terminal, com caravanas, cidades, recursos e comandos de
 
 <a href="assets/portfolio/desert-caravan-poster.webp"><img src="assets/portfolio/desert-caravan-poster.webp" alt="Pré-visualização de Desert Caravan Simulator" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Implementação:** classes para mapa, caravanas, comandos e evolução de turnos.
-- **Demonstração:** execução real no terminal.
-
-</details>
+<p>
+<a href="architecture/desert-caravan.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/desert-caravan.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/desert-caravan-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -492,22 +421,17 @@ Simulador por turnos em terminal, com caravanas, cidades, recursos e comandos de
 
 </details>
 
-<a href="assets/portfolio/desert-caravan.mp4">Vídeo da execução</a>
-
-<p>
-<a href="architecture/desert-caravan.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/desert-caravan-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/desert-caravan.svg) | [Vista técnica](architecture/technical/desert-caravan.svg) | [PNG da arquitetura](architecture/desert-caravan.png)
+- **Implementação:** classes para mapa, caravanas, comandos e evolução de turnos.
+- **Demonstração:** execução real no terminal.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
+
+<a href="assets/portfolio/desert-caravan.mp4">Vídeo da execução</a>
 
 **Outros estudos:** Neural Shape Classifier e AMOV Flutter.
 
@@ -527,13 +451,12 @@ Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários
 
 <a href="assets/portfolio/coimbra-mma-poster.webp"><img src="assets/portfolio/coimbra-mma-poster.webp" alt="Pré-visualização de Coimbra MMA" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** páginas responsivas, horários e assistente de modalidades.
-- **Implementação:** páginas geradas estaticamente e validação das traduções. Não utiliza uma API de negócio.
-
-</details>
+<p>
+<a href="https://coimbramma.com/"><img alt="Ver website" src="https://img.shields.io/badge/Ver_website-0969DA?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/coimbra-mma.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/coimbra-mma.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/coimbra-mma-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -542,18 +465,11 @@ Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários
 
 </details>
 
-<p>
-<a href="architecture/coimbra-mma.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/coimbra-mma-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
- <a href="https://coimbramma.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/coimbra-mma.svg) | [Vista técnica](architecture/technical/coimbra-mma.svg) | [PNG da arquitetura](architecture/coimbra-mma.png)
+- **Interface:** páginas responsivas, horários e assistente de modalidades.
+- **Implementação:** páginas geradas estaticamente e validação das traduções. Não utiliza uma API de negócio.
 
 </details>
 
@@ -567,13 +483,11 @@ Site informativo para apresentação de serviços de mentoria, conteúdos, formu
 
 <a href="assets/portfolio/marta-poster.webp"><img src="assets/portfolio/marta-poster.webp" alt="Pré-visualização de Marta | Her Legacy" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** páginas responsivas, serviços, apresentação da marca, formulários e SEO.
-- **Integração simples:** envio de contactos por email através de um serviço Spring Boot. Sem base de dados ou backend de negócio complexo.
-
-</details>
+<p>
+<a href="architecture/marta.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/marta.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/marta-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -582,20 +496,15 @@ Site informativo para apresentação de serviços de mentoria, conteúdos, formu
 
 </details>
 
-<p>
-<a href="architecture/marta.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/marta-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/marta.svg) | [Vista técnica](architecture/technical/marta.svg) | [PNG da arquitetura](architecture/marta.png)
+- **Interface:** páginas responsivas, serviços, apresentação da marca, formulários e SEO.
+- **Integração simples:** envio de contactos por email através de um serviço Spring Boot. Sem base de dados ou backend de negócio complexo.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ### Dalliany Tavares Advocacia
 
@@ -607,13 +516,11 @@ Website informativo para apresentação da profissional e das áreas de atuaçã
 
 <a href="assets/portfolio/dalliany-poster.webp"><img src="assets/portfolio/dalliany-poster.webp" alt="Pré-visualização de Dalliany Tavares Advocacia" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** páginas responsivas, conteúdo estruturado e imagens otimizadas.
-- **Implementação:** geração estática sem backend de negócio complexo. Projeto em pré-lançamento, dependente de validações do cliente.
-
-</details>
+<p>
+<a href="architecture/dalliany.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/dalliany.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/dalliany-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -622,20 +529,15 @@ Website informativo para apresentação da profissional e das áreas de atuaçã
 
 </details>
 
-<p>
-<a href="architecture/dalliany.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/dalliany-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/dalliany.svg) | [Vista técnica](architecture/technical/dalliany.svg) | [PNG da arquitetura](architecture/dalliany.png)
+- **Interface:** páginas responsivas, conteúdo estruturado e imagens otimizadas.
+- **Implementação:** geração estática sem backend de negócio complexo. Projeto em pré-lançamento, dependente de validações do cliente.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 ### Thiago Santos English Platform
 
@@ -647,13 +549,11 @@ Site para apresentar um professor de inglês, divulgar cursos e ebooks e permiti
 
 <a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago-poster.webp" alt="Pré-visualização de Thiago Santos English Platform" width="720" loading="lazy"></a>
 
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** página inicial, cursos, ebooks, carrinho e contactos.
-- **Integração simples:** endpoints Node.js/Express para o fluxo de pagamento com Mercado Pago e Pix. A demonstração pública não realiza transações.
-
-</details>
+<p>
+<a href="architecture/thiago.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+<a href="architecture/technical/thiago.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
+<a href="assets/portfolio/thiago-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
 
 <details>
 <summary>Ver demonstração animada</summary>
@@ -662,19 +562,14 @@ Site para apresentar um professor de inglês, divulgar cursos e ebooks e permiti
 
 </details>
 
-<p>
-<a href="architecture/thiago.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/thiago-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
 <details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
+<summary>Ver funcionalidades e implementação</summary>
 
-[Arquitetura](architecture/thiago.svg) | [Vista técnica](architecture/technical/thiago.svg) | [PNG da arquitetura](architecture/thiago.png)
+- **Interface:** página inicial, cursos, ebooks, carrinho e contactos.
+- **Integração simples:** endpoints Node.js/Express para o fluxo de pagamento com Mercado Pago e Pix. A demonstração pública não realiza transações.
 
 </details>
+
+<!-- Website ainda não publicado: adicionar botão quando existir um URL verificado. -->
 
 <sub>Créditos dos diagramas e ícones: [atribuições](architecture/ATTRIBUTION.md).</sub>
