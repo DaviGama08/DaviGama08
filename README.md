@@ -9,6 +9,16 @@
 
 </div>
 
+## Por onde começar
+
+| Quero ver... | Projeto | Foco |
+| :--- | :--- | :--- |
+| Regras de negócio, segurança e SaaS multi-tenant | **[Skevia](#skevia)** | Java, Spring Boot, PostgreSQL, RLS e agendamentos |
+| APIs, WebSocket e comunicação em tempo real | **[AssessFlow](#assessflow)** | Spring Boot, sessões ao vivo e testes |
+| Backend em produção e integração com cloud | **[503](#503)** | API Spring Boot, publicação, Azure e Cloudflare |
+| Java, concorrência e tolerância a falhas | **[Distributed Quiz](#distributed-quiz)** | TCP/UDP, replicação e failover |
+| Interfaces, websites e design | **[Projetos frontend](#frontend-e-websites)** | Astro, React, Next.js e websites para clientes |
+
 ## Sobre mim
 
 Sou Davi Gama, licenciado em Engenharia Informática pelo ISEC, em Coimbra. Desenvolvo aplicações backend com Java e Spring Boot, assim como websites e produtos fullstack. Tenho experiência em ambiente empresarial, trabalho em equipa e desenvolvimento freelance, desde o levantamento de requisitos até à publicação. Interesso-me por APIs, bases de dados, arquitetura de software e regras de negócio.
@@ -22,15 +32,19 @@ Sou Davi Gama, licenciado em Engenharia Informática pelo ISEC, em Coimbra. Dese
 | Frontend | React, Next.js, Astro, Blazor, JavaFX |
 | Ferramentas | Git, Maven, Gradle, Docker, JUnit, Testcontainers, CI/CD, Azure, Cloudflare |
 
-## Portfólio
+<details>
+<summary>Material complementar: capturas, estudos e arquitetura</summary>
 
-**[Interfaces](portfolio/interfaces/README.md)** · **[Casos de estudo](portfolio/02_Casos_de_Estudo.pdf)** · **[Diagramas de arquitetura](portfolio/03_Arquiteturas.pdf)** · **[Vistas técnicas](portfolio/04_Arquiteturas_Tecnicas.pdf)**
+- [Galeria de interfaces](portfolio/interfaces/README.md)
+- [Casos de estudo](portfolio/02_Casos_de_Estudo.pdf)
+- [Diagramas de arquitetura](portfolio/03_Arquiteturas.pdf)
+- [Vistas técnicas](portfolio/04_Arquiteturas_Tecnicas.pdf)
 
-As pré-visualizações são imagens estáticas. Abre **Ver demonstração animada** no projeto que quiseres explorar para carregar a animação completa.
+</details>
 
-## Projetos para clientes e negócios
+## Backend e fullstack
 
-### Skevia | Plataforma de agendamentos
+### Skevia
 
 **Fullstack | Produto e serviços para negócios**
 
@@ -68,210 +82,6 @@ Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviç
 <summary>Ver arquitetura e detalhes técnicos</summary>
 
 [Arquitetura](architecture/multi-tenant.svg) | [Vista técnica](architecture/technical/multi-tenant.svg) | [PNG da arquitetura](architecture/multi-tenant.png)
-
-</details>
-
-### Marta | Her Legacy
-
-**Website editorial | Frontend e design**
-
-Site informativo para apresentação de serviços de mentoria, conteúdos, formulários de contacto e lista de espera de um planner. O trabalho concentrou-se na identidade visual, estrutura editorial e experiência de navegação.
-
-**Tecnologias:** Next.js, React, TypeScript, CSS
-
-<a href="assets/portfolio/marta-poster.webp"><img src="assets/portfolio/marta-poster.webp" alt="Pré-visualização de Marta | Her Legacy" width="720" loading="lazy"></a>
-
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** páginas responsivas, serviços, apresentação da marca, formulários e SEO.
-- **Integração simples:** envio de contactos por email através de um serviço Spring Boot. Sem base de dados ou backend de negócio complexo.
-
-</details>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/marta.webp" alt="Demonstração de Marta | Her Legacy" width="720" loading="lazy">
-
-</details>
-
-<p>
-<a href="architecture/marta.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/marta-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
-<details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
-
-[Arquitetura](architecture/marta.svg) | [Vista técnica](architecture/technical/marta.svg) | [PNG da arquitetura](architecture/marta.png)
-
-</details>
-
-### Coimbra MMA
-
-**Website informativo | Frontend e design**
-
-Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários, apresentação da academia e canais de contacto, com conteúdo em oito idiomas.
-
-**Tecnologias:** Astro, JavaScript, i18n, SEO
-
-<a href="assets/portfolio/coimbra-mma-poster.webp"><img src="assets/portfolio/coimbra-mma-poster.webp" alt="Pré-visualização de Coimbra MMA" width="720" loading="lazy"></a>
-
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** páginas responsivas, horários e assistente de modalidades.
-- **Implementação:** páginas geradas estaticamente e validação das traduções. Não utiliza uma API de negócio.
-
-</details>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/coimbra-mma.webp" alt="Demonstração de Coimbra MMA" width="720" loading="lazy">
-
-</details>
-
-<p>
-<a href="architecture/coimbra-mma.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/coimbra-mma-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
- <a href="https://coimbramma.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
-</p>
-
-<details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
-
-[Arquitetura](architecture/coimbra-mma.svg) | [Vista técnica](architecture/technical/coimbra-mma.svg) | [PNG da arquitetura](architecture/coimbra-mma.png)
-
-</details>
-
-### Dalliany Tavares Advocacia
-
-**Website editorial | Frontend e design**
-
-Website informativo para apresentação da profissional e das áreas de atuação jurídica. Projeto orientado para design, navegação, conteúdos e presença digital.
-
-**Tecnologias:** Astro, TypeScript, SEO
-
-<a href="assets/portfolio/dalliany-poster.webp"><img src="assets/portfolio/dalliany-poster.webp" alt="Pré-visualização de Dalliany Tavares Advocacia" width="720" loading="lazy"></a>
-
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** páginas responsivas, conteúdo estruturado e imagens otimizadas.
-- **Implementação:** geração estática sem backend de negócio complexo. Projeto em pré-lançamento, dependente de validações do cliente.
-
-</details>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/dalliany.webp" alt="Demonstração de Dalliany Tavares Advocacia" width="720" loading="lazy">
-
-</details>
-
-<p>
-<a href="architecture/dalliany.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/dalliany-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
-<details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
-
-[Arquitetura](architecture/dalliany.svg) | [Vista técnica](architecture/technical/dalliany.svg) | [PNG da arquitetura](architecture/dalliany.png)
-
-</details>
-
-### Thiago Santos English Platform
-
-**Website comercial | Frontend, design e pequena integração**
-
-Site para apresentar um professor de inglês, divulgar cursos e ebooks e permitir a navegação por catálogo e carrinho. A maior parte do trabalho foi visual, com uma integração pontual de pagamento.
-
-**Tecnologias:** Eleventy, Node.js, Express, Mercado Pago, Pix
-
-<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago-poster.webp" alt="Pré-visualização de Thiago Santos English Platform" width="720" loading="lazy"></a>
-
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Interface:** página inicial, cursos, ebooks, carrinho e contactos.
-- **Integração simples:** endpoints Node.js/Express para o fluxo de pagamento com Mercado Pago e Pix. A demonstração pública não realiza transações.
-
-</details>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/thiago.webp" alt="Demonstração de Thiago Santos English Platform" width="720" loading="lazy">
-
-</details>
-
-<p>
-<a href="architecture/thiago.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/thiago-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
-
-</p>
-
-<details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
-
-[Arquitetura](architecture/thiago.svg) | [Vista técnica](architecture/technical/thiago.svg) | [PNG da arquitetura](architecture/thiago.png)
-
-</details>
-
-
-## Projetos pessoais
-
-### 503 | Plataforma de publicação
-
-**Projeto pessoal | Fullstack**
-
-Plataforma pessoal para gerir e publicar artigos. Inclui website público, backoffice de edição e API responsável pelas regras de publicação e persistência.
-
-**Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, Flyway, Astro, React, Azure, Cloudflare
-
-<a href="assets/portfolio/503-poster.webp"><img src="assets/portfolio/503-poster.webp" alt="Pré-visualização de 503 | Plataforma de publicação" width="720" loading="lazy"></a>
-
-<details>
-<summary>Ver funcionalidades e implementação</summary>
-
-- **Funcionalidades:** rascunhos, edição de artigos, publicação, capas e autenticação administrativa.
-- **Backend:** API REST, regras editoriais, segurança, persistência e migrações.
-- **Frontend:** site público em Astro e administração separada em React.
-
-</details>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/503.webp" alt="Demonstração de 503 | Plataforma de publicação" width="720" loading="lazy">
-
-</details>
-
-<p>
-<a href="architecture/503.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
- 
-<a href="assets/portfolio/503-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
-
- <a href="https://blog503.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
-</p>
-
-<details>
-<summary>Ver arquitetura e detalhes técnicos</summary>
-
-[Arquitetura](architecture/503.svg) | [Vista técnica](architecture/technical/503.svg) | [PNG da arquitetura](architecture/503.png)
 
 </details>
 
@@ -322,6 +132,49 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 <details>
 <summary>Ver projetos desenvolvidos durante a licenciatura</summary>
 
+### 503
+
+**Projeto pessoal | Fullstack**
+
+Plataforma pessoal para gerir e publicar artigos. Inclui website público, backoffice de edição e API responsável pelas regras de publicação e persistência.
+
+**Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, Flyway, Astro, React, Azure, Cloudflare
+
+<a href="assets/portfolio/503-poster.webp"><img src="assets/portfolio/503-poster.webp" alt="Pré-visualização de 503 | Plataforma de publicação" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Funcionalidades:** rascunhos, edição de artigos, publicação, capas e autenticação administrativa.
+- **Backend:** API REST, regras editoriais, segurança, persistência e migrações.
+- **Frontend:** site público em Astro e administração separada em React.
+
+</details>
+
+<details>
+<summary>Ver demonstração animada</summary>
+
+<img src="assets/portfolio/503.webp" alt="Demonstração de 503 | Plataforma de publicação" width="720" loading="lazy">
+
+</details>
+
+<p>
+<a href="architecture/503.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/503-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+ <a href="https://blog503.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/503.svg) | [Vista técnica](architecture/technical/503.svg) | [PNG da arquitetura](architecture/503.png)
+
+</details>
+
+## Java e sistemas distribuídos
+
 ### Distributed Quiz
 
 **Java | Sistemas distribuídos**
@@ -361,6 +214,11 @@ Sistema de questionários para docentes e alunos com clientes JavaFX e servidore
 [Arquitetura](architecture/distributed-quiz.svg) | [Vista técnica](architecture/technical/distributed-quiz.svg) | [PNG da arquitetura](architecture/distributed-quiz.png)
 
 </details>
+
+## Outros projetos técnicos
+
+<details>
+<summary>Ver mais projetos académicos</summary>
 
 ### MyMEDIA
 
@@ -648,10 +506,176 @@ Simulador por turnos em terminal, com caravanas, cidades, recursos e comandos de
 
 </details>
 
-
-**Outros projetos:** Neural Shape Classifier e AMOV Flutter.
+**Outros estudos:** Neural Shape Classifier e AMOV Flutter.
 
 </details>
+
+## Frontend e websites
+
+Sites para clientes com foco em design, conteúdo, navegação e SEO. Não são apresentados como aplicações com backend complexo. A plataforma do Thiago inclui uma integração simples com API de pagamentos.
+
+### Coimbra MMA
+
+**Website informativo | Frontend e design**
+
+Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários, apresentação da academia e canais de contacto, com conteúdo em oito idiomas.
+
+**Tecnologias:** Astro, JavaScript, i18n, SEO
+
+<a href="assets/portfolio/coimbra-mma-poster.webp"><img src="assets/portfolio/coimbra-mma-poster.webp" alt="Pré-visualização de Coimbra MMA" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Interface:** páginas responsivas, horários e assistente de modalidades.
+- **Implementação:** páginas geradas estaticamente e validação das traduções. Não utiliza uma API de negócio.
+
+</details>
+
+<details>
+<summary>Ver demonstração animada</summary>
+
+<img src="assets/portfolio/coimbra-mma.webp" alt="Demonstração de Coimbra MMA" width="720" loading="lazy">
+
+</details>
+
+<p>
+<a href="architecture/coimbra-mma.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/coimbra-mma-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+ <a href="https://coimbramma.com"><img alt="Website" src="https://img.shields.io/badge/Website-30363D?style=for-the-badge&logoColor=white"></a>
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/coimbra-mma.svg) | [Vista técnica](architecture/technical/coimbra-mma.svg) | [PNG da arquitetura](architecture/coimbra-mma.png)
+
+</details>
+
+### Marta | Her Legacy
+
+**Website editorial | Frontend e design**
+
+Site informativo para apresentação de serviços de mentoria, conteúdos, formulários de contacto e lista de espera de um planner. O trabalho concentrou-se na identidade visual, estrutura editorial e experiência de navegação.
+
+**Tecnologias:** Next.js, React, TypeScript, CSS
+
+<a href="assets/portfolio/marta-poster.webp"><img src="assets/portfolio/marta-poster.webp" alt="Pré-visualização de Marta | Her Legacy" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Interface:** páginas responsivas, serviços, apresentação da marca, formulários e SEO.
+- **Integração simples:** envio de contactos por email através de um serviço Spring Boot. Sem base de dados ou backend de negócio complexo.
+
+</details>
+
+<details>
+<summary>Ver demonstração animada</summary>
+
+<img src="assets/portfolio/marta.webp" alt="Demonstração de Marta | Her Legacy" width="720" loading="lazy">
+
+</details>
+
+<p>
+<a href="architecture/marta.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/marta-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/marta.svg) | [Vista técnica](architecture/technical/marta.svg) | [PNG da arquitetura](architecture/marta.png)
+
+</details>
+
+### Dalliany Tavares Advocacia
+
+**Website editorial | Frontend e design**
+
+Website informativo para apresentação da profissional e das áreas de atuação jurídica. Projeto orientado para design, navegação, conteúdos e presença digital.
+
+**Tecnologias:** Astro, TypeScript, SEO
+
+<a href="assets/portfolio/dalliany-poster.webp"><img src="assets/portfolio/dalliany-poster.webp" alt="Pré-visualização de Dalliany Tavares Advocacia" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Interface:** páginas responsivas, conteúdo estruturado e imagens otimizadas.
+- **Implementação:** geração estática sem backend de negócio complexo. Projeto em pré-lançamento, dependente de validações do cliente.
+
+</details>
+
+<details>
+<summary>Ver demonstração animada</summary>
+
+<img src="assets/portfolio/dalliany.webp" alt="Demonstração de Dalliany Tavares Advocacia" width="720" loading="lazy">
+
+</details>
+
+<p>
+<a href="architecture/dalliany.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/dalliany-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/dalliany.svg) | [Vista técnica](architecture/technical/dalliany.svg) | [PNG da arquitetura](architecture/dalliany.png)
+
+</details>
+
+### Thiago Santos English Platform
+
+**Website comercial | Frontend, design e pequena integração**
+
+Site para apresentar um professor de inglês, divulgar cursos e ebooks e permitir a navegação por catálogo e carrinho. A maior parte do trabalho foi visual, com uma integração pontual de pagamento.
+
+**Tecnologias:** Eleventy, Node.js, Express, Mercado Pago, Pix
+
+<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago-poster.webp" alt="Pré-visualização de Thiago Santos English Platform" width="720" loading="lazy"></a>
+
+<details>
+<summary>Ver funcionalidades e implementação</summary>
+
+- **Interface:** página inicial, cursos, ebooks, carrinho e contactos.
+- **Integração simples:** endpoints Node.js/Express para o fluxo de pagamento com Mercado Pago e Pix. A demonstração pública não realiza transações.
+
+</details>
+
+<details>
+<summary>Ver demonstração animada</summary>
+
+<img src="assets/portfolio/thiago.webp" alt="Demonstração de Thiago Santos English Platform" width="720" loading="lazy">
+
+</details>
+
+<p>
+<a href="architecture/thiago.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
+ 
+<a href="assets/portfolio/thiago-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
+
+</p>
+
+<details>
+<summary>Ver arquitetura e detalhes técnicos</summary>
+
+[Arquitetura](architecture/thiago.svg) | [Vista técnica](architecture/technical/thiago.svg) | [PNG da arquitetura](architecture/thiago.png)
+
+</details>
+
+
+## Projetos pessoais
 
 ## Formação e experiência
 
