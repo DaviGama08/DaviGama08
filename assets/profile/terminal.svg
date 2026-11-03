@@ -1,16 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title desc">
-<title id="title">Davi Gama — Software Engineer</title>
-<desc id="desc">Terminal davi@dev. whoami: Davi Gama, Software Engineer em Coimbra, Portugal. Tecnologias: Java, C#, TypeScript, React, Python, C/C++, Kotlin e SQL.</desc>
-<rect x="1" y="1" width="958" height="328" rx="12" fill="#0D1B2A" stroke="#415A77" stroke-width="2"/>
-<path d="M13 2H947Q958 2 958 14V46H2V14Q2 2 13 2" fill="#1B263B"/>
-<circle cx="24" cy="24" r="6" fill="#FF5F56"/><circle cx="45" cy="24" r="6" fill="#FFBD2E"/><circle cx="66" cy="24" r="6" fill="#27C93F"/>
-<g font-family="'DejaVu Sans Mono',Consolas,monospace">
-<text x="90" y="30" fill="#B3C2D3" font-size="14">davi@dev:~</text>
-<text x="34" y="88" fill="#B3C2D3" font-size="18"><tspan fill="#65B4FF">davi@dev</tspan>:~$ whoami</text>
-<text x="34" y="137" fill="#65B4FF" font-size="38" font-weight="bold">Davi Gama</text>
-<text x="34" y="172" fill="#E0E1DD" font-size="19">&gt; Software Engineer · Coimbra, Portugal</text>
-<text x="34" y="202" fill="#B3C2D3" font-size="17">Websites, plataformas e APIs. Do produto à implementação.</text>
-<text x="34" y="250" fill="#B3C2D3" font-size="18"><tspan fill="#65B4FF">davi@dev</tspan>:~$ cat tech_stack.json</text>
-<text x="34" y="286" fill="#65B4FF" font-size="17">["Java", "C#", "TypeScript", "React", "Python", "C/C++", "Kotlin", "SQL"]</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="terminal-title terminal-desc">
+  <title id="terminal-title">Davi Gama | Tecnologias</title>
+  <desc id="terminal-desc">Terminal animado com Java, Spring Boot, PostgreSQL, React, TypeScript, Astro, Docker, Maven, Azure e Cloudflare.</desc>
+  <defs>
+    <style>
+      .stack-line { opacity: 1; font: 21px ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+      .one { animation: show-one 10s infinite; }
+      .two { animation: show-two 10s infinite; }
+      .three { animation: show-three 10s infinite; }
+      .four { animation: show-four 10s infinite; }
+      .cursor { animation: blink 1.1s steps(2, start) infinite; }
+      @keyframes show-one { 0%, 7% {opacity:0} 12%, 95% {opacity:1} 100% {opacity:0} }
+      @keyframes show-two { 0%, 23% {opacity:0} 28%, 95% {opacity:1} 100% {opacity:0} }
+      @keyframes show-three { 0%, 39% {opacity:0} 44%, 95% {opacity:1} 100% {opacity:0} }
+      @keyframes show-four { 0%, 55% {opacity:0} 60%, 95% {opacity:1} 100% {opacity:0} }
+      @keyframes blink { 50% {opacity:0} }
+      @media (prefers-reduced-motion: reduce) {
+        .stack-line, .cursor { animation:none; opacity:1; }
+      }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="958" height="258" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <path d="M13 2 H947 Q958 2 958 14 V43 H2 V14 Q2 2 13 2" fill="#161B22"/>
+  <circle cx="24" cy="22" r="5.5" fill="#F85149"/>
+  <circle cx="44" cy="22" r="5.5" fill="#D29922"/>
+  <circle cx="64" cy="22" r="5.5" fill="#3FB950"/>
+  <text x="90" y="28" font-family="ui-monospace, Consolas, monospace" font-size="14" fill="#8B949E">davi@dev:~</text>
+  <text x="34" y="78" font-family="ui-monospace, Consolas, monospace" font-size="19" fill="#C9D1D9">
+    <tspan fill="#7EE787">$</tspan><tspan> stack --list</tspan>
+  </text>
+  <g fill="#D2E7FF">
+    <text class="stack-line one" x="43" y="117"><tspan fill="#7EE787">&gt;</tspan> Java | Spring Boot | JPA | Hibernate</text>
+    <text class="stack-line two" x="43" y="153"><tspan fill="#7EE787">&gt;</tspan> PostgreSQL | SQL | Flyway</text>
+    <text class="stack-line three" x="43" y="189"><tspan fill="#7EE787">&gt;</tspan> React | TypeScript | Astro</text>
+    <text class="stack-line four" x="43" y="225"><tspan fill="#7EE787">&gt;</tspan> Docker | Maven | Azure | Cloudflare</text>
+  </g>
+  <rect class="cursor" x="38" y="239" width="12" height="3" rx="1.5" fill="#7EE787"/>
 </svg>
