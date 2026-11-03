@@ -60,13 +60,13 @@ Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviç
 
 **Tecnologias:** Java, Spring Boot, PostgreSQL, Flyway, React, TypeScript, Cloudflare
 
-<a href="assets/portfolio/multi-tenant-poster.webp"><img src="assets/portfolio/multi-tenant-poster.webp" alt="Pré-visualização de Skevia | Plataforma de agendamentos" width="720" loading="lazy"></a>
+<img src="assets/portfolio/multi-tenant-poster.webp" alt="Pré-visualização de Skevia | Plataforma de agendamentos" width="720" loading="lazy">
 
 <p>
 <a href="https://icarosbarber.skevialtda.com/"><img alt="Ver tenant de exemplo" src="https://img.shields.io/badge/Ver_tenant_de_exemplo-0969DA?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/multi-tenant.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/multi-tenant.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/multi-tenant-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -93,12 +93,12 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 
 **Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, React, WebSocket, STOMP
 
-<a href="assets/portfolio/assessflow-poster.webp"><img src="assets/portfolio/assessflow-poster.webp" alt="Pré-visualização de AssessFlow" width="720" loading="lazy"></a>
+<img src="assets/portfolio/assessflow-poster.webp" alt="Pré-visualização de AssessFlow" width="720" loading="lazy">
 
 <p>
 <a href="architecture/assessflow.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/assessflow.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/assessflow-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 <a href="https://github.com/DaviGama08/assessflow"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
 
@@ -128,13 +128,13 @@ Plataforma pessoal para gerir e publicar artigos. Inclui website público, backo
 
 **Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, Flyway, Astro, React, Azure, Cloudflare
 
-<a href="assets/portfolio/503-poster.webp"><img src="assets/portfolio/503-poster.webp" alt="Pré-visualização de 503 | Plataforma de publicação" width="720" loading="lazy"></a>
+<img src="assets/portfolio/503-poster.webp" alt="Pré-visualização de 503 | Plataforma de publicação" width="720" loading="lazy">
 
 <p>
 <a href="https://blog503.com/"><img alt="Ver website" src="https://img.shields.io/badge/Ver_website-0969DA?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/503.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/503.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/503-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -163,12 +163,12 @@ Sistema de questionários para docentes e alunos com clientes JavaFX e servidore
 
 **Tecnologias:** Java, JavaFX, TCP, UDP, multicast, SQLite, Maven
 
-<a href="assets/portfolio/distributed-quiz-poster.webp"><img src="assets/portfolio/distributed-quiz-poster.webp" alt="Pré-visualização de Distributed Quiz" width="720" loading="lazy"></a>
+<img src="assets/portfolio/distributed-quiz-poster.webp" alt="Pré-visualização de Distributed Quiz" width="720" loading="lazy">
 
 <p>
 <a href="architecture/distributed-quiz.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/distributed-quiz.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/distributed-quiz-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 <a href="https://github.com/DaviGama08/distributed-quiz-platform-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
 
@@ -202,12 +202,12 @@ Marketplace académico de produtos multimédia, com loja pública, backoffice e 
 
 **Tecnologias:** C#, ASP.NET Core, Blazor, EF Core, SQL Server
 
-<a href="assets/portfolio/mymedia-poster.webp"><img src="assets/portfolio/mymedia-poster.webp" alt="Pré-visualização de MyMEDIA" width="720" loading="lazy"></a>
+<img src="assets/portfolio/mymedia-poster.webp" alt="Pré-visualização de MyMEDIA" width="720" loading="lazy">
 
 <p>
 <a href="architecture/mymedia.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/mymedia.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/mymedia-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -235,12 +235,12 @@ Aplicação de xadrez com validação de jogadas, regras completas, histórico, 
 
 **Tecnologias:** Java, JavaFX, Maven, JUnit
 
-<a href="assets/portfolio/javafx-chess-poster.webp"><img src="assets/portfolio/javafx-chess-poster.webp" alt="Pré-visualização de JavaFX Chess" width="720" loading="lazy"></a>
+<img src="assets/portfolio/javafx-chess-poster.webp" alt="Pré-visualização de JavaFX Chess" width="720" loading="lazy">
 
 <p>
 <a href="architecture/javafx-chess.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/javafx-chess.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/javafx-chess-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 <a href="https://github.com/davigama-academic/javafx-chess-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
 
@@ -269,12 +269,12 @@ Organizador de presentes com destinatários, ocasiões e histórico para apoiar 
 
 **Tecnologias:** Java, JavaFX, Maven
 
-<a href="assets/portfolio/surpriseme-poster.webp"><img src="assets/portfolio/surpriseme-poster.webp" alt="Pré-visualização de SurpriseMe" width="720" loading="lazy"></a>
+<img src="assets/portfolio/surpriseme-poster.webp" alt="Pré-visualização de SurpriseMe" width="720" loading="lazy">
 
 <p>
 <a href="architecture/surpriseme.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/surpriseme.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/surpriseme-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 <a href="https://github.com/davigama-academic/surpriseme-gift-assistant-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
 
@@ -303,12 +303,12 @@ Broker local de mensagens por tópico, usando processos e mecanismos POSIX para 
 
 **Tecnologias:** C, POSIX FIFOs, pthreads, select
 
-<a href="assets/portfolio/unix-broker-poster.webp"><img src="assets/portfolio/unix-broker-poster.webp" alt="Pré-visualização de Unix Topic Message Broker" width="720" loading="lazy"></a>
+<img src="assets/portfolio/unix-broker-poster.webp" alt="Pré-visualização de Unix Topic Message Broker" width="720" loading="lazy">
 
 <p>
 <a href="architecture/unix-broker.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/unix-broker.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/unix-broker-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -338,12 +338,12 @@ Jogo de palavras com vários processos Windows, jogadores, bots e painel de moni
 
 **Tecnologias:** C, Win32 API, named pipes, shared memory
 
-<a href="assets/portfolio/windows-game-poster.webp"><img src="assets/portfolio/windows-game-poster.webp" alt="Pré-visualização de Windows IPC Word Game" width="720" loading="lazy"></a>
+<img src="assets/portfolio/windows-game-poster.webp" alt="Pré-visualização de Windows IPC Word Game" width="720" loading="lazy">
 
 <p>
 <a href="architecture/windows-game.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/windows-game.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/windows-game-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -373,12 +373,12 @@ Aplicação académica de acompanhamento e sinalização de emergência, com pap
 
 **Tecnologias:** Android, Firebase
 
-<a href="assets/portfolio/safetysec-android-poster.webp"><img src="assets/portfolio/safetysec-android-poster.webp" alt="Pré-visualização de SafetySec Android" width="720" loading="lazy"></a>
+<img src="assets/portfolio/safetysec-android-poster.webp" alt="Pré-visualização de SafetySec Android" width="720" loading="lazy">
 
 <p>
 <a href="architecture/safetysec-android.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/safetysec-android.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/safetysec-android-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -406,12 +406,12 @@ Simulador por turnos em terminal, com caravanas, cidades, recursos e comandos de
 
 **Tecnologias:** C++20, STL, POO
 
-<a href="assets/portfolio/desert-caravan-poster.webp"><img src="assets/portfolio/desert-caravan-poster.webp" alt="Pré-visualização de Desert Caravan Simulator" width="720" loading="lazy"></a>
+<img src="assets/portfolio/desert-caravan-poster.webp" alt="Pré-visualização de Desert Caravan Simulator" width="720" loading="lazy">
 
 <p>
 <a href="architecture/desert-caravan.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/desert-caravan.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/desert-caravan-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -449,13 +449,13 @@ Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários
 
 **Tecnologias:** Astro, JavaScript, i18n, SEO
 
-<a href="assets/portfolio/coimbra-mma-poster.webp"><img src="assets/portfolio/coimbra-mma-poster.webp" alt="Pré-visualização de Coimbra MMA" width="720" loading="lazy"></a>
+<img src="assets/portfolio/coimbra-mma-poster.webp" alt="Pré-visualização de Coimbra MMA" width="720" loading="lazy">
 
 <p>
 <a href="https://coimbramma.com/"><img alt="Ver website" src="https://img.shields.io/badge/Ver_website-0969DA?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/coimbra-mma.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/coimbra-mma.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/coimbra-mma-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -481,12 +481,12 @@ Site informativo para apresentação de serviços de mentoria, conteúdos, formu
 
 **Tecnologias:** Next.js, React, TypeScript, CSS
 
-<a href="assets/portfolio/marta-poster.webp"><img src="assets/portfolio/marta-poster.webp" alt="Pré-visualização de Marta | Her Legacy" width="720" loading="lazy"></a>
+<img src="assets/portfolio/marta-poster.webp" alt="Pré-visualização de Marta | Her Legacy" width="720" loading="lazy">
 
 <p>
 <a href="architecture/marta.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/marta.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/marta-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -514,12 +514,12 @@ Website informativo para apresentação da profissional e das áreas de atuaçã
 
 **Tecnologias:** Astro, TypeScript, SEO
 
-<a href="assets/portfolio/dalliany-poster.webp"><img src="assets/portfolio/dalliany-poster.webp" alt="Pré-visualização de Dalliany Tavares Advocacia" width="720" loading="lazy"></a>
+<img src="assets/portfolio/dalliany-poster.webp" alt="Pré-visualização de Dalliany Tavares Advocacia" width="720" loading="lazy">
 
 <p>
 <a href="architecture/dalliany.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/dalliany.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/dalliany-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
@@ -547,12 +547,12 @@ Site para apresentar um professor de inglês, divulgar cursos e ebooks e permiti
 
 **Tecnologias:** Eleventy, Node.js, Express, Mercado Pago, Pix
 
-<a href="assets/portfolio/thiago-poster.webp"><img src="assets/portfolio/thiago-poster.webp" alt="Pré-visualização de Thiago Santos English Platform" width="720" loading="lazy"></a>
+<img src="assets/portfolio/thiago-poster.webp" alt="Pré-visualização de Thiago Santos English Platform" width="720" loading="lazy">
 
 <p>
 <a href="architecture/thiago.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/thiago.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
-<a href="assets/portfolio/thiago-poster.webp"><img alt="Imagem estática" src="https://img.shields.io/badge/Imagem_est%C3%A1tica-30363D?style=for-the-badge&logoColor=white"></a>
+
 </p>
 
 <details>
