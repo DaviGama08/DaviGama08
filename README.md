@@ -9,19 +9,27 @@
 
 </div>
 
-## Por onde começar
+## Projetos em destaque
 
-| Quero ver... | Projeto | Foco |
+Escolhe um projeto de acordo com as competências que queres avaliar.
+
+| Projeto | O que desenvolvi | Stack principal |
 | :--- | :--- | :--- |
-| Regras de negócio, segurança e SaaS multi-tenant | **[Skevia](#skevia)** | Java, Spring Boot, PostgreSQL, RLS e agendamentos |
-| APIs, WebSocket e comunicação em tempo real | **[AssessFlow](#assessflow)** | Spring Boot, sessões ao vivo e testes |
-| Backend em produção e integração com cloud | **[503](#503)** | API Spring Boot, publicação, Azure e Cloudflare |
-| Java, concorrência e tolerância a falhas | **[Distributed Quiz](#distributed-quiz)** | TCP/UDP, replicação e failover |
-| Interfaces, websites e design | **[Projetos frontend](#frontend-e-websites)** | Astro, React, Next.js e websites para clientes |
+| **[Skevia](#skevia)**<br>Plataforma para negócios | SaaS de agendamentos para vários tenants. API com regras de disponibilidade, isolamento de dados, transações e backoffice. O Ícaro’s Barbershop é um dos negócios que utilizo como exemplo. | Java 25, Spring Boot 4, PostgreSQL, Flyway, React, TypeScript, Cloudflare |
+| **[AssessFlow](#assessflow)**<br>Projeto pessoal | Plataforma de avaliações com sessões em tempo real, WebSockets, autenticação, permissões e execução na cloud ou numa rede local. | Java 25, Spring Boot 4, PostgreSQL, React, WebSocket/STOMP, Testcontainers |
+| **[503](#503)**<br>Projeto pessoal | Plataforma de publicação com API REST, gestão de artigos, autenticação, backoffice e deployment de uma aplicação real. | Java 25, Spring Boot 4, PostgreSQL, Flyway, Astro, React, Azure, Cloudflare |
+| **[Distributed Quiz](#distributed-quiz)**<br>Projeto académico | Sistema Java com clientes e servidores, descoberta de serviços, replicação, deteção de falhas e recuperação de sessões. | Java, JavaFX, TCP/UDP, multicast, SQLite, Maven |
+| **[Websites para clientes](#frontend-e-websites)**<br>Frontend e design | Websites editoriais e informativos com foco em interface, conteúdo, SEO e desempenho. O projeto Thiago inclui uma pequena integração de pagamentos. | Astro, Next.js, React, TypeScript, Node.js/Express, Mercado Pago |
 
 ## Sobre mim
 
 Sou Davi Gama, licenciado em Engenharia Informática pelo ISEC, em Coimbra. Desenvolvo aplicações backend com Java e Spring Boot, assim como websites e produtos fullstack. Tenho experiência em ambiente empresarial, trabalho em equipa e desenvolvimento freelance, desde o levantamento de requisitos até à publicação. Interesso-me por APIs, bases de dados, arquitetura de software e regras de negócio.
+
+## Formação e experiência
+
+- **Engenharia Informática, ISEC (2022 a 2026):** licenciatura com especialização em Desenvolvimento de Aplicações, concluída em julho de 2026.
+- **Experiência empresarial (2026):** estágio curricular em engenharia de software, com desenvolvimento de APIs, integração de modelos de IA e colaboração em equipa.
+- **Freelance (desde 2025):** websites e aplicações para clientes, com levantamento de requisitos, desenvolvimento e publicação.
 
 ## Tecnologias
 
@@ -668,13 +676,5 @@ Site para apresentar um professor de inglês, divulgar cursos e ebooks e permiti
 [Arquitetura](architecture/thiago.svg) | [Vista técnica](architecture/technical/thiago.svg) | [PNG da arquitetura](architecture/thiago.png)
 
 </details>
-
-
-
-## Formação e experiência
-
-- **Engenharia Informática, ISEC (2022 a 2026):** licenciatura com especialização em Desenvolvimento de Aplicações, concluída em julho de 2026.
-- **Experiência empresarial (2026):** estágio curricular em engenharia de software, com desenvolvimento de APIs, integração de modelos de IA e colaboração em equipa.
-- **Freelance (desde 2025):** websites e aplicações para clientes, com levantamento de requisitos, desenvolvimento e publicação.
 
 <sub>Créditos dos diagramas e ícones: [atribuições](architecture/ATTRIBUTION.md).</sub>
