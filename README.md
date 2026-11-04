@@ -73,7 +73,7 @@ Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviç
 
 **Tecnologias:** Java, Spring Boot, PostgreSQL, Flyway, React, TypeScript, Cloudflare
 
-<img src="assets/optimized/multi-tenant-poster.webp" alt="Pré-visualização de Skevia | Plataforma de agendamentos" width="720" loading="lazy">
+<img src="assets/optimized/multi-tenant.webp" alt="Pré-visualização animada de Skevia | Plataforma de agendamentos" width="720" loading="lazy">
 
 <p>
 <a href="https://icarosbarber.skevialtda.com/"><img alt="Ver tenant de exemplo" src="https://img.shields.io/badge/Ver_tenant_de_exemplo-0969DA?style=for-the-badge&logoColor=white"></a>
@@ -81,13 +81,6 @@ Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviç
 <a href="architecture/technical/multi-tenant.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/multi-tenant.webp" alt="Demonstração de Skevia | Plataforma de agendamentos" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -106,7 +99,7 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 
 **Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, React, WebSocket, STOMP
 
-<img src="assets/optimized/assessflow-poster.webp" alt="Pré-visualização de AssessFlow" width="720" loading="lazy">
+<img src="assets/portfolio/assessflow.webp" alt="Pré-visualização animada de AssessFlow" width="720" loading="lazy">
 
 <p>
 <a href="architecture/assessflow.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
@@ -114,13 +107,6 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 
 <a href="https://github.com/DaviGama08/assessflow"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/assessflow.webp" alt="Demonstração de AssessFlow" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -141,7 +127,7 @@ Plataforma pessoal para gerir e publicar artigos. Inclui website público, backo
 
 **Tecnologias:** Java 25, Spring Boot 4.1, PostgreSQL, Flyway, Astro, React, Azure, Cloudflare
 
-<img src="assets/optimized/503-poster.webp" alt="Pré-visualização de 503 | Plataforma de publicação" width="720" loading="lazy">
+<img src="assets/optimized/503.webp" alt="Pré-visualização animada de 503 | Plataforma de publicação" width="720" loading="lazy">
 
 <p>
 <a href="https://blog503.com/"><img alt="Ver website" src="https://img.shields.io/badge/Ver_website-0969DA?style=for-the-badge&logoColor=white"></a>
@@ -149,13 +135,6 @@ Plataforma pessoal para gerir e publicar artigos. Inclui website público, backo
 <a href="architecture/technical/503.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/503.webp" alt="Demonstração de 503 | Plataforma de publicação" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -176,7 +155,7 @@ Sistema de questionários para docentes e alunos com clientes JavaFX e servidore
 
 **Tecnologias:** Java, JavaFX, TCP, UDP, multicast, SQLite, Maven
 
-<img src="assets/optimized/distributed-quiz-poster.webp" alt="Pré-visualização de Distributed Quiz" width="720" loading="lazy">
+<img src="assets/portfolio/distributed-quiz.webp" alt="Pré-visualização animada de Distributed Quiz" width="720" loading="lazy">
 
 <p>
 <a href="architecture/distributed-quiz.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
@@ -184,13 +163,6 @@ Sistema de questionários para docentes e alunos com clientes JavaFX e servidore
 
 <a href="https://github.com/DaviGama08/distributed-quiz-platform-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/distributed-quiz.webp" alt="Demonstração de Distributed Quiz" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -215,20 +187,13 @@ Marketplace académico de produtos multimédia, com loja pública, backoffice e 
 
 **Tecnologias:** C#, ASP.NET Core, Blazor, EF Core, SQL Server
 
-<img src="assets/optimized/mymedia-poster.webp" alt="Pré-visualização de MyMEDIA" width="720" loading="lazy">
+<img src="assets/optimized/mymedia.webp" alt="Pré-visualização animada de MyMEDIA" width="720" loading="lazy">
 
 <p>
 <a href="architecture/mymedia.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/mymedia.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/mymedia.webp" alt="Demonstração de MyMEDIA" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -248,7 +213,7 @@ Aplicação de xadrez com validação de jogadas, regras completas, histórico, 
 
 **Tecnologias:** Java, JavaFX, Maven, JUnit
 
-<img src="assets/optimized/javafx-chess-poster.webp" alt="Pré-visualização de JavaFX Chess" width="720" loading="lazy">
+<img src="assets/portfolio/javafx-chess.webp" alt="Pré-visualização animada de JavaFX Chess" width="720" loading="lazy">
 
 <p>
 <a href="architecture/javafx-chess.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
@@ -256,13 +221,6 @@ Aplicação de xadrez com validação de jogadas, regras completas, histórico, 
 
 <a href="https://github.com/davigama-academic/javafx-chess-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/javafx-chess.webp" alt="Demonstração de JavaFX Chess" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -282,7 +240,7 @@ Organizador de presentes com destinatários, ocasiões e histórico para apoiar 
 
 **Tecnologias:** Java, JavaFX, Maven
 
-<img src="assets/optimized/surpriseme-poster.webp" alt="Pré-visualização de SurpriseMe" width="720" loading="lazy">
+<img src="assets/portfolio/surpriseme.webp" alt="Pré-visualização animada de SurpriseMe" width="720" loading="lazy">
 
 <p>
 <a href="architecture/surpriseme.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
@@ -290,13 +248,6 @@ Organizador de presentes com destinatários, ocasiões e histórico para apoiar 
 
 <a href="https://github.com/davigama-academic/surpriseme-gift-assistant-isec"><img alt="Código" src="https://img.shields.io/badge/C%C3%B3digo-238636?style=for-the-badge&logoColor=white"></a>
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/surpriseme.webp" alt="Demonstração de SurpriseMe" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -316,20 +267,13 @@ Broker local de mensagens por tópico, usando processos e mecanismos POSIX para 
 
 **Tecnologias:** C, POSIX FIFOs, pthreads, select
 
-<img src="assets/portfolio/unix-broker-poster.webp" alt="Pré-visualização de Unix Topic Message Broker" width="720" loading="lazy">
+<img src="assets/optimized/unix-broker.webp" alt="Pré-visualização animada de Unix Topic Message Broker" width="720" loading="lazy">
 
 <p>
 <a href="architecture/unix-broker.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/unix-broker.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/unix-broker.webp" alt="Demonstração de Unix Topic Message Broker" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -351,20 +295,13 @@ Jogo de palavras com vários processos Windows, jogadores, bots e painel de moni
 
 **Tecnologias:** C, Win32 API, named pipes, shared memory
 
-<img src="assets/optimized/windows-game-poster.webp" alt="Pré-visualização de Windows IPC Word Game" width="720" loading="lazy">
+<img src="assets/optimized/windows-game.webp" alt="Pré-visualização animada de Windows IPC Word Game" width="720" loading="lazy">
 
 <p>
 <a href="architecture/windows-game.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/windows-game.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/windows-game.webp" alt="Demonstração de Windows IPC Word Game" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -386,20 +323,13 @@ Aplicação académica de acompanhamento e sinalização de emergência, com pap
 
 **Tecnologias:** Android, Firebase
 
-<img src="assets/optimized/safetysec-android-poster.webp" alt="Pré-visualização de SafetySec Android" width="720" loading="lazy">
+<img src="assets/portfolio/safetysec-android.webp" alt="Pré-visualização animada de SafetySec Android" width="720" loading="lazy">
 
 <p>
 <a href="architecture/safetysec-android.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/safetysec-android.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/portfolio/safetysec-android.webp" alt="Demonstração de SafetySec Android" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -419,20 +349,13 @@ Simulador por turnos em terminal, com caravanas, cidades, recursos e comandos de
 
 **Tecnologias:** C++20, STL, POO
 
-<img src="assets/portfolio/desert-caravan-poster.webp" alt="Pré-visualização de Desert Caravan Simulator" width="720" loading="lazy">
+<img src="assets/optimized/desert-caravan.webp" alt="Pré-visualização animada de Desert Caravan Simulator" width="720" loading="lazy">
 
 <p>
 <a href="architecture/desert-caravan.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/desert-caravan.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/desert-caravan.webp" alt="Demonstração de Desert Caravan Simulator" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -462,7 +385,7 @@ Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários
 
 **Tecnologias:** Astro, JavaScript, i18n, SEO
 
-<img src="assets/optimized/coimbra-mma-poster.webp" alt="Pré-visualização de Coimbra MMA" width="720" loading="lazy">
+<img src="assets/optimized/coimbra-mma.webp" alt="Pré-visualização animada de Coimbra MMA" width="720" loading="lazy">
 
 <p>
 <a href="https://coimbramma.com/"><img alt="Ver website" src="https://img.shields.io/badge/Ver_website-0969DA?style=for-the-badge&logoColor=white"></a>
@@ -470,13 +393,6 @@ Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários
 <a href="architecture/technical/coimbra-mma.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/coimbra-mma.webp" alt="Demonstração de Coimbra MMA" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -494,20 +410,13 @@ Site informativo para apresentação de serviços de mentoria, conteúdos, formu
 
 **Tecnologias:** Next.js, React, TypeScript, CSS
 
-<img src="assets/optimized/marta-poster.webp" alt="Pré-visualização de Marta | Her Legacy" width="720" loading="lazy">
+<img src="assets/optimized/marta.webp" alt="Pré-visualização animada de Marta | Her Legacy" width="720" loading="lazy">
 
 <p>
 <a href="architecture/marta.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/marta.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/marta.webp" alt="Demonstração de Marta | Her Legacy" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -527,20 +436,13 @@ Website informativo para apresentação da profissional e das áreas de atuaçã
 
 **Tecnologias:** Astro, TypeScript, SEO
 
-<img src="assets/optimized/dalliany-poster.webp" alt="Pré-visualização de Dalliany Tavares Advocacia" width="720" loading="lazy">
+<img src="assets/optimized/dalliany.webp" alt="Pré-visualização animada de Dalliany Tavares Advocacia" width="720" loading="lazy">
 
 <p>
 <a href="architecture/dalliany.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/dalliany.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/dalliany.webp" alt="Demonstração de Dalliany Tavares Advocacia" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
@@ -560,20 +462,13 @@ Site para apresentar um professor de inglês, divulgar cursos e ebooks e permiti
 
 **Tecnologias:** Eleventy, Node.js, Express, Mercado Pago, Pix
 
-<img src="assets/optimized/thiago-poster.webp" alt="Pré-visualização de Thiago Santos English Platform" width="720" loading="lazy">
+<img src="assets/optimized/thiago.webp" alt="Pré-visualização animada de Thiago Santos English Platform" width="720" loading="lazy">
 
 <p>
 <a href="architecture/thiago.svg"><img alt="Arquitetura pública" src="https://img.shields.io/badge/Arquitetura_p%C3%BAblica-30363D?style=for-the-badge&logoColor=white"></a>
 <a href="architecture/technical/thiago.svg"><img alt="Vista técnica" src="https://img.shields.io/badge/Vista_t%C3%A9cnica-6F42C1?style=for-the-badge&logoColor=white"></a>
 
 </p>
-
-<details>
-<summary>Ver demonstração animada</summary>
-
-<img src="assets/optimized/thiago.webp" alt="Demonstração de Thiago Santos English Platform" width="720" loading="lazy">
-
-</details>
 
 <details>
 <summary>Ver funcionalidades e implementação</summary>
