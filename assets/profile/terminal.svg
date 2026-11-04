@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="terminal-title terminal-desc">
   <title id="terminal-title">Davi Gama | Tecnologias</title>
-  <desc id="terminal-desc">Terminal animado com Java, Spring Boot, PostgreSQL, React, TypeScript, Astro, Docker, Maven, Azure e Cloudflare.</desc>
+  <desc id="terminal-desc">Terminal animado com Java, Spring Boot, PostgreSQL, React, TypeScript, Astro, Docker, Maven e Cloudflare.</desc>
   <defs>
     <style>
       .stack-line { opacity: 1; font: 21px ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
@@ -32,7 +32,7 @@
     <text class="stack-line one" x="43" y="117"><tspan fill="#7EE787">&gt;</tspan> Java | Spring Boot | JPA | Hibernate</text>
     <text class="stack-line two" x="43" y="153"><tspan fill="#7EE787">&gt;</tspan> PostgreSQL | SQL | Flyway</text>
     <text class="stack-line three" x="43" y="189"><tspan fill="#7EE787">&gt;</tspan> React | TypeScript | Astro</text>
-    <text class="stack-line four" x="43" y="225"><tspan fill="#7EE787">&gt;</tspan> Docker | Maven | Azure | Cloudflare</text>
+    <text class="stack-line four" x="43" y="225"><tspan fill="#7EE787">&gt;</tspan> Docker | Maven | Cloudflare</text>
   </g>
   <rect class="cursor" x="38" y="239" width="12" height="3" rx="1.5" fill="#7EE787"/>
 </svg>
