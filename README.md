@@ -78,7 +78,7 @@ Plataforma SaaS de agendamentos para vários negócios. Cada tenant gere serviç
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/multi-tenant.webp" alt="Demonstração animada de Skevia | Plataforma de agendamentos" width="720" loading="lazy">
+<img src="assets/portfolio/multi-tenant.webp" alt="Demonstração animada de Skevia | Plataforma de agendamentos" width="960" loading="lazy">
 
 </details>
 
@@ -111,7 +111,7 @@ Plataforma de avaliações com bancos de perguntas, sessões ao vivo e participa
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/assessflow.webp" alt="Demonstração animada de AssessFlow" width="720" loading="lazy">
+<img src="assets/portfolio/assessflow.webp" alt="Demonstração animada de AssessFlow" width="960" loading="lazy">
 
 </details>
 
@@ -146,7 +146,7 @@ Plataforma pessoal para gerir e publicar artigos. Inclui website público, backo
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/503.webp" alt="Demonstração animada de 503 | Plataforma de publicação" width="720" loading="lazy">
+<img src="assets/portfolio/503.webp" alt="Demonstração animada de 503 | Plataforma de publicação" width="960" loading="lazy">
 
 </details>
 
@@ -181,7 +181,7 @@ Sistema de questionários para docentes e alunos com clientes JavaFX e servidore
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/distributed-quiz.webp" alt="Demonstração animada de Distributed Quiz" width="720" loading="lazy">
+<img src="assets/portfolio/distributed-quiz.webp" alt="Demonstração animada de Distributed Quiz" width="960" loading="lazy">
 
 </details>
 
@@ -220,7 +220,7 @@ Marketplace académico de produtos multimédia, com loja pública, backoffice e 
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/mymedia.webp" alt="Demonstração animada de MyMEDIA" width="720" loading="lazy">
+<img src="assets/portfolio/mymedia.webp" alt="Demonstração animada de MyMEDIA" width="960" loading="lazy">
 
 </details>
 
@@ -253,7 +253,7 @@ Aplicação de xadrez com validação de jogadas, regras completas, histórico, 
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/javafx-chess.webp" alt="Demonstração animada de JavaFX Chess" width="720" loading="lazy">
+<img src="assets/portfolio/javafx-chess.webp" alt="Demonstração animada de JavaFX Chess" width="960" loading="lazy">
 
 </details>
 
@@ -287,7 +287,7 @@ Organizador de presentes com destinatários, ocasiões e histórico para apoiar 
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/surpriseme.webp" alt="Demonstração animada de SurpriseMe" width="720" loading="lazy">
+<img src="assets/portfolio/surpriseme.webp" alt="Demonstração animada de SurpriseMe" width="960" loading="lazy">
 
 </details>
 
@@ -321,7 +321,7 @@ Broker local de mensagens por tópico, usando processos e mecanismos POSIX para 
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/unix-broker.webp" alt="Demonstração animada de Unix Topic Message Broker" width="720" loading="lazy">
+<img src="assets/portfolio/unix-broker.webp" alt="Demonstração animada de Unix Topic Message Broker" width="960" loading="lazy">
 
 </details>
 
@@ -356,7 +356,7 @@ Jogo de palavras com vários processos Windows, jogadores, bots e painel de moni
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/windows-game.webp" alt="Demonstração animada de Windows IPC Word Game" width="720" loading="lazy">
+<img src="assets/portfolio/windows-game.webp" alt="Demonstração animada de Windows IPC Word Game" width="960" loading="lazy">
 
 </details>
 
@@ -391,7 +391,7 @@ Aplicação académica de acompanhamento e sinalização de emergência, com pap
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/safetysec-android.webp" alt="Demonstração animada de SafetySec Android" width="720" loading="lazy">
+<img src="assets/portfolio/safetysec-android.webp" alt="Demonstração animada de SafetySec Android" width="960" loading="lazy">
 
 </details>
 
@@ -424,7 +424,7 @@ Simulador por turnos em terminal, com caravanas, cidades, recursos e comandos de
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/desert-caravan.webp" alt="Demonstração animada de Desert Caravan Simulator" width="720" loading="lazy">
+<img src="assets/portfolio/desert-caravan.webp" alt="Demonstração animada de Desert Caravan Simulator" width="960" loading="lazy">
 
 </details>
 
@@ -467,7 +467,7 @@ Site de uma academia de artes marciais em Coimbra. Reúne modalidades, horários
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/coimbra-mma.webp" alt="Demonstração animada de Coimbra MMA" width="720" loading="lazy">
+<img src="assets/portfolio/coimbra-mma.webp" alt="Demonstração animada de Coimbra MMA" width="960" loading="lazy">
 
 </details>
 
@@ -499,7 +499,7 @@ Site informativo para apresentação de serviços de mentoria, conteúdos, formu
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/marta.webp" alt="Demonstração animada de Marta | Her Legacy" width="720" loading="lazy">
+<img src="assets/portfolio/marta.webp" alt="Demonstração animada de Marta | Her Legacy" width="960" loading="lazy">
 
 </details>
 
@@ -532,7 +532,7 @@ Website informativo para apresentação da profissional e das áreas de atuaçã
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/dalliany.webp" alt="Demonstração animada de Dalliany Tavares Advocacia" width="720" loading="lazy">
+<img src="assets/portfolio/dalliany.webp" alt="Demonstração animada de Dalliany Tavares Advocacia" width="960" loading="lazy">
 
 </details>
 
@@ -565,7 +565,7 @@ Site para apresentar um professor de inglês, divulgar cursos e ebooks e permiti
 <details>
 <summary>Ver demonstração animada em alta qualidade</summary>
 
-<img src="assets/portfolio/thiago.webp" alt="Demonstração animada de Thiago Santos English Platform" width="720" loading="lazy">
+<img src="assets/portfolio/thiago.webp" alt="Demonstração animada de Thiago Santos English Platform" width="960" loading="lazy">
 
 </details>
 
