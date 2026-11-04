@@ -11,15 +11,27 @@
 
 ## Projetos em destaque
 
-Escolhe um projeto de acordo com as competências que queres avaliar.
+Os projetos abaixo mostram diferentes partes do meu trabalho. Seleciona o que for mais relevante para a vaga.
 
-| Projeto | O que desenvolvi | Stack principal |
-| :--- | :--- | :--- |
-| **[Skevia](#skevia)**<br>Plataforma para negócios | SaaS de agendamentos para vários tenants. API com regras de disponibilidade, isolamento de dados, transações e backoffice. O Ícaro’s Barbershop é um dos negócios que utilizo como exemplo. | Java 25, Spring Boot 4, PostgreSQL, Flyway, React, TypeScript, Cloudflare |
-| **[AssessFlow](#assessflow)**<br>Projeto pessoal | Plataforma de avaliações com sessões em tempo real, WebSockets, autenticação, permissões e execução na cloud ou numa rede local. | Java 25, Spring Boot 4, PostgreSQL, React, WebSocket/STOMP, Testcontainers |
-| **[503](#503)**<br>Projeto pessoal | Plataforma de publicação com API REST, gestão de artigos, autenticação, backoffice e deployment de uma aplicação real. | Java 25, Spring Boot 4, PostgreSQL, Flyway, Astro, React, Azure, Cloudflare |
-| **[Distributed Quiz](#distributed-quiz)**<br>Projeto académico | Sistema Java com clientes e servidores, descoberta de serviços, replicação, deteção de falhas e recuperação de sessões. | Java, JavaFX, TCP/UDP, multicast, SQLite, Maven |
-| **[Websites para clientes](#frontend-e-websites)**<br>Frontend e design | Websites editoriais e informativos com foco em interface, conteúdo, SEO e desempenho. O projeto Thiago inclui uma pequena integração de pagamentos. | Astro, Next.js, React, TypeScript, Node.js/Express, Mercado Pago |
+**[Skevia](#skevia)** | SaaS multi-tenant para agendamentos  
+Regras de disponibilidade, transações, autenticação, isolamento de dados e backoffice. O Ícaro’s Barbershop é um tenant de exemplo.  
+**Stack:** Java 25, Spring Boot 4, PostgreSQL, Flyway, React, TypeScript, Cloudflare.
+
+**[AssessFlow](#assessflow)** | Sessões e avaliações em tempo real (projeto pessoal)  
+APIs, WebSocket/STOMP, permissões, testes de integração e execução em cloud ou rede local.  
+**Stack:** Java 25, Spring Boot 4, PostgreSQL, React, Testcontainers.
+
+**[503](#503)** | Publicação de artigos (projeto pessoal)  
+API de gestão editorial, autenticação, backoffice e aplicação publicada em cloud.  
+**Stack:** Java 25, Spring Boot 4, PostgreSQL, Flyway, Astro, React, Azure e Cloudflare.
+
+**[Distributed Quiz](#distributed-quiz)** | Sistemas distribuídos (projeto académico)  
+Descoberta de servidores, replicação, heartbeats, recuperação de sessões e failover.  
+**Stack:** Java, JavaFX, TCP/UDP, multicast, SQLite e Maven.
+
+**[Frontend e websites](#frontend-e-websites)** | Trabalhos para clientes  
+Websites responsivos com foco em interface, conteúdo e SEO. O projeto Thiago inclui uma integração simples com pagamentos.  
+**Stack:** Astro, Next.js, React, TypeScript, Node.js/Express e Mercado Pago.
 
 ## Sobre mim
 
@@ -33,12 +45,13 @@ Sou Davi Gama, licenciado em Engenharia Informática pelo ISEC, em Coimbra. Dese
 
 ## Tecnologias
 
-| Área | Tecnologias |
-| :--- | :--- |
-| Linguagens | Java, C#, TypeScript, JavaScript, Python, C/C++, SQL |
-| Backend e dados | Spring Boot, Spring Data JPA, Hibernate, ASP.NET Core, FastAPI, PostgreSQL, MySQL, SQL Server, SQLite |
-| Frontend | React, Next.js, Astro, Blazor, JavaFX |
-| Ferramentas | Git, Maven, Gradle, Docker, JUnit, Testcontainers, CI/CD, Azure, Cloudflare |
+**Linguagens:** Java, C#, TypeScript, JavaScript, Python, C/C++ e SQL.
+
+**Backend e dados:** Spring Boot, Spring Data JPA, Hibernate, ASP.NET Core, FastAPI, PostgreSQL, MySQL, SQL Server e SQLite.
+
+**Frontend:** React, Next.js, Astro, Blazor e JavaFX.
+
+**Ferramentas:** Git, Maven, Gradle, Docker, JUnit, Testcontainers, CI/CD, Azure e Cloudflare.
 
 <details>
 <summary>Material complementar: capturas, estudos e arquitetura</summary>
