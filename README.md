@@ -51,7 +51,7 @@ Sou Davi Gama, licenciado em Engenharia Informática pelo ISEC, em Coimbra. Dese
 
 **Frontend:** React, Next.js, Astro, Blazor e JavaFX.
 
-**Ferramentas:** Git, Maven, Gradle, Docker, JUnit, Testcontainers, CI/CD, Azure e Cloudflare.
+**Ferramentas:** Git, Maven, Docker, JUnit, Testcontainers, CI/CD, Azure e Cloudflare.
 
 <details>
 <summary>Material complementar: capturas, estudos e arquitetura</summary>
