@@ -1,0 +1,43 @@
+name: Slow profile animations
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/slow-profile-animations.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: slow-profile-animations
+  cancel-in-progress: true
+
+jobs:
+  slow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out latest profile
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate slower WebP previews
+        run: python scripts/slow_profile_animations.py
+      - name: Commit adjusted animations and README
+        run: |
+          if [[ -z "$(git status --porcelain README.md assets/optimized)" ]]; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/optimized
+          git commit -m "Slow portfolio animations while retaining original image quality"
+          git pull --rebase origin main
+          git push origin HEAD:main
