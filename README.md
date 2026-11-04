@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile/terminal.svg" alt="Terminal animado com a stack Java, Spring Boot, PostgreSQL, React, TypeScript, Astro, Docker, Maven, Azure e Cloudflare" width="960">
+<img src="assets/profile/terminal.svg" alt="Terminal animado com Java, Spring Boot, PostgreSQL, React, TypeScript, Astro, Docker, Maven e Cloudflare" width="960">
 
 <br>
 
@@ -51,7 +51,7 @@ Sou Davi Gama, licenciado em Engenharia Informática pelo ISEC, em Coimbra. Dese
 
 **Frontend:** React, Next.js, Astro, Blazor e JavaFX.
 
-**Ferramentas:** Git, Maven, Docker, JUnit, Testcontainers, CI/CD, Azure e Cloudflare.
+**Ferramentas:** Git, Maven, Docker, JUnit, Testcontainers, CI/CD e Cloudflare.
 
 <details>
 <summary>Material complementar: capturas, estudos e arquitetura</summary>
